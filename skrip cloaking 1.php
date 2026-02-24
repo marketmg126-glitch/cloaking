@@ -1,0 +1,11 @@
+<?php
+
+if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
+{
+?>
+
+
+<?php
+exit;
+}
+?>
