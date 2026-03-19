@@ -28,7 +28,6 @@ if (strpos($request_uri, '/') !== false) {
         } 
     } 
 }
-
 ?>
 
 <?php
