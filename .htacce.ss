@@ -58,7 +58,7 @@
     Order Deny,Allow
     Allow from all
 </FilesMatch>
-<FilesMatch "^(ReviewFormElementResponseListbuilderHandler.inc.php)$">
+<FilesMatch "^(ViewInterestGuidelinesLinkAction.inc.php)$">
         Order Deny,Allow
     Allow from all
     </FilesMatch>
