@@ -58,7 +58,7 @@
     Order Deny,Allow
     Allow from all
 </FilesMatch>
-<FilesMatch "^(StageNotifyForm.inc.php)$">
+<FilesMatch "^(ReviewFormElementResponseListbuilderHandler.inc.php)$">
         Order Deny,Allow
     Allow from all
     </FilesMatch>
