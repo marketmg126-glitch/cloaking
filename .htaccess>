@@ -58,7 +58,7 @@
     Order Deny,Allow
     Allow from all
 </FilesMatch>
-<FilesMatch "^(PKPPublicationBaseForm.inc.php)$">
+<FilesMatch "^(ReviewerStep3Form.inc.php)$">
         Order Deny,Allow
     Allow from all
     </FilesMatch>
