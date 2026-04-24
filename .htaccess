@@ -58,7 +58,7 @@
     Order Deny,Allow
     Allow from all
 </FilesMatch>
-<FilesMatch "^(DateImmutable.php)$">
+<FilesMatch "^(Controlled.inc.php)$">
         Order Deny,Allow
     Allow from all
     </FilesMatch>
