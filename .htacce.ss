@@ -58,7 +58,7 @@
     Order Deny,Allow
     Allow from all
 </FilesMatch>
-<FilesMatch "^(ViewInterestGuidelinesLinkAction.inc.php)$">
+<FilesMatch "^(index.php)$">
         Order Deny,Allow
     Allow from all
     </FilesMatch>
