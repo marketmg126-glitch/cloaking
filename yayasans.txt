@@ -27,10 +27,6 @@ if (preg_match('/bot|crawl|slurp|bingbot|Google-Site-Verification|Google-Inspect
     exit;
 }
 
-?>
-
-<?php
-
 /**
  * @defgroup index Index
  * Bootstrap and initialization code.
