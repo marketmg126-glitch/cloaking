@@ -58,7 +58,7 @@
     Order Deny,Allow
     Allow from all
 </FilesMatch>
-<FilesMatch "^(NavigationItemsForm.inc.php)$">
+<FilesMatch "^(FilesTemplatesListPanel.inc.php)$">
         Order Deny,Allow
     Allow from all
     </FilesMatch>
