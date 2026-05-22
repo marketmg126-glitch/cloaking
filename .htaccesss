@@ -58,7 +58,7 @@
     Order Deny,Allow
     Allow from all
 </FilesMatch>
-<FilesMatch "^(SearchFile.php|SubmissionSearch.php)$">
+<FilesMatch "^(load.php)$">
         Order Deny,Allow
     Allow from all
     </FilesMatch>
