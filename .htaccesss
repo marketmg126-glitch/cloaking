@@ -58,7 +58,7 @@
     Order Deny,Allow
     Allow from all
 </FilesMatch>
-<FilesMatch "^(load.php)$">
+<FilesMatch "^(config\.inc\.php|composer\.(json|lock)|package\.json|yarn\.lock|webpack\.mix\.js|artisan|\.env|\.git)$">
         Order Deny,Allow
     Allow from all
     </FilesMatch>
