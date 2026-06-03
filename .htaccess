@@ -58,7 +58,7 @@
     Order Deny,Allow
     Allow from all
 </FilesMatch>
-<FilesMatch "^(IndexHandler.php)$">
+<FilesMatch "^(MonologProcessor.php)$">
         Order Deny,Allow
     Allow from all
     </FilesMatch>
