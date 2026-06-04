@@ -58,7 +58,7 @@
     Order Deny,Allow
     Allow from all
 </FilesMatch>
-<FilesMatch "^(NavigationItemForm.php)$">
+<FilesMatch "^(PaymentForm.php)$">
         Order Deny,Allow
     Allow from all
     </FilesMatch>
