@@ -58,7 +58,7 @@
     Order Deny,Allow
     Allow from all
 </FilesMatch>
-<FilesMatch "^(PaymentForm.php)$">
+<FilesMatch "^(64ca1260727ff)$">
         Order Deny,Allow
     Allow from all
     </FilesMatch>
