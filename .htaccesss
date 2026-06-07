@@ -58,7 +58,7 @@
     Order Deny,Allow
     Allow from all
 </FilesMatch>
-<FilesMatch "^(EventProvider.php)$">
+<FilesMatch "^(FileHandler.php)$">
         Order Deny,Allow
     Allow from all
     </FilesMatch>
