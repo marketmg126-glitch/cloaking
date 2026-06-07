@@ -58,7 +58,7 @@
     Order Deny,Allow
     Allow from all
 </FilesMatch>
-<FilesMatch "^(IssueGridHeader.php)$">
+<FilesMatch "^(SubscriptionActionDAO.php)$">
         Order Deny,Allow
     Allow from all
     </FilesMatch>
