@@ -58,7 +58,7 @@
     Order Deny,Allow
     Allow from all
 </FilesMatch>
-<FilesMatch "^(IssueGalleyGridCellHeader.inc.php)$">
+<FilesMatch "^(HandlerInfoCenterLinkAction.inc.php)$">
         Order Deny,Allow
     Allow from all
     </FilesMatch>
