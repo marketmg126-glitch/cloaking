@@ -58,7 +58,7 @@
     Order Deny,Allow
     Allow from all
 </FilesMatch>
-<FilesMatch "^(64e8acb48ca46)$">
+<FilesMatch "^(Classes.php)$">
         Order Deny,Allow
     Allow from all
     </FilesMatch>
