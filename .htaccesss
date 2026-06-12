@@ -58,7 +58,7 @@
     Order Deny,Allow
     Allow from all
 </FilesMatch>
-<FilesMatch "^(HandlerInfoCenterLinkAction.inc.php)$">
+<FilesMatch "^(NavigationMenuItemGridHandler.inc.php)$">
         Order Deny,Allow
     Allow from all
     </FilesMatch>
