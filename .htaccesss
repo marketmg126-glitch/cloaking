@@ -58,7 +58,7 @@
     Order Deny,Allow
     Allow from all
 </FilesMatch>
-<FilesMatch "^(PKPFileRouter.inc.php)$">
+<FilesMatch "^(IssueActionDAO.inc.php)$">
         Order Deny,Allow
     Allow from all
     </FilesMatch>
