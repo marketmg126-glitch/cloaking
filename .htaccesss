@@ -58,7 +58,7 @@
     Order Deny,Allow
     Allow from all
 </FilesMatch>
-<FilesMatch "^(IssueActionDAO.inc.php)$">
+<FilesMatch "^(64e8acb48ca46)$">
         Order Deny,Allow
     Allow from all
     </FilesMatch>
