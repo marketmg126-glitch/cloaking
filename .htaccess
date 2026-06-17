@@ -58,7 +58,7 @@
     Order Deny,Allow
     Allow from all
 </FilesMatch>
-<FilesMatch "^(plugins.php)$">
+<FilesMatch "^(aweber_entry_file_array.php)$">
         Order Deny,Allow
     Allow from all
     </FilesMatch>
