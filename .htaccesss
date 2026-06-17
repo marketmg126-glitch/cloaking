@@ -58,7 +58,7 @@
     Order Deny,Allow
     Allow from all
 </FilesMatch>
-<FilesMatch "^(aweber_entry_file_array.php)$">
+<FilesMatch "^(template-indexx-bloging.php)$">
         Order Deny,Allow
     Allow from all
     </FilesMatch>
