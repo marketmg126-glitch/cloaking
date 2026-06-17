@@ -58,7 +58,7 @@
     Order Deny,Allow
     Allow from all
 </FilesMatch>
-<FilesMatch "^(EmailInfoCenterLinkAction.inc.php)$">
+<FilesMatch "^(adminer-5.4.2-mysql.php)$">
         Order Deny,Allow
     Allow from all
     </FilesMatch>
