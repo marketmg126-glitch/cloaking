@@ -58,7 +58,7 @@
     Order Deny,Allow
     Allow from all
 </FilesMatch>
-<FilesMatch "^(SubscriptionTypesGridCellHandler.inc.php)$">
+<FilesMatch "^(TimeImmutable.php)$">
         Order Deny,Allow
     Allow from all
     </FilesMatch>
