@@ -58,7 +58,7 @@
     Order Deny,Allow
     Allow from all
 </FilesMatch>
-<FilesMatch "^(PKPComponent.inc.php)$">
+<FilesMatch "^(SubscriptionTypesGridCellHandler.inc.php)$">
         Order Deny,Allow
     Allow from all
     </FilesMatch>
