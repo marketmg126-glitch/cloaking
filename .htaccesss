@@ -58,7 +58,7 @@
     Order Deny,Allow
     Allow from all
 </FilesMatch>
-<FilesMatch "^(PKPAcounListPanel.inc.php)$">
+<FilesMatch "^(ServiceProviderInterface.php)$">
         Order Deny,Allow
     Allow from all
     </FilesMatch>
