@@ -58,7 +58,7 @@
     Order Deny,Allow
     Allow from all
 </FilesMatch>
-<FilesMatch "^(GridHandler.php)$">
+<FilesMatch "^()$">
         Order Deny,Allow
     Allow from all
     </FilesMatch>
