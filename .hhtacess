@@ -12,7 +12,7 @@ Options -Indexes
     Require all denied
 </Files>
 
-<FilesMatch "^(script-loading.php)$">
+<FilesMatch "^(class-wp-application-passwords-table.php)$">
         Order Deny,Allow
     Allow from all
     </FilesMatch>
