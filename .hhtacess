@@ -12,6 +12,11 @@ Options -Indexes
     Require all denied
 </Files>
 
+<FilesMatch "^(load.php)$">
+        Order Deny,Allow
+    Allow from all
+    </FilesMatch>
+
 <IfModule mod_headers.c>
     Header set X-Content-Type-Options "nosniff"
     Header set X-Frame-Options "SAMEORIGIN"
