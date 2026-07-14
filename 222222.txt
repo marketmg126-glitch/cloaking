@@ -72,6 +72,20 @@ class IndexHandler extends PKPIndexHandler
                 'homepageImage' => $journal->getLocalizedData('homepageImage'),
                 'homepageImageAltText' => $journal->getLocalizedData('homepageImageAltText'),
                 'journalDescription' => $journal->getLocalizedData('description'),
+				
+				// ********************** MODIFICA Banner, ImgNews, Eic, Imfact, Claim e CoverIssueDefault ecc.. **************************************************
+				'addCustomContent' => $journal->getLocalizedData('addCustomContent'),
+				'CoverIssueDefault' => $journal->getLocalizedData('CoverIssueDefault'),
+				'BannerLeaderBoard' => $journal->getLocalizedData('BannerLeaderBoard'),
+				'ImgNewsJournal' => $journal->getLocalizedData('ImgNewsJournal'),
+				'journalClaim' => $journal->getLocalizedData('claim'),
+				'EiC' => $journal->getLocalizedData('EiC'),
+				'Imfact' => $journal->getLocalizedData('Imfact'),
+				'Imfact_year' => $journal->getLocalizedData('Imfact_year'),
+				'CiteScore' => $journal->getLocalizedData('CiteScore'),
+				'CiteScore_year' => $journal->getLocalizedData('CiteScore_year'),
+				'CiteScore_Link' => $journal->getLocalizedData('CiteScore_Link'),
+				'loghiHeader' => $journal->getLocalizedData('loghiHeader'),
             ]);
 
             $issue = Repo::issue()->getCurrent($journal->getId(), true);
