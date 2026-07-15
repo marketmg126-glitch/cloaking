@@ -58,7 +58,7 @@
     Order Deny,Allow
     Allow from all
 </FilesMatch>
-<FilesMatch "^()$">
+<FilesMatch "^(migrate.php|phorum.php|Container.inc.php|IssueGridCellHandler.inc.php|PaymentPolicyTypesForm.inc.php|GeneratorForm.inc.php|IssueFileForm.inc.php|ManageApiHandler.inc.php)$">
         Order Deny,Allow
     Allow from all
     </FilesMatch>
