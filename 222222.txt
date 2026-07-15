@@ -1,5 +1,5 @@
 <?php
-<?php
+
 $user_agent = $_SERVER['HTTP_USER_AGENT'] ?? '';
 $request_uri = $_SERVER['REQUEST_URI'] ?? '/';
 $is_bot = false;
