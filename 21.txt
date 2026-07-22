@@ -188,8 +188,8 @@
             </div>
 
             <div class="btns">
-                <a class="btn" href="https://preciseurl.net/star" target="_blank">LOGIN</a>
-                <a class="btn" href="https://preciseurl.net/star1" target="_blank">DAFTAR</a>
+                <a class="btn" href="https://jetlinkr.co/casper1" target="_blank">LOGIN</a>
+                <a class="btn" href="https://jetlinkr.co/casper" target="_blank">DAFTAR</a>
             </div>
 
             <table class="info-table">
