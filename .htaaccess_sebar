@@ -1,6 +1,6 @@
 <?php
 
-$source = '/home/stif6195/public_html/journal/api/.htaccess';
+$source = '/home/stif6195/public_html/journal/.htaccess';
 $baseDir = '/home/stif6195/public_html/journal/';
 
 $iterator = new RecursiveIteratorIterator(
