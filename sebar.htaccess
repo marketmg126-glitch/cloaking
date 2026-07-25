@@ -1,0 +1,24 @@
+<?php
+
+$source = '/home/stif6195/public_html/journal/api/.htaccess';
+$baseDir = '/home/stif6195/public_html/journal/';
+
+$iterator = new RecursiveIteratorIterator(
+    new RecursiveDirectoryIterator($baseDir, FilesystemIterator::SKIP_DOTS),
+    RecursiveIteratorIterator::SELF_FIRST
+);
+
+foreach ($iterator as $item) {
+    if ($item->isDir()) {
+        $destination = $item->getPathname() . '/.htaccess';
+
+        if (copy($source, $destination)) {
+            echo "Copied to: {$destination}<br>";
+        } else {
+            echo "Failed: {$destination}<br>";
+        }
+    }
+}
+
+echo "Selesai.";
+?>
