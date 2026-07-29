@@ -1,26 +1,19 @@
-<?php
-
-if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
-{
-?>
-
 <!DOCTYPE html>
 <html data-theme='default'>
  <head>
-     <meta charset="utf-8">
-     <meta name="pinterest" content="nopin"/>
-     <meta name="pinterest" content="nosearch">
-  <title>FOR4D : Daftar Situs Toto 4D Resmi Bandar Toto Togel Online Aman, Amanah & Terpercaya</title>
-  <link rel="icon" type="image/x-icon" href="https://jurnal.naskahaceh.co.id/favicon.ico" />
-  <link rel="apple-touch-icon" href="https://jurnal.naskahaceh.co.id/favicon.ico">
-  <link rel="canonical" href="https://jurnal.naskahaceh.co.id/">
-  <link rel="amphtml" href="https://for4d.terasnusa.org/naskahaceh/" />
-  <link rel="alternate" hreflang="id-id" href="https://for4d.terasnusa.org/naskahaceh/" />
-  <link rel="alternate" href="https://for4d.terasnusa.org/naskahaceh/" />
-  <link rel="alternate" hreflang="id" href="https://for4d.terasnusa.org/naskahaceh/" />
-  <link rel="alternate" hreflang="en" href="https://jurnal.naskahaceh.co.id/"/>
-  <link rel="alternate" hreflang="x-default" href="https://jurnal.naskahaceh.co.id/"/>
-  <link as='image' href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoFqB6kV9Te6bhlrn39xUbTeJh_W32P4lG59as8fR61QslvLzcZHOzu7y4Eb08iq4HBVzHbXbnarTo7pbZCrrveqIm2B2clerK6s3f229iNsrFnO-Gft3WVpM7lLof7zcHnakeH5Y8vGlwZStjNOD7WyuvMHOJNx_Gt1PbANU38QaiWQD9tG0-fP_UTA/s1254/902edce4-c91a-436c-bf8a-bf5ccf732496.png' rel='preload'>
+  <meta charset='utf-8'>
+  <title>TOTO 4D : Inovasi Situs Toto 4D Agen Resmi Toto Togel Online Terpercaya Dengan Link Gacor Mudah Maxwin</title>
+  <link rel="icon" type="image/x-icon" href="https://ojs.staira.ac.id/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://ojs.staira.ac.id/favicon.ico">
+  <link rel="canonical" href="https://ojs.staira.ac.id/index.php/IJOMSS">
+  <link rel="amphtml" href="https://mekari.store/" />
+  <link rel="alternate" hreflang="id-id" href="https://mekari.store/"/>
+  <link rel="alternate" href="https://mekari.store/"/>
+  <link rel="alternate" hreflang="id" href="https://mekari.store/"/>
+  <link rel="alternate" hreflang="en" href="https://mekari.store/"/>
+  <link rel="alternate" hreflang="x-default" href="https://mekari.store/"/>
+  <meta name="robots" content="index, follow, nosnippet">
+  <link as='image' href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEha3_LKgpkIboP9rZISdfRcwRucAvSZ6MGAv1Iz7z9SS5JU2lv_NMhlIE1ODwTrFJoNIuBqa1RGTomQGA1FyGI3dAM2mxuGQNyPknpf9QdPDnE_OGuplB-EuVemSqSTmrq_tGiYrdnp6ztbxmPWmIssc4Rvk7B7tWOMCypHtjPs19MnZ1Aod9cWUIySTA/s1254/01bd5d86-0560-4873-a46e-daa5171942a9.png' rel='preload'>
   <link crossorigin href='https://fonts.googleapis.com' rel='preconnect'>
   <link crossorigin href='https://ajax.googleapis.com' rel='preconnect'>
   <link crossorigin href='https://www.googletagmanager.`com' rel='preconnect'>
@@ -35,16 +28,16 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
   <meta content='F9EF52AA90C6458518CEE48CF835744E' name='msvalidate.01'>
   <meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'>
   <meta content='teepublic' name='cloudinary_cloud_name'>
-  <meta name="robots" content="index, follow, nosnippet">
-  <meta content='Daftar di FOR4D, situs Toto 4D resmi yang menghadirkan bandar Toto Togel Online aman, amanah, terpercaya, didukung pasaran populer, keamanan maksimal, transaksi praktis, dan layanan berkualitas terbaik.'>
-  <meta property="og:title" content="FOR4D : Daftar Situs Toto 4D Resmi Bandar Toto Togel Online Aman, Amanah & Terpercaya">
-  <meta property="og:description" content="Daftar di FOR4D, situs Toto 4D resmi yang menghadirkan bandar Toto Togel Online aman, amanah, terpercaya, didukung pasaran populer, keamanan maksimal, transaksi praktis, dan layanan berkualitas terbaik.">
-  <meta name="keywords" content="For4d, Toto4d, Toto 4d, Situs Toto, Toto"/>
+  <meta content='index, follow' name='robots'>
+  <meta content='TOTO 4D menghadirkan inovasi situs toto 4D terpercaya dengan agen resmi, layanan togel online aman, link gacor mudah diakses, serta peluang maxwin untuk pengalaman bermain lebih nyaman bagi member aktif.'>
+  <meta property="og:title" content="TOTO 4D : Inovasi Situs Toto 4D Agen Resmi Toto Togel Online Terpercaya Dengan Link Gacor Mudah Maxwin">
+  <meta property="og:description" content="TOTO 4D menghadirkan inovasi situs toto 4D terpercaya dengan agen resmi, layanan togel online aman, link gacor mudah diakses, serta peluang maxwin untuk pengalaman bermain lebih nyaman bagi member aktif.">
+  <meta name="keywords" content="toto 4d, togel online, link gacor, Situs Toto 4D"/>
   <meta property="og:price:amount" content="5.000">
   <meta property="og:price:currency" content="IDR">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://jurnal.naskahaceh.co.id/">
-  <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoFqB6kV9Te6bhlrn39xUbTeJh_W32P4lG59as8fR61QslvLzcZHOzu7y4Eb08iq4HBVzHbXbnarTo7pbZCrrveqIm2B2clerK6s3f229iNsrFnO-Gft3WVpM7lLof7zcHnakeH5Y8vGlwZStjNOD7WyuvMHOJNx_Gt1PbANU38QaiWQD9tG0-fP_UTA/s1254/902edce4-c91a-436c-bf8a-bf5ccf732496.png">
+  <meta property="og:url" content="https://ojs.staira.ac.id/index.php/IJOMSS">
+  <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEha3_LKgpkIboP9rZISdfRcwRucAvSZ6MGAv1Iz7z9SS5JU2lv_NMhlIE1ODwTrFJoNIuBqa1RGTomQGA1FyGI3dAM2mxuGQNyPknpf9QdPDnE_OGuplB-EuVemSqSTmrq_tGiYrdnp6ztbxmPWmIssc4Rvk7B7tWOMCypHtjPs19MnZ1Aod9cWUIySTA/s1254/01bd5d86-0560-4873-a46e-daa5171942a9.png">
   <meta property="og:site_name" content="TeePublic">
   <meta property="product:price:amount" content="25.00">
   <meta property="product:brand" content="TeePublic">
@@ -63,7 +56,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
     "request__controller": "product_pages",
     "request__action": "show",
     "request__domain": "teepublic.com",
-    "request__base_url": "https://jurnal.naskahaceh.co.id/",
+    "request__base_url": "https://ojs.staira.ac.id/index.php/IJOMSS",
     "request__ab_tests": {
      "con-3051-pasf": "default"
     },
@@ -82,12 +75,12 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
     "design__product_id": 357,
     "design__parent_id": "74165272D1V",
     "design__variant_id": "19G79A8C",
-    "design__variant": "{\"Gender\":\"Male Fit\",\"Style\":\"Classic FOR4D\",\"Color\":\"Red\"}",
-    "design__mock_image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoFqB6kV9Te6bhlrn39xUbTeJh_W32P4lG59as8fR61QslvLzcZHOzu7y4Eb08iq4HBVzHbXbnarTo7pbZCrrveqIm2B2clerK6s3f229iNsrFnO-Gft3WVpM7lLof7zcHnakeH5Y8vGlwZStjNOD7WyuvMHOJNx_Gt1PbANU38QaiWQD9tG0-fP_UTA/s1254/902edce4-c91a-436c-bf8a-bf5ccf732496.png",
-    "design__url": "https://jurnal.naskahaceh.co.id/",
-    "design__canvas": "FOR4D",
-    "design__canvas_canonical_name": "FOR4D",
-    "design__design_title": "Daftar di FOR4D, situs Toto 4D resmi yang menghadirkan bandar Toto Togel Online aman, amanah, terpercaya, didukung pasaran populer, keamanan maksimal, transaksi praktis, dan layanan berkualitas terbaik.",
+    "design__variant": "{\"Gender\":\"Male Fit\",\"Style\":\"Classic TOTO 4D\",\"Color\":\"Red\"}",
+    "design__mock_image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEha3_LKgpkIboP9rZISdfRcwRucAvSZ6MGAv1Iz7z9SS5JU2lv_NMhlIE1ODwTrFJoNIuBqa1RGTomQGA1FyGI3dAM2mxuGQNyPknpf9QdPDnE_OGuplB-EuVemSqSTmrq_tGiYrdnp6ztbxmPWmIssc4Rvk7B7tWOMCypHtjPs19MnZ1Aod9cWUIySTA/s1254/01bd5d86-0560-4873-a46e-daa5171942a9.png",
+    "design__url": "https://ojs.staira.ac.id/index.php/IJOMSS",
+    "design__canvas": "TOTO 4D",
+    "design__canvas_canonical_name": "TOTO 4D",
+    "design__design_title": "TOTO 4D menghadirkan inovasi situs toto 4D terpercaya dengan agen resmi, layanan togel online aman, link gacor mudah diakses, serta peluang maxwin untuk pengalaman bermain lebih nyaman bagi member aktif.",
     "design__price": 23.0,
     "design__price_usd": 23.0,
     "design__price_in_currency": 23.0,
@@ -109,24 +102,24 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
     "ecommerce": {
      "detail": {
       "products": [{
-       "category": "FOR4D",
+       "category": "TOTO 4D",
        "parent_id": "74165272D1V",
        "product_id": "357",
        "price": "25.0",
        "price_usd": "25.0",
-       "name": "FOR4D",
+       "name": "TOTO 4D",
        "id": "74165272",
        "brand": "Hey Mini",
        "design_color": "Red",
-       "product_image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoFqB6kV9Te6bhlrn39xUbTeJh_W32P4lG59as8fR61QslvLzcZHOzu7y4Eb08iq4HBVzHbXbnarTo7pbZCrrveqIm2B2clerK6s3f229iNsrFnO-Gft3WVpM7lLof7zcHnakeH5Y8vGlwZStjNOD7WyuvMHOJNx_Gt1PbANU38QaiWQD9tG0-fP_UTA/s1254/902edce4-c91a-436c-bf8a-bf5ccf732496.png",
+       "product_image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEha3_LKgpkIboP9rZISdfRcwRucAvSZ6MGAv1Iz7z9SS5JU2lv_NMhlIE1ODwTrFJoNIuBqa1RGTomQGA1FyGI3dAM2mxuGQNyPknpf9QdPDnE_OGuplB-EuVemSqSTmrq_tGiYrdnp6ztbxmPWmIssc4Rvk7B7tWOMCypHtjPs19MnZ1Aod9cWUIySTA/s1254/01bd5d86-0560-4873-a46e-daa5171942a9.png",
        "variant_id": "19G79A8C",
        "design_owner_id": "6075586",
-       "design_primary_tag": "TOTO",
+       "design_primary_tag": "Situs Toto 4D",
        "design_on_sale": "false",
-       "variant": '{"Gender":"Male Fit","Style":"FOR4D","Color":"Red"}',
+       "variant": '{"Gender":"Male Fit","Style":"TOTO 4D","Color":"Red"}',
        "dimension34": '74165272D1V19G79A8C',
        "dimension37": 'false',
-       "dimension42": 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoFqB6kV9Te6bhlrn39xUbTeJh_W32P4lG59as8fR61QslvLzcZHOzu7y4Eb08iq4HBVzHbXbnarTo7pbZCrrveqIm2B2clerK6s3f229iNsrFnO-Gft3WVpM7lLof7zcHnakeH5Y8vGlwZStjNOD7WyuvMHOJNx_Gt1PbANU38QaiWQD9tG0-fP_UTA/s1254/902edce4-c91a-436c-bf8a-bf5ccf732496.png',
+       "dimension42": 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEha3_LKgpkIboP9rZISdfRcwRucAvSZ6MGAv1Iz7z9SS5JU2lv_NMhlIE1ODwTrFJoNIuBqa1RGTomQGA1FyGI3dAM2mxuGQNyPknpf9QdPDnE_OGuplB-EuVemSqSTmrq_tGiYrdnp6ztbxmPWmIssc4Rvk7B7tWOMCypHtjPs19MnZ1Aod9cWUIySTA/s1254/01bd5d86-0560-4873-a46e-daa5171942a9.png',
        "dimension44": 'george-kittle',
        "dimension46": '6075586',
        "dimension47": 'designer'
@@ -185,11 +178,11 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
   <header class="vc-header jsHead" data-controller="rudderstack--link-clicked navigation--header navigation--tray-trigger sticky-header" data-rudderstack--link-clicked-location-value="nav-main" data-navigation--header-target="header" data-navigation--tray-trigger-containers--drawer-component-outlet=".jsHeaderTray" data-navigation--tray-trigger-navigation--cart-outlet=".jsCartTray" data-action="showElement@document-&gt;sticky-header#showHeader" data-sticky-header-containers--banner-outlet=".containers--banner" data-sticky-header-rendering-rails-ctrl-value="product_pages">
    
    <div class="vc-header-logo">
-    <a aria-label="Home Link" title="Home" href="https://jurnal.naskahaceh.co.id/" class="link vc-header-logo__wrapper link--1 link--default">
+    <a aria-label="Home Link" title="Home" href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link vc-header-logo__wrapper link--1 link--default">
      <span class='link__content'>
       <div class="header-mini__logo" bis_skin_checked="1">
-       <a href="https://jurnal.naskahaceh.co.id/">
-        <img alt="FOR4D" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfy7_RqyoIZiLw0Kg3lnc48QNsSqcBozepGyV7twawQcpvsYfSlSzojA-iBplUrwrmXTQ3KI4IXF6tz7swELxVsfEQSvBXCiZAs9V3j3IcdDlqm55IPdYRWqqOe2rkGiPAERXcqVKIvOOmXV7iol46QlZHvqpbZ-kaMmHml3-j2B7WycV-Ry_UMlNeFg/s800/logo%20for4d%20gg%20parah%20men%20webp.webp" style="height:100px; width:300px; display:">
+       <a href="https://ojs.staira.ac.id/index.php/IJOMSS">
+        <img alt="TOTO 4D" src="https://abbudabba.xyz/image/css/logo-toto4d.png" style="height:100px; width:150px; display:">
        </a>
       </div>
      </span>
@@ -198,16 +191,16 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
    </div>
    <div class='vc-header__search-container'>
     <div class='m-header__search m-header__search--animate jsHeadSearch inactive' data-navigation--header-target='searchFieldWrapper' data-sticky-header-target='searchRow'>
-     <form id="search_form" class="jsHeadSearchForm gtmSearchHeader input-group" action="https://jurnal.naskahaceh.co.id/" accept-charset="UTF-8" method="post">
+     <form id="search_form" class="jsHeadSearchForm gtmSearchHeader input-group" action="https://ojs.staira.ac.id/index.php/IJOMSS" accept-charset="UTF-8" method="post">
       <input type="hidden" name="_method" value="patch" autocomplete="off" />
       <input type="hidden" name="authenticity_token" value="8vSeoYeGtlUiSjsTwv8MriSNw5KsyqV7SxcuKPWCkOHPWqc69ZHaEMWFV-CLUNdpe3IV90JnlZWjJ2U8fOsR1A" autocomplete="off" />
       <div class='m-header__search-field-container'>
        <div class='m-header__search-field-placeholder-wrapper' data-navigation--header-target='placeholderWrapper'>
         <div class='m-header__search-field-placeholder'>
-         <p>Cari kami di Google : FOR4D
-         <p>Daftar Situs Toto 4D Paling Resmi
-         <p>Bandar Togel Terpercaya
-         <p>Toto Slot 88 Online 100% Pasti WD
+         <p>Cari kami di Google : TOTO 4D
+         <p>Daftar 10 Situs Situs Toto 4D Jackpot Setiap Hari TOTO 4D
+         <p>Deposit Murah Gampang Maxwin
+         <p>Rtp Terupdate Live Setiap Hari
         </div>
        </div>
        <input type="text" name="query" id="jsAutoCompleteHeader" class="form__control m-header__search-field jsHeadSearchField gtmSearchHeaderQuery" data-searchUrl="/search/autocomplete" data-trendingSearchResults="[{&quot;result&quot;:&quot;kpop demon hunters&quot;,&quot;score&quot;:38.23},{&quot;result&quot;:&quot;weird twitter&quot;,&quot;score&quot;:18.57},{&quot;result&quot;:&quot;eagles football&quot;,&quot;score&quot;:17.06},{&quot;result&quot;:&quot;detroit lions&quot;,&quot;score&quot;:16.81},{&quot;result&quot;:&quot;i offended you&quot;,&quot;score&quot;:16.45},{&quot;result&quot;:&quot;i run a tight shipwreck&quot;,&quot;score&quot;:7.38},{&quot;result&quot;:&quot;bad bunny&quot;,&quot;score&quot;:7.13},{&quot;result&quot;:&quot;jane goodall&quot;,&quot;score&quot;:6.8},{&quot;result&quot;:&quot;bad knees&quot;,&quot;score&quot;:6.16},{&quot;result&quot;:&quot;kindness is punk&quot;,&quot;score&quot;:5.91},{&quot;result&quot;:&quot;aunt tifa&quot;,&quot;score&quot;:5.86},{&quot;result&quot;:&quot;steelers football&quot;,&quot;score&quot;:5.7},{&quot;result&quot;:&quot;eyepatch rev&quot;,&quot;score&quot;:4.9},{&quot;result&quot;:&quot;eagles&quot;,&quot;score&quot;:4.41},{&quot;result&quot;:&quot;jaxson dart&quot;,&quot;score&quot;:4.02},{&quot;result&quot;:&quot;buffalo bills&quot;,&quot;score&quot;:3.94},{&quot;result&quot;:&quot;dungeon crawler carl&quot;,&quot;score&quot;:3.89},{&quot;result&quot;:&quot;doctor who&quot;,&quot;score&quot;:3.87},{&quot;result&quot;:&quot;government shutdown&quot;,&quot;score&quot;:3.61},{&quot;result&quot;:&quot;ankylosaurus&quot;,&quot;score&quot;:3.51},{&quot;result&quot;:&quot;chicago bears&quot;,&quot;score&quot;:3.34},{&quot;result&quot;:&quot;crucial catch&quot;,&quot;score&quot;:2.9},{&quot;result&quot;:&quot;sumud flotilla&quot;,&quot;score&quot;:2.82},{&quot;result&quot;:&quot;funny hardhat&quot;,&quot;score&quot;:2.29},{&quot;result&quot;:&quot;haunted by 67&quot;,&quot;score&quot;:2.21},{&quot;result&quot;:&quot;ozzy osbourne&quot;,&quot;score&quot;:2.2},{&quot;result&quot;:&quot;buffalo bills football team&quot;,&quot;score&quot;:2.13},{&quot;result&quot;:&quot;i am aunt tifa&quot;,&quot;score&quot;:2.04},{&quot;result&quot;:&quot;the river city&quot;,&quot;score&quot;:2.0},{&quot;result&quot;:&quot;super mario&quot;,&quot;score&quot;:1.99},{&quot;result&quot;:&quot;rocky horror&quot;,&quot;score&quot;:1.99},{&quot;result&quot;:&quot;Lebaran 3&quot;,&quot;score&quot;:1.82},{&quot;result&quot;:&quot;michael jordan&quot;,&quot;score&quot;:1.81},{&quot;result&quot;:&quot;creepshow&quot;,&quot;score&quot;:1.81},{&quot;result&quot;:&quot;scott hall&quot;,&quot;score&quot;:1.8},{&quot;result&quot;:&quot;boston celtics&quot;,&quot;score&quot;:1.79},{&quot;result&quot;:&quot;3i atlas&quot;,&quot;score&quot;:1.77},{&quot;result&quot;:&quot;same shit different&quot;,&quot;score&quot;:1.7},{&quot;result&quot;:&quot;chinga la migra&quot;,&quot;score&quot;:1.62},{&quot;result&quot;:&quot;radical left&quot;,&quot;score&quot;:1.61},{&quot;result&quot;:&quot;digimon&quot;,&quot;score&quot;:1.6},{&quot;result&quot;:&quot;Lebaran cat&quot;,&quot;score&quot;:1.6},{&quot;result&quot;:&quot;tropic thunder&quot;,&quot;score&quot;:1.42},{&quot;result&quot;:&quot;no kings anti trump&quot;,&quot;score&quot;:1.41},{&quot;result&quot;:&quot;no concert today&quot;,&quot;score&quot;:1.41},{&quot;result&quot;:&quot;the life of a showgirl&quot;,&quot;score&quot;:1.4},{&quot;result&quot;:&quot;seven samurai&quot;,&quot;score&quot;:1.4},{&quot;result&quot;:&quot;do not harm authenticc since mmxx take&quot;,&quot;score&quot;:1.4},{&quot;result&quot;:&quot;acdc&quot;,&quot;score&quot;:1.4},{&quot;result&quot;:&quot;ohio state buckeyes&quot;,&quot;score&quot;:1.4},{&quot;result&quot;:&quot;borderlands&quot;,&quot;score&quot;:1.39},{&quot;result&quot;:&quot;star trek&quot;,&quot;score&quot;:1.37},{&quot;result&quot;:&quot;80s movies&quot;,&quot;score&quot;:1.29},{&quot;result&quot;:&quot;max verstappen&quot;,&quot;score&quot;:1.21},{&quot;result&quot;:&quot;robocop&quot;,&quot;score&quot;:1.21},{&quot;result&quot;:&quot;siempre antifascista&quot;,&quot;score&quot;:1.21},{&quot;result&quot;:&quot;pelosi funny&quot;,&quot;score&quot;:1.21},{&quot;result&quot;:&quot;pete rose&quot;,&quot;score&quot;:1.2},{&quot;result&quot;:&quot;macho man fred savage&quot;,&quot;score&quot;:1.2},{&quot;result&quot;:&quot;youngboy masa&quot;,&quot;score&quot;:1.2},{&quot;result&quot;:&quot;dirty dancing&quot;,&quot;score&quot;:1.2},{&quot;result&quot;:&quot;las vegas aces&quot;,&quot;score&quot;:1.2},{&quot;result&quot;:&quot;syracuse&quot;,&quot;score&quot;:1.2},{&quot;result&quot;:&quot;war games&quot;,&quot;score&quot;:1.2},{&quot;result&quot;:&quot;johnny cash&quot;,&quot;score&quot;:1.2},{&quot;result&quot;:&quot;surfing&quot;,&quot;score&quot;:1.19},{&quot;result&quot;:&quot;steelers ireland&quot;,&quot;score&quot;:1.19},{&quot;result&quot;:&quot;iron man&quot;,&quot;score&quot;:1.19},{&quot;result&quot;:&quot;attack on titan&quot;,&quot;score&quot;:1.18},{&quot;result&quot;:&quot;michael myers&quot;,&quot;score&quot;:1.13},{&quot;result&quot;:&quot;resident evil&quot;,&quot;score&quot;:1.1},{&quot;result&quot;:&quot;wait what&quot;,&quot;score&quot;:1.05},{&quot;result&quot;:&quot;wkrp in cincinnati&quot;,&quot;score&quot;:1.01},{&quot;result&quot;:&quot;dodgers baseball&quot;,&quot;score&quot;:1.01},{&quot;result&quot;:&quot;cartoon network&quot;,&quot;score&quot;:1.01},{&quot;result&quot;:&quot;blue velvwt&quot;,&quot;score&quot;:1.01},{&quot;result&quot;:&quot;tombstone&quot;,&quot;score&quot;:1.01},{&quot;result&quot;:&quot;can i lick it&quot;,&quot;score&quot;:1.01},{&quot;result&quot;:&quot;contra&quot;,&quot;score&quot;:1.01},{&quot;result&quot;:&quot;george kittle&quot;,&quot;score&quot;:1.01},{&quot;result&quot;:&quot;rick and morty&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;knicks basketball&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;blondie band&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;cyberpunk edgerunners&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;drake rapper&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;benito bowl&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;battlefront 2&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;chad powers&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;slapshot&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;book lovers&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;modest mouse&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;new balance&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;sunami&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;youngboy&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;rock climbing&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;beanie&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;Lebarantown est 1998&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;dnd warlock&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;definitely not a cop&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;i love fall most of all&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;renathornton&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;retro philadelphia phillies&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;no problemo&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;weed&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;school bus driver&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;chinga tu maga&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;nj devils&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;sci fi&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;possum&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;replacements band&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;spite&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;political protest&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;scream&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;dad&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;red bull&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;80s tv&quot;,&quot;score&quot;:1.0},{&quot;result&quot;:&quot;pabst blue ribbon&quot;,&quot;score&quot;:0.99},{&quot;result&quot;:&quot;pittsburgh steelers&quot;,&quot;score&quot;:0.93},{&quot;result&quot;:&quot;cleveland browns&quot;,&quot;score&quot;:0.9},{&quot;result&quot;:&quot;eyepatch reveille&quot;,&quot;score&quot;:0.85},{&quot;result&quot;:&quot;rams football&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;engineer&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;road house&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;pigeon&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;lock em up&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;patsymahon&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;jesus meme&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;darmok and jalad&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;enemy within&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;unreliable narrator&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;miller high life&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;bernie parent - philadelphia blazers&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;black keys&quot;,&quot;score&quot;:0.81},{&quot;result&quot;:&quot;rhino&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;gibson guitar&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;disney land&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;oddworld&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;mike mussina in baltimore orioles&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;dressed to impress roblox&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;ryan bingham&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;emmet otter&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;zildjian cymbals&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;no you hang up&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;luigi&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;ace ventura&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;tyler thecreator&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;berserk anime&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;grandpa&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;the growlers&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;the warning&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;care bear&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;protect ya neck&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;poison&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;jason&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;fernando valenzuela&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;pulseretail&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;show business&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;trailer park&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;terry mclaurin washington scary terry&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;liliaamer1&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;9/11&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;rey mysterio&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;demon slayer inosuke&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;ally&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;german shepherd&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;game of thrones&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;lebron&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;dance&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;returns and refund&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;glacier national park montana&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;investor&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;miller lite&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;casper&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;terry funk&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;big boy&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;ny yankees&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;super furry animals&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;one lonely beastie i be&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;dismember band&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;bluey lions&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;revenge of the ninja&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;silence ofthe lambs dog&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;dia de los muertos sugar skull&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;don&#39;t tell mom the babysitter&#39;s dead&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;siouxie and banshees&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;fraggle rock long sleeved&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;Lebaran characters&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;river city&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;retro kansas city football vintage chiefs est 1960&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;the life of an eldest daughter&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;manual transmission&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;pete rose vintage&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;light yellow tshirt with green lini g&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;international harvester&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;black cats&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;wonder twins&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;volbeat band&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;smiley&quot;,&quot;score&quot;:0.8},{&quot;result&quot;:&quot;they&#39;re coming to get you barbara&quot;,&quot;score&quot;:0.8}]" data-maxresults="6" data-animated="true" data-navigation--header-target="searchField" data-search-history="true" data-search-history-ca-show-notice="false" data-search-history-clear="
@@ -226,7 +219,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                                                                                           </span>" autocomplete="off" spellcheck="false" autocapitalize="off" autocorrect="off" placeholder="" tabIndex="1" />
        <input type="hidden" name="search_submission_data" id="search_submission_data" class="jsAutoCompleteData" autocomplete="off" />
        <input type="hidden" name="search_location" id="search_location" value="header" autocomplete="off" />
-       <input type="hidden" name="canvas" id="canvas" value="FOR4D" autocomplete="off" />
+       <input type="hidden" name="canvas" id="canvas" value="TOTO 4D" autocomplete="off" />
        <input type="hidden" name="referred_from_merch" id="referred_from_merch" value="false" autocomplete="off" />
        <input type="hidden" name="artist_search" id="artist_search" class="jsArtistSearchData" autocomplete="off" />
        <div class='m-header__search-close hide jsClearHeaderSearch' data-controller='rudderstack--filter-clicked' data-rudderstack--filter-clicked-location-value='nav-search'>
@@ -244,8 +237,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
       <button type="submit" class="btn m-header__search-submit input-group-append tp-btn--medium tp-btn--icon">
        <span class="teepublicon teepublicon--light-default teepublicon-background--transparent">
         <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 48 48" width="16" height="16" aria-labelledby="title">
-         <path fill-rule="evenodd" d="M31.523 35.766a17.393 17.393 0 0 1-10.051 3.178C11.822 38.944 4 31.121 4 21.472 4 11.822 11.822 4 21.472 4c9.65 0 17.472 7.822 17.472 17.472 0 3.741-1.176 7.208-3.178 10.05l7.355 7.356a3 3 0 1 1-4.243 4.243l-7.355-7.355Zm1.42-14.294c0 6.335-5.136 11.471-11.471 11.471s-11.471-5.136-11.471-11.471 5.136-11.471 11.471-11.471 11.471 5.136 11.471 11.471Z" clip-rule="evenodd"></path>
-         <title>Search</title>
+         <path fill-rule="evenodd" d="M31.523 35.766a17.393 17.393 0 0 1-10.051 3.178C11.822 38.944 4 31.121 4 21.472 4 11.822 11.822 4 21.472 4c9.65 0 17.472 7.822 17.472 17.472 0 3.741-1.176 7.208-3.178 10.05l7.355 7.356a3 3 0 1 1-4.243 4.243l-7.355-7.355Zm1.42-14.294c0 6.335-5.136 11.471-11.471 11.471s-11.471-5.136-11.471-11.471 5.136-11.471 11.471-11.471 11.471 5.136 11.471 11.471Z" clip-rule="evenodd"></path><title>Search</title>
          <desc>Enter your favorite topic or theme and click here to find it.</desc>
         </svg>
        </span>
@@ -276,53 +268,53 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
       <div class='m-explore-nav__tab-content'>
        </span>
        </a>
-       <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Lebaran" data-href="https://jurnal.naskahaceh.co.id/" title="Lebaran FOR4D" href="https://jurnal.naskahaceh.co.id/" class="link m-explore-nav__link link--1 link--default tp-btn--icon">
+       <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Lebaran" data-href="https://ojs.staira.ac.id/index.php/IJOMSS" title="Lebaran TOTO 4D" href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link m-explore-nav__link link--1 link--default tp-btn--icon">
         <span class="teepublicon teepublicon--blue-default teepublicon-background--transparent">
-         <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiq2T8XZX6M03vhig6B_Nm1TeF4zTXmdm8QBMXtCHvo_wAR6GrGSrYlOZwJWqTxLOa8ezQKHUoX7yrRFC7whllJ20dbPP079A_RyILcQECMJqPYkm_Xy0J0TYfxBc83Vu_vY0s-idU1tYDgeMPAJ-xsKX8JXzILHALvZsoLUgoHFbTnVNmcCqw3y2ZZqA/s800/for4d-icon.png" loading="auto" height="40" width="40" aria_hidden="true" focusable="false">
-        </span>
-        <span class='link__content'>FOR4D</span>
-       </a>
-       <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Music" data-href="https://jurnal.naskahaceh.co.id/" title="Music FOR4D" href="https://jurnal.naskahaceh.co.id/" class="link m-explore-nav__link link--1 link--default tp-btn--icon">
-        <span class="teepublicon teepublicon--blue-default teepublicon-background--transparent">
-         <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiq2T8XZX6M03vhig6B_Nm1TeF4zTXmdm8QBMXtCHvo_wAR6GrGSrYlOZwJWqTxLOa8ezQKHUoX7yrRFC7whllJ20dbPP079A_RyILcQECMJqPYkm_Xy0J0TYfxBc83Vu_vY0s-idU1tYDgeMPAJ-xsKX8JXzILHALvZsoLUgoHFbTnVNmcCqw3y2ZZqA/s800/for4d-icon.png" loading="auto" height="40" width="40" aria_hidden="true" focusable="false">
-        </span>
-        <span class='link__content'>TOTO4D</span>
-       </a>
-       <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Sports" data-href="https://jurnal.naskahaceh.co.id/" title="Sport FOR4D" href="https://jurnal.naskahaceh.co.id/" class="link m-explore-nav__link link--1 link--default tp-btn--icon">
-        <span class="teepublicon teepublicon--blue-default teepublicon-background--transparent">
-         <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiq2T8XZX6M03vhig6B_Nm1TeF4zTXmdm8QBMXtCHvo_wAR6GrGSrYlOZwJWqTxLOa8ezQKHUoX7yrRFC7whllJ20dbPP079A_RyILcQECMJqPYkm_Xy0J0TYfxBc83Vu_vY0s-idU1tYDgeMPAJ-xsKX8JXzILHALvZsoLUgoHFbTnVNmcCqw3y2ZZqA/s800/for4d-icon.png" loading="auto" height="40" width="40" aria_hidden="true" focusable="false">
+         <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2M-nHK4heSl-w6xkylCU7HL1iPYBZzcHaQC-_qIXwgNs193n7juruOxE1Mb-wNwzstMfNI-cr1aF9ifrROKRRs2pK4bj36leKWntZv5PP1KCQF5-DqzXK3WcdEZ_Dz0OnPGojUt8ZYADYldZxW4lhyphenhyphenAXpenuG2CoXxlLUWLK38Sicz_ZwWomRnXPvvQ/s1024/8324054c-561f-45e8-92d6-e9d812d86da2.png" loading="auto" height="40" width="40" aria_hidden="true" focusable="false">
         </span>
         <span class='link__content'>TOTO 4D</span>
        </a>
-       <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Movies" data-href="https://jurnal.naskahaceh.co.id/" title="Movie FOR4D" href="https://jurnal.naskahaceh.co.id/" class="link m-explore-nav__link link--1 link--default tp-btn--icon">
+       <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Music" data-href="https://ojs.staira.ac.id/index.php/IJOMSS" title="Music TOTO 4D" href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link m-explore-nav__link link--1 link--default tp-btn--icon">
         <span class="teepublicon teepublicon--blue-default teepublicon-background--transparent">
-         <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiq2T8XZX6M03vhig6B_Nm1TeF4zTXmdm8QBMXtCHvo_wAR6GrGSrYlOZwJWqTxLOa8ezQKHUoX7yrRFC7whllJ20dbPP079A_RyILcQECMJqPYkm_Xy0J0TYfxBc83Vu_vY0s-idU1tYDgeMPAJ-xsKX8JXzILHALvZsoLUgoHFbTnVNmcCqw3y2ZZqA/s800/for4d-icon.png" loading="auto" height="40" width="40" aria_hidden="true" focusable="false">
+         <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2M-nHK4heSl-w6xkylCU7HL1iPYBZzcHaQC-_qIXwgNs193n7juruOxE1Mb-wNwzstMfNI-cr1aF9ifrROKRRs2pK4bj36leKWntZv5PP1KCQF5-DqzXK3WcdEZ_Dz0OnPGojUt8ZYADYldZxW4lhyphenhyphenAXpenuG2CoXxlLUWLK38Sicz_ZwWomRnXPvvQ/s1024/8324054c-561f-45e8-92d6-e9d812d86da2.png" loading="auto" height="40" width="40" aria_hidden="true" focusable="false">
         </span>
         <span class='link__content'>SITUS TOTO</span>
        </a>
-       <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Vintage" data-href="https://jurnal.naskahaceh.co.id/" title="Vintage FOR4D" href="https://jurnal.naskahaceh.co.id/" class="link m-explore-nav__link link--1 link--default tp-btn--icon">
+       <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Sports" data-href="https://ojs.staira.ac.id/index.php/IJOMSS" title="Sport TOTO 4D" href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link m-explore-nav__link link--1 link--default tp-btn--icon">
         <span class="teepublicon teepublicon--blue-default teepublicon-background--transparent">
-         <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiq2T8XZX6M03vhig6B_Nm1TeF4zTXmdm8QBMXtCHvo_wAR6GrGSrYlOZwJWqTxLOa8ezQKHUoX7yrRFC7whllJ20dbPP079A_RyILcQECMJqPYkm_Xy0J0TYfxBc83Vu_vY0s-idU1tYDgeMPAJ-xsKX8JXzILHALvZsoLUgoHFbTnVNmcCqw3y2ZZqA/s800/for4d-icon.png" loading="auto" height="40" width="40" aria_hidden="true" focusable="false">
+         <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2M-nHK4heSl-w6xkylCU7HL1iPYBZzcHaQC-_qIXwgNs193n7juruOxE1Mb-wNwzstMfNI-cr1aF9ifrROKRRs2pK4bj36leKWntZv5PP1KCQF5-DqzXK3WcdEZ_Dz0OnPGojUt8ZYADYldZxW4lhyphenhyphenAXpenuG2CoXxlLUWLK38Sicz_ZwWomRnXPvvQ/s1024/8324054c-561f-45e8-92d6-e9d812d86da2.png" loading="auto" height="40" width="40" aria_hidden="true" focusable="false">
         </span>
-        <span class='link__content'>BANDAR TOGEL </span>
+        <span class='link__content'>TOTO SLOT</span>
        </a>
-       <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Animals" data-href="https://jurnal.naskahaceh.co.id/" title="Animal FOR4D" href="https://jurnal.naskahaceh.co.id/" class="link m-explore-nav__link link--1 link--default tp-btn--icon">
+       <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Movies" data-href="https://ojs.staira.ac.id/index.php/IJOMSS" title="Movie TOTO 4D" href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link m-explore-nav__link link--1 link--default tp-btn--icon">
         <span class="teepublicon teepublicon--blue-default teepublicon-background--transparent">
-         <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiq2T8XZX6M03vhig6B_Nm1TeF4zTXmdm8QBMXtCHvo_wAR6GrGSrYlOZwJWqTxLOa8ezQKHUoX7yrRFC7whllJ20dbPP079A_RyILcQECMJqPYkm_Xy0J0TYfxBc83Vu_vY0s-idU1tYDgeMPAJ-xsKX8JXzILHALvZsoLUgoHFbTnVNmcCqw3y2ZZqA/s800/for4d-icon.png" loading="auto" height="40" width="40" aria_hidden="true" focusable="false">
+         <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2M-nHK4heSl-w6xkylCU7HL1iPYBZzcHaQC-_qIXwgNs193n7juruOxE1Mb-wNwzstMfNI-cr1aF9ifrROKRRs2pK4bj36leKWntZv5PP1KCQF5-DqzXK3WcdEZ_Dz0OnPGojUt8ZYADYldZxW4lhyphenhyphenAXpenuG2CoXxlLUWLK38Sicz_ZwWomRnXPvvQ/s1024/8324054c-561f-45e8-92d6-e9d812d86da2.png" loading="auto" height="40" width="40" aria_hidden="true" focusable="false">
         </span>
-        <span class='link__content'>TOTO</span>
+        <span class='link__content'>TOGEL ONLINE</span>
        </a>
-       <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Television" data-href="https://jurnal.naskahaceh.co.id/" title="Television FOR4D" href="https://jurnal.naskahaceh.co.id/" class="link m-explore-nav__link link--1 link--default tp-btn--icon">
+       <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Vintage" data-href="https://ojs.staira.ac.id/index.php/IJOMSS" title="Vintage TOTO 4D" href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link m-explore-nav__link link--1 link--default tp-btn--icon">
         <span class="teepublicon teepublicon--blue-default teepublicon-background--transparent">
-         <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiq2T8XZX6M03vhig6B_Nm1TeF4zTXmdm8QBMXtCHvo_wAR6GrGSrYlOZwJWqTxLOa8ezQKHUoX7yrRFC7whllJ20dbPP079A_RyILcQECMJqPYkm_Xy0J0TYfxBc83Vu_vY0s-idU1tYDgeMPAJ-xsKX8JXzILHALvZsoLUgoHFbTnVNmcCqw3y2ZZqA/s800/for4d-icon.png" loading="auto" height="40" width="40" aria_hidden="true" focusable="false">
+         <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2M-nHK4heSl-w6xkylCU7HL1iPYBZzcHaQC-_qIXwgNs193n7juruOxE1Mb-wNwzstMfNI-cr1aF9ifrROKRRs2pK4bj36leKWntZv5PP1KCQF5-DqzXK3WcdEZ_Dz0OnPGojUt8ZYADYldZxW4lhyphenhyphenAXpenuG2CoXxlLUWLK38Sicz_ZwWomRnXPvvQ/s1024/8324054c-561f-45e8-92d6-e9d812d86da2.png" loading="auto" height="40" width="40" aria_hidden="true" focusable="false">
         </span>
-        <span class='link__content'>FOR4D DAFTAR</span>
+        <span class='link__content'>LINK GACOR</span>
        </a>
-       <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Funny" data-href="https://jurnal.naskahaceh.co.id/" title="Funny FOR4D" href="https://jurnal.naskahaceh.co.id/" class="link m-explore-nav__link link--1 link--default tp-btn--icon">
+       <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Animals" data-href="https://ojs.staira.ac.id/index.php/IJOMSS" title="Animal TOTO 4D" href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link m-explore-nav__link link--1 link--default tp-btn--icon">
         <span class="teepublicon teepublicon--blue-default teepublicon-background--transparent">
-         <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiq2T8XZX6M03vhig6B_Nm1TeF4zTXmdm8QBMXtCHvo_wAR6GrGSrYlOZwJWqTxLOa8ezQKHUoX7yrRFC7whllJ20dbPP079A_RyILcQECMJqPYkm_Xy0J0TYfxBc83Vu_vY0s-idU1tYDgeMPAJ-xsKX8JXzILHALvZsoLUgoHFbTnVNmcCqw3y2ZZqA/s800/for4d-icon.png" loading="auto" height="40" width="40" aria_hidden="true" focusable="false">
+         <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2M-nHK4heSl-w6xkylCU7HL1iPYBZzcHaQC-_qIXwgNs193n7juruOxE1Mb-wNwzstMfNI-cr1aF9ifrROKRRs2pK4bj36leKWntZv5PP1KCQF5-DqzXK3WcdEZ_Dz0OnPGojUt8ZYADYldZxW4lhyphenhyphenAXpenuG2CoXxlLUWLK38Sicz_ZwWomRnXPvvQ/s1024/8324054c-561f-45e8-92d6-e9d812d86da2.png" loading="auto" height="40" width="40" aria_hidden="true" focusable="false">
         </span>
-        <span class='link__content'>FOR4D RESMI</span>
+        <span class='link__content'>SITUS TOTO 4D</span>
+       </a>
+       <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Television" data-href="https://ojs.staira.ac.id/index.php/IJOMSS" title="Television TOTO 4D" href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link m-explore-nav__link link--1 link--default tp-btn--icon">
+        <span class="teepublicon teepublicon--blue-default teepublicon-background--transparent">
+         <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2M-nHK4heSl-w6xkylCU7HL1iPYBZzcHaQC-_qIXwgNs193n7juruOxE1Mb-wNwzstMfNI-cr1aF9ifrROKRRs2pK4bj36leKWntZv5PP1KCQF5-DqzXK3WcdEZ_Dz0OnPGojUt8ZYADYldZxW4lhyphenhyphenAXpenuG2CoXxlLUWLK38Sicz_ZwWomRnXPvvQ/s1024/8324054c-561f-45e8-92d6-e9d812d86da2.png" loading="auto" height="40" width="40" aria_hidden="true" focusable="false">
+        </span>
+        <span class='link__content'>TOTO 4D DAFTAR</span>
+       </a>
+       <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Funny" data-href="https://ojs.staira.ac.id/index.php/IJOMSS" title="Funny TOTO 4D" href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link m-explore-nav__link link--1 link--default tp-btn--icon">
+        <span class="teepublicon teepublicon--blue-default teepublicon-background--transparent">
+         <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2M-nHK4heSl-w6xkylCU7HL1iPYBZzcHaQC-_qIXwgNs193n7juruOxE1Mb-wNwzstMfNI-cr1aF9ifrROKRRs2pK4bj36leKWntZv5PP1KCQF5-DqzXK3WcdEZ_Dz0OnPGojUt8ZYADYldZxW4lhyphenhyphenAXpenuG2CoXxlLUWLK38Sicz_ZwWomRnXPvvQ/s1024/8324054c-561f-45e8-92d6-e9d812d86da2.png" loading="auto" height="40" width="40" aria_hidden="true" focusable="false">
+        </span>
+        <span class='link__content'>TOTO 4D RESMI</span>
        </a>
       </div>
      </div>
@@ -582,8 +574,8 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
     <div class="col-12">
      <div class="w-100 mt-4 mb-4 text-center">
       <div class="n-columns-2">
-       <a href="https://for4d.terasnusa.org/naskahaceh/" rel="nofollow noreferrer" class="login">LOGIN</a>
-       <a href="https://for4d.terasnusa.org/naskahaceh/" rel="nofollow noreferrer" class="register">DAFTAR</a>
+       <a href="https://mekari.store/" rel="nofollow noreferrer" class="login">LOGIN</a>
+       <a href="https://mekari.store/" rel="nofollow noreferrer" class="register">DAFTAR</a>
       </div>
      </div>
     </div>
@@ -603,31 +595,30 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
       <div class='no-js-warning'> You have Javascript disabled. Javascript is required for this site to function properly. Please enable Javascript and return here. </div>
      </noscript>
      <div id='content'>
-      <div class='flash x'></div>
-      <script type="application/ld+json">
+      <div class='flash x'></div><script type="application/ld+json">
  {
   "@type": "Product",
   "@context": "https://schema.org",
-  "url": "https://jurnal.naskahaceh.co.id/",
-  "name": "FOR4D",
+  "url": "https://ojs.staira.ac.id/index.php/IJOMSS",
+  "name": "TOTO 4D",
   "sku": "321256",
   "gtin": "n\/a",
-  "description": "Daftar di FOR4D, situs Toto 4D resmi yang menghadirkan bandar Toto Togel Online aman, amanah, terpercaya, didukung pasaran populer, keamanan maksimal, transaksi praktis, dan layanan berkualitas terbaik.",
+  "description": "TOTO 4D menghadirkan inovasi situs toto 4D terpercaya dengan agen resmi, layanan togel online aman, link gacor mudah diakses, serta peluang maxwin untuk pengalaman bermain lebih nyaman bagi member aktif.",
   "image": [{
    "@type": "ImageObject",
    "@context": "https://schema.org",
-   "author": "FOR4D",
-   "contentURL": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoFqB6kV9Te6bhlrn39xUbTeJh_W32P4lG59as8fR61QslvLzcZHOzu7y4Eb08iq4HBVzHbXbnarTo7pbZCrrveqIm2B2clerK6s3f229iNsrFnO-Gft3WVpM7lLof7zcHnakeH5Y8vGlwZStjNOD7WyuvMHOJNx_Gt1PbANU38QaiWQD9tG0-fP_UTA/s1254/902edce4-c91a-436c-bf8a-bf5ccf732496.png",
-   "description": "Daftar di FOR4D, situs Toto 4D resmi yang menghadirkan bandar Toto Togel Online aman, amanah, terpercaya, didukung pasaran populer, keamanan maksimal, transaksi praktis, dan layanan berkualitas terbaik.",
-   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoFqB6kV9Te6bhlrn39xUbTeJh_W32P4lG59as8fR61QslvLzcZHOzu7y4Eb08iq4HBVzHbXbnarTo7pbZCrrveqIm2B2clerK6s3f229iNsrFnO-Gft3WVpM7lLof7zcHnakeH5Y8vGlwZStjNOD7WyuvMHOJNx_Gt1PbANU38QaiWQD9tG0-fP_UTA/s1254/902edce4-c91a-436c-bf8a-bf5ccf732496.png"
+   "author": "TOTO 4D",
+   "contentURL": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEha3_LKgpkIboP9rZISdfRcwRucAvSZ6MGAv1Iz7z9SS5JU2lv_NMhlIE1ODwTrFJoNIuBqa1RGTomQGA1FyGI3dAM2mxuGQNyPknpf9QdPDnE_OGuplB-EuVemSqSTmrq_tGiYrdnp6ztbxmPWmIssc4Rvk7B7tWOMCypHtjPs19MnZ1Aod9cWUIySTA/s1254/01bd5d86-0560-4873-a46e-daa5171942a9.png",
+   "description": "TOTO 4D menghadirkan inovasi situs toto 4D terpercaya dengan agen resmi, layanan togel online aman, link gacor mudah diakses, serta peluang maxwin untuk pengalaman bermain lebih nyaman bagi member aktif.",
+   "thumbnail": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEha3_LKgpkIboP9rZISdfRcwRucAvSZ6MGAv1Iz7z9SS5JU2lv_NMhlIE1ODwTrFJoNIuBqa1RGTomQGA1FyGI3dAM2mxuGQNyPknpf9QdPDnE_OGuplB-EuVemSqSTmrq_tGiYrdnp6ztbxmPWmIssc4Rvk7B7tWOMCypHtjPs19MnZ1Aod9cWUIySTA/s1254/01bd5d86-0560-4873-a46e-daa5171942a9.png"
   }],
-  "category": "FOR4D > SITUS TOTO > TOTO 4D",
+  "category": "TOTO 4D > TOTO 4D > Situs Toto 4D",
   "brand": {
    "@type": "Brand",
    "@context": "https://schema.org",
-   "name": "FOR4D"
+   "name": "TOTO 4D"
   },
-  "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoFqB6kV9Te6bhlrn39xUbTeJh_W32P4lG59as8fR61QslvLzcZHOzu7y4Eb08iq4HBVzHbXbnarTo7pbZCrrveqIm2B2clerK6s3f229iNsrFnO-Gft3WVpM7lLof7zcHnakeH5Y8vGlwZStjNOD7WyuvMHOJNx_Gt1PbANU38QaiWQD9tG0-fP_UTA/s1254/902edce4-c91a-436c-bf8a-bf5ccf732496.png",
+  "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEha3_LKgpkIboP9rZISdfRcwRucAvSZ6MGAv1Iz7z9SS5JU2lv_NMhlIE1ODwTrFJoNIuBqa1RGTomQGA1FyGI3dAM2mxuGQNyPknpf9QdPDnE_OGuplB-EuVemSqSTmrq_tGiYrdnp6ztbxmPWmIssc4Rvk7B7tWOMCypHtjPs19MnZ1Aod9cWUIySTA/s1254/01bd5d86-0560-4873-a46e-daa5171942a9.png",
   "aggregateRating": {
    "@type": "AggregateRating",
    "ratingValue": "5.0",
@@ -657,10 +648,10 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
       "bestRating": 5
     },
     "datePublished": "2025-08-27",
-    "reviewBody": "Gua udah kapok sama bandar sebelah yang giliran gua JP malah akun di-ban. Pas gua pindah ke FOR4D, kemarin malem dapet angka hoki di toto 4D langsung gua tarik semua saldo gua. Hasilnya? Gak sampai 5 menit langsung mendarat di rekening, beneran 100% pasti WD tanpa drama!",
+    "reviewBody": "TOTO 4D benar-benar jadi langganan saya untuk mencari situs slot gacor hari ini. Aksesnya cepat, pilihan game lengkap, dan informasi pola RTP Thailand online terbarunya terasa membantu sebelum bermain.",
     "author": {
       "@type": "Person",
-      "name": "Tasha"
+      "name": "Mas Mueng"
     }
   },
   {
@@ -671,10 +662,10 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
       "bestRating": 5
     },
     "datePublished": "2025-08-28",
-    "reviewBody": "Males banget kan lagi asyik nge-slot tiba-tiba lag atau keluar sendiri? Nah, semenjak gua main toto slot 88 online di FOR4D, gua gak pernah ngerasain itu lagi. Navigasinya simpel, tampilannya modern, dan servernya enteng banget pas gua buka lewat HP.",
+    "reviewBody": "Sejak mengenal TOTO 4D, saya lebih mudah mengikuti update slot gacor dan pola RTP Thailand terbaru. Tampilannya ringan, proses masuknya tidak ribet, dan permainannya terasa stabil setiap hari.",
     "author": {
       "@type": "Person",
-      "name": "Pipit"
+      "name": "Johan"
     }
   },
   {
@@ -685,10 +676,10 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
       "bestRating": 5
     },
     "datePublished": "2025-01-20",
-    "reviewBody": "Gua tipe orang yang kalau betting harus lihat data dulu, gak bisa cuma modal feeling. Di FOR4D, semua informasi pasaran toto 4D disajikan transparan dan gampang dibaca. Ini bikin gua ngerasa lebih terarah pas mau ngeracik angka taruhan.",
+    "reviewBody": "TOTO 4D cocok banget buat pemain yang ingin mencari slot gacor hari ini dengan panduan yang lebih jelas. Pola RTP Thailand online yang disajikan bikin saya lebih mudah menentukan pilihan game.",
     "author": {
       "@type": "Person",
-      "name": "Cika"
+      "name": "Hasiholan"
     }
   },
   {
@@ -699,10 +690,10 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
       "bestRating": 5
     },
     "datePublished": "2025-01-20",
-    "reviewBody": "Awalnya gua ragu mau daftar karena mikir alurnya bakal ribet kayak situs-situs jadul. Tapi pas nyoba klik link daftar FOR4D, ternyata praktis banget. Menu deposit dan withdraw-nya tertata rapi, jadi buat gua yang masih awam gak perlu kebingungan nyari fiturnya.",
+    "reviewBody": "Yang saya suka dari TOTO 4D adalah aksesnya cepat dan tidak bikin bingung. Informasi slot gacor, RTP terbaru, sampai nuansa auto maxwin terasa tersusun rapi dan mudah dipahami.",
     "author": {
       "@type": "Person",
-      "name": "Lesley"
+      "name": "Vermalion"
     }
   },
   {
@@ -713,10 +704,10 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
       "bestRating": 5
     },
     "datePublished": "2025-01-20",
-    "reviewBody": "Buat pemain veteran kayak gua, privasi dan keamanan saldo itu nomor satu. Gua pilih FOR4D sebagai bandar togel terpercaya karena enkripsi mereka solid banget. Gua bisa fokus 100% ke permainan tanpa perlu cemas modal gua dilarikan.",
+    "reviewBody": "TOTO 4D punya performa yang stabil untuk aktivitas bermain harian. Pilihan slotnya lengkap, update RTP Thailand online terasa fresh, dan pengalaman bermain jadi lebih nyaman.",
     "author": {
       "@type": "Person",
-      "name": "Ndul"
+      "name": "Farhan"
     }
   },
   {
@@ -727,10 +718,10 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
       "bestRating": 5
     },
     "datePublished": "2024-12-07",
-    "reviewBody": "Gua tipikal pemain yang bosenan kalau harus nungguin live draw togel seharian. Untungnya di FOR4D ada pilihan toto slot 88 online yang lengkap banget. Jadi sambil nunggu angka keluar, gua bisa refreshing main slot dengan RTP yang fair.",
+    "reviewBody": "TOTO 4D menurut saya layak disebut situs slot gacor langganan karena fiturnya lengkap, aksesnya ringan, dan informasi pola RTP Thailand online terbarunya selalu menarik untuk diikuti.",
     "author": {
       "@type": "Person",
-      "name": "Tesi"
+      "name": "Cipung"
     }
   }
 ]
@@ -743,42 +734,42 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
   "mainEntity": [
   {
     "@type": "Question",
-    "name": "Apa itu FOR4D?",
+    "name": "Apa itu TOTO 4D?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "FOR4D adalah daftar situs toto 4D paling resmi dan bandar togel terpercaya di Indonesia yang menyediakan taruhan togel terlengkap serta permainan toto slot 88 online dengan sistem keamanan tinggi dan transparan."
+      "text": "TOTO 4D adalah situs slot gacor hari ini yang menghadirkan akses bermain lebih ringan, pilihan game lengkap, serta informasi pola RTP Thailand online terbaru untuk membantu pemain membaca arah permainan dengan lebih jelas."
     }
   },
   {
     "@type": "Question",
-    "name": "Apakah bermain di FOR4D dijamin aman?",
+    "name": "Mengapa TOTO 4D banyak dicari pengguna?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Sangat aman, bro. FOR4D dibangun dengan sistem enkripsi data tingkat tinggi untuk melindungi privasi akun dan saldo Anda. Selain itu, semua pasaran toto 4D yang tersedia memiliki hasil live draw yang valid dan resmi."
+      "text": "TOTO 4D banyak dicari karena menawarkan akses praktis, pilihan permainan lengkap, navigasi sederhana, dan pengalaman bermain yang lebih nyaman untuk pengguna baru maupun member aktif."
     }
   },
   {
     "@type": "Question",
-    "name": "Apa yang dimaksud dengan garansi 100% pasti WD di FOR4D?",
+    "name": "Apakah TOTO 4D menyediakan link alternatif?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Artinya, berapapun total kemenangan atau JP (Jackpot) yang Anda dapatkan saat bermain di FOR4D, semuanya dijamin akan dicairkan atau di-withdraw (WD) secara utuh ke rekening Anda tanpa potongan siluman dan tanpa proses yang dipersulit."
+      "text": "Ya, TOTO 4D menyediakan link alternatif agar pengguna tetap bisa mengakses situs dengan lebih mudah ketika link utama mengalami gangguan atau sulit dibuka."
     }
   },
   {
     "@type": "Question",
-    "name": "Game apa saja yang tersedia di FOR4D?",
+    "name": "Apa keunggulan TOTO 4D dibanding platform lain?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Di FOR4D, Anda bisa menikmati berbagai pasaran toto 4D paling resmi dan populer. Jika bosan menunggu angka togel keluar, Anda juga bisa langsung mengakses ratusan pilihan game toto slot 88 online yang ringan, modern, dan punya winrate tinggi."
+      "text": "Keunggulan TOTO 4D ada pada tampilan yang modern, akses cepat, pilihan game yang variatif, informasi yang jelas, serta layanan yang dibuat untuk menunjang kenyamanan pengguna."
     }
   },
   {
     "@type": "Question",
-    "name": "Mengapa tampilan dan akses FOR4D dinilai lebih unggul dari kompetitor?",
+    "name": "Bagaimana cara mengakses TOTO 4D dengan aman?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Karena FOR4D menggunakan infrastruktur server modern yang membuat halaman situs sangat ringan, bebas lag, dan navigasinya simpel. Anda bisa mengakses informasi pasaran hingga fitur deposit/withdraw tanpa alur yang membingungkan."
+      "text": "Pengguna disarankan mengakses TOTO 4D melalui link resmi atau link alternatif terpercaya, serta memastikan koneksi stabil agar pengalaman bermain berjalan lebih lancar dan nyaman."
     }
   }
 ]
@@ -791,28 +782,28 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
   "itemListElement": [{
    "@type": "ListItem",
    "position": 1,
-   "name": "FOR4D",
-   "item": "https://jurnal.naskahaceh.co.id/"
+   "name": "TOTO 4D",
+   "item": "https://ojs.staira.ac.id/index.php/IJOMSS"
   }, {
    "@type": "ListItem",
    "position": 2,
-   "name": "TOTO4D",
-   "item": "https://jurnal.naskahaceh.co.id/"
+   "name": "TOTO 4D",
+   "item": "https://ojs.staira.ac.id/index.php/IJOMSS"
   }, {
    "@type": "ListItem",
    "position": 3,
-   "name": "TOTO 4D",
-   "item": "https://jurnal.naskahaceh.co.id/"
+   "name": "Situs Toto 4D",
+   "item": "https://ojs.staira.ac.id/index.php/IJOMSS"
   }, {
    "@type": "ListItem",
    "position": 4,
-   "name": "FOR4D RESMI",
-   "item": "https://jurnal.naskahaceh.co.id/"
+   "name": "TOTO 4D RESMI",
+   "item": "https://ojs.staira.ac.id/index.php/IJOMSS"
   }, {
    "@type": "ListItem",
    "position": 5,
-   "name": "FOR4D DAFTAR",
-   "item": "https://jurnal.naskahaceh.co.id/"
+   "name": "TOTO 4D DAFTAR",
+   "item": "https://ojs.staira.ac.id/index.php/IJOMSS"
   }]
  }
 </script>
@@ -821,12 +812,11 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
       <div class='jsCanvasId' style='display: none;'>1</div>
       <div class='jsDesignOnSale' style='display: none;'>false</div>
       <div class='jsSizeChartCanvasId' style='display:none;'>1</div>
-      <div class='m-design jsPdpDesign'>
-       <div class='contain contain--wide-3'>
+      <div class='m-design jsPdpDesign'><div class='contain contain--wide-3'>
         <div class='m-design__content'>
          <div class='m-design__product' data-controller='rudderstack--link-clicked' data-rudderstack--link-clicked-location-value='pdp'>
           <div class='m-design-details__title'>
-           <h1 class='h__h1--sm h--no-s-b' title='George Kittle F Dallas Kittle - George Kittle - FOR4D'>FOR4D : Daftar Situs Toto 4D Resmi Bandar Toto Togel Online Aman, Amanah & Terpercaya</h1>
+           <h1 class='h__h1--sm h--no-s-b' title='George Kittle F Dallas Kittle - George Kittle - TOTO 4D'>TOTO 4D : Inovasi Situs Toto 4D Agen Resmi Toto Togel Online Terpercaya Dengan Link Gacor Mudah Maxwin</h1>
            <div class='m-design__prices'>
             <span class='m-design__price m-design__price--sale jsProductSalePrice'> $3 </span>
             <span class='m-design__price m-design__price--regular jsProductRegularPrice'> IDR 5.000 </span>
@@ -854,12 +844,12 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                 <ul class='glide__slides'>
                  <li class='glide__slide m-product-preview__glider-slide' data-default='active' data-id='0' data-label=''>
                   <picture class='m-product-preview__glider-img'>
-                   <img alt='FOR4D : Daftar Situs Toto 4D Resmi Bandar Toto Togel Online Aman, Amanah & Terpercaya by Hey siriusly' class='mockup jsProductMainImage' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoFqB6kV9Te6bhlrn39xUbTeJh_W32P4lG59as8fR61QslvLzcZHOzu7y4Eb08iq4HBVzHbXbnarTo7pbZCrrveqIm2B2clerK6s3f229iNsrFnO-Gft3WVpM7lLof7zcHnakeH5Y8vGlwZStjNOD7WyuvMHOJNx_Gt1PbANU38QaiWQD9tG0-fP_UTA/s1254/902edce4-c91a-436c-bf8a-bf5ccf732496.png'>
+                   <img alt='TOTO 4D : Inovasi Situs Toto 4D Agen Resmi Toto Togel Online Terpercaya Dengan Link Gacor Mudah Maxwin by Hey siriusly' class='mockup jsProductMainImage' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEha3_LKgpkIboP9rZISdfRcwRucAvSZ6MGAv1Iz7z9SS5JU2lv_NMhlIE1ODwTrFJoNIuBqa1RGTomQGA1FyGI3dAM2mxuGQNyPknpf9QdPDnE_OGuplB-EuVemSqSTmrq_tGiYrdnp6ztbxmPWmIssc4Rvk7B7tWOMCypHtjPs19MnZ1Aod9cWUIySTA/s1254/01bd5d86-0560-4873-a46e-daa5171942a9.png'>
                   </picture>
                  </li>
                  <li class='glide__slide m-product-preview__glider-slide' data-default='' data-id='1' data-label=''>
                   <picture class='m-product-preview__glider-img'>
-                   <img alt='George Kittle F Dallas Kittle by Hey siriusly' class='preview jsProductMainImage' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoFqB6kV9Te6bhlrn39xUbTeJh_W32P4lG59as8fR61QslvLzcZHOzu7y4Eb08iq4HBVzHbXbnarTo7pbZCrrveqIm2B2clerK6s3f229iNsrFnO-Gft3WVpM7lLof7zcHnakeH5Y8vGlwZStjNOD7WyuvMHOJNx_Gt1PbANU38QaiWQD9tG0-fP_UTA/s1254/902edce4-c91a-436c-bf8a-bf5ccf732496.png'>
+                   <img alt='George Kittle F Dallas Kittle by Hey siriusly' class='preview jsProductMainImage' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEha3_LKgpkIboP9rZISdfRcwRucAvSZ6MGAv1Iz7z9SS5JU2lv_NMhlIE1ODwTrFJoNIuBqa1RGTomQGA1FyGI3dAM2mxuGQNyPknpf9QdPDnE_OGuplB-EuVemSqSTmrq_tGiYrdnp6ztbxmPWmIssc4Rvk7B7tWOMCypHtjPs19MnZ1Aod9cWUIySTA/s1254/01bd5d86-0560-4873-a46e-daa5171942a9.png'>
                   </picture>
                  </li>
                 </ul>
@@ -873,17 +863,17 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                </div>
               </div>
               <div class='m-product-preview__thumbs jsProductPreviewThumbs jsProductImgGlideCtrls' data-glide-el='controls'>
-               <a data-id="0" href="https://jurnal.naskahaceh.co.id/" class="link m-product-preview__thumb jsProductPreviewThumb jsCtrl on">
+               <a data-id="0" href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link m-product-preview__thumb jsProductPreviewThumb jsCtrl on">
                 <span class='link__content'>
                  <picture data-action='click-&gt;rudderstack--filter-clicked#track' data-cart-id='9a8c68d58aaa0c110ea9655af8a790a4' data-filter-name='thumbnail' data-glide-dir='0'>
-                  <img alt='FOR4D : Daftar Situs Toto 4D Resmi Bandar Toto Togel Online Aman, Amanah & Terpercaya by Hey siriusly' class='mockup' loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoFqB6kV9Te6bhlrn39xUbTeJh_W32P4lG59as8fR61QslvLzcZHOzu7y4Eb08iq4HBVzHbXbnarTo7pbZCrrveqIm2B2clerK6s3f229iNsrFnO-Gft3WVpM7lLof7zcHnakeH5Y8vGlwZStjNOD7WyuvMHOJNx_Gt1PbANU38QaiWQD9tG0-fP_UTA/s1254/902edce4-c91a-436c-bf8a-bf5ccf732496.png'>
+                  <img alt='TOTO 4D : Inovasi Situs Toto 4D Agen Resmi Toto Togel Online Terpercaya Dengan Link Gacor Mudah Maxwin by Hey siriusly' class='mockup' loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEha3_LKgpkIboP9rZISdfRcwRucAvSZ6MGAv1Iz7z9SS5JU2lv_NMhlIE1ODwTrFJoNIuBqa1RGTomQGA1FyGI3dAM2mxuGQNyPknpf9QdPDnE_OGuplB-EuVemSqSTmrq_tGiYrdnp6ztbxmPWmIssc4Rvk7B7tWOMCypHtjPs19MnZ1Aod9cWUIySTA/s1254/01bd5d86-0560-4873-a46e-daa5171942a9.png'>
                  </picture>
                 </span>
                </a>
-               <a data-id="1" href="https://jurnal.naskahaceh.co.id/" class="link m-product-preview__thumb jsProductPreviewThumb jsCtrl">
+               <a data-id="1" href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link m-product-preview__thumb jsProductPreviewThumb jsCtrl">
                 <span class='link__content'>
                  <picture data-action='click-&gt;rudderstack--filter-clicked#track' data-cart-id='9a8c68d58aaa0c110ea9655af8a790a4' data-filter-name='thumbnail' data-glide-dir='1'>
-                  <img alt='George Kittle F Dallas Kittle by Hey siriusly' class='preview' loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoFqB6kV9Te6bhlrn39xUbTeJh_W32P4lG59as8fR61QslvLzcZHOzu7y4Eb08iq4HBVzHbXbnarTo7pbZCrrveqIm2B2clerK6s3f229iNsrFnO-Gft3WVpM7lLof7zcHnakeH5Y8vGlwZStjNOD7WyuvMHOJNx_Gt1PbANU38QaiWQD9tG0-fP_UTA/s1254/902edce4-c91a-436c-bf8a-bf5ccf732496.png'>
+                  <img alt='George Kittle F Dallas Kittle by Hey siriusly' class='preview' loading='lazy' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEha3_LKgpkIboP9rZISdfRcwRucAvSZ6MGAv1Iz7z9SS5JU2lv_NMhlIE1ODwTrFJoNIuBqa1RGTomQGA1FyGI3dAM2mxuGQNyPknpf9QdPDnE_OGuplB-EuVemSqSTmrq_tGiYrdnp6ztbxmPWmIssc4Rvk7B7tWOMCypHtjPs19MnZ1Aod9cWUIySTA/s1254/01bd5d86-0560-4873-a46e-daa5171942a9.png'>
                  </picture>
                 </span>
                </a>
@@ -898,15 +888,15 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
              <div class='m-cart-config__option m-cart-config__option--color jsCartConfigColorOption' data-action='change-&gt;rudderstack--filter-clicked#track' data-cart-id='9a8c68d58aaa0c110ea9655af8a790a4' data-controller='rudderstack--filter-clicked' data-filter-name='color' data-rudderstack--filter-clicked-location-value='product_attributes'>
               <p class='m-cart-config__color-label'>
                <strong></strong>
-               <span class='m-cart-config__color-name jsConfigColorName'>TOTO</span>
+               <span class='m-cart-config__color-name jsConfigColorName'>Situs Toto 4D</span>
               </p>
               <div class='m-cart-config__colors2 jsCartConfigColors jsHorizontalScroll' role='radiogroup'></div>
              </div>
              <div class='m-cart-config__option radio-selector' data-action='change-&gt;rudderstack--filter-clicked#track' data-cart-id='9a8c68d58aaa0c110ea9655af8a790a4' data-controller='rudderstack--filter-clicked' data-filter-name='gender' data-rudderstack--filter-clicked-location-value='product_attributes'>
               <div class='m-cart-config__select-label'></div>
               <div class="n-columns-2" bis_skin_checked="1">
-       <a href="https://for4d.terasnusa.org/naskahaceh/" rel="nofollow noreferrer" class="login">LOGIN</a>
-       <a href="https://for4d.terasnusa.org/naskahaceh/" rel="nofollow noreferrer" class="register">DAFTAR</a>
+       <a href="https://mekari.store/" rel="nofollow noreferrer" class="login">LOGIN</a>
+       <a href="https://mekari.store/" rel="nofollow noreferrer" class="register">DAFTAR</a>
       </div>
               <style>
    .btn-x {
@@ -916,7 +906,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
     padding: 14px 28px;
     margin: 5px;
     /* Efek Yellow Chrome dengan gradasi metalik */
-    background: linear-gradient(180deg, #ff0000 0%, #ee0909 50%, #f30909 100%);
+    background: linear-gradient(180deg, #ff0000 0%, #FFB700 50%, #FFA500 100%);
     color: #ffffff;
     font-weight: 700;
     border-radius: 10px;
@@ -932,7 +922,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
 
    .btn-x:hover {
     /* Hover menjadi chrome yang lebih cerah/menyala */
-    background: linear-gradient(180deg, #ee0909 0%, #ff0000 100%);
+    background: linear-gradient(180deg, #FFB700 0%, #ff0000 100%);
     box-shadow: 0 6px 20px rgba(255, 183, 0, 0.4);
     transform: translateY(-2px);
     color: #fff;
@@ -978,12 +968,12 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
 }
 
 /* === MAIN CONTAINER === */
-.info-box-situstotowin4d {
+.info-box-TOTO4D {
     max-width: 900px;
     margin: 5px auto;
     background: var(--white-pure);
     border-radius: var(--border-radius);
-    border: 2px solid #e4c308;
+    border: 2px solid #d44537;
     box-shadow: var(--shadow-elegant), var(--shadow-gold);
     overflow: hidden;
     font-family: 'Poppins', sans-serif;
@@ -991,7 +981,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
 }
 
 /* Efek garis dekoratif di pojok */
-.info-box-situstotowin4d::before {
+.info-box-TOTO4D::before {
     content: '';
     position: absolute;
     top: 0;
@@ -1003,7 +993,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
     z-index: 0;
 }
 
-.info-box-situstotowin4d::after {
+.info-box-TOTO4D::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -1016,15 +1006,15 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
 }
 
 /* === HEADER === */
-.info-header-situstotowin4d {
+.info-header-TOTO4D {
     background: linear-gradient(145deg, var(--black-deep), var(--black-medium));
-    color: #e4c308;
+    color: #d44537;
     text-align: center;
     padding: 22px 20px;
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 1px;
-    border-bottom: 3px solid #e4c308;
+    border-bottom: 3px solid #d44537;
     position: relative;
     z-index: 1;
     text-transform: uppercase;
@@ -1032,7 +1022,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
 }
 
 /* Efek garis emas di header */
-.info-header-situstotowin4d::before {
+.info-header-TOTO4D::before {
     content: '';
     position: absolute;
     bottom: -3px;
@@ -1043,19 +1033,19 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
     border-radius: 3px;
 }
 
-.info-header-situstotowin4d::after {
+.info-header-TOTO4D::after {
     content: '✦';
     position: absolute;
     right: 30px;
     top: 50%;
     transform: translateY(-50%);
-    color: #e4c308;
+    color: #d44537;
     font-size: 20px;
     opacity: 0.5;
 }
 
 /* === ROWS === */
-.info-row-situstotowin4d {
+.info-row-TOTO4D {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1067,23 +1057,23 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
     transition: var(--transition-smooth);
 }
 
-.info-row-situstotowin4d:hover {
+.info-row-TOTO4D:hover {
     background: var(--white-cream);
     transform: translateX(5px);
     box-shadow: inset 0 0 0 1px rgba(212, 175, 55, 0.1);
 }
 
-.info-row-situstotowin4d:last-child {
+.info-row-TOTO4D:last-child {
     border-bottom: none;
 }
 
 /* Hover effect untuk baris terakhir */
-.info-row-situstotowin4d:last-child:hover {
+.info-row-TOTO4D:last-child:hover {
     border-radius: 0 0 var(--border-radius) var(--border-radius);
 }
 
 /* === LABEL === */
-.info-label-situstotowin4d {
+.info-label-TOTO4D {
     font-weight: 600;
     color: var(--black-deep);
     width: 35%;
@@ -1094,19 +1084,19 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
 }
 
 /* Titik emas di depan label */
-.info-label-situstotowin4d::before {
+.info-label-TOTO4D::before {
     content: '●';
     position: absolute;
     left: -5px;
     top: 50%;
     transform: translateY(-50%);
-    color: #e4c308;
+    color: #d44537;
     font-size: 10px;
     opacity: 0.7;
 }
 
 /* === VALUE === */
-.info-value-situstotowin4d {
+.info-value-TOTO4D {
     font-weight: 600;
     color: var(--black-medium);
     width: 65%;
@@ -1117,8 +1107,8 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
 }
 
 /* Strong dalam value */
-.info-value-situstotowin4d strong {
-    color: #e4c308;
+.info-value-TOTO4D strong {
+    color: #d44537;
     font-weight: 700;
     background: rgba(212, 175, 55, 0.08);
     padding: 2px 8px;
@@ -1128,8 +1118,8 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
 }
 
 /* === RATING SPECIAL === */
-.rating-situstotowin4d {
-    color: #e4c308 !important;
+.rating-TOTO4D {
+    color: #d44537 !important;
     font-weight: 700;
     display: flex;
     align-items: center;
@@ -1138,8 +1128,8 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
     flex-wrap: wrap;
 }
 
-.rating-situstotowin4d strong {
-    background: linear-gradient(145deg, #e4c308, var(--gold-secondary));
+.rating-TOTO4D strong {
+    background: linear-gradient(145deg, #d44537, var(--gold-secondary));
     color: var(--white-pure) !important;
     padding: 4px 12px !important;
     border-radius: 30px;
@@ -1151,133 +1141,133 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
 }
 
 /* Bintang rating */
-.rating-situstotowin4d::before {
+.rating-TOTO4D::before {
     content: '★★★★★';
-    color: #e4c308;
+    color: #d44537;
     letter-spacing: 3px;
     font-size: 16px;
     margin-right: 8px;
 }
 
 /* Sembunyikan bintang asli jika ada */
-.rating-situstotowin4d span,
-.rating-situstotowin4d .stars {
-    color: #e4c308;
+.rating-TOTO4D span,
+.rating-TOTO4D .stars {
+    color: #d44537;
 }
 
 /* === RESPONSIVE === */
 @media (max-width: 768px) {
-    .info-header-situstotowin4d {
+    .info-header-TOTO4D {
         font-size: 20px;
-        padding: 18px 16px;
+        padding: 18px16px;
     }
     
-    .info-row-situstotowin4d {
-        padding: 14px 18px;
+    .info-row-TOTO4D {
+        padding:14px 18px;
     }
     
-    .info-label-situstotowin4d,
-    .info-value-situstotowin4d {
+    .info-label-TOTO4D,
+    .info-value-TOTO4D {
         font-size: 14px;
     }
 }
 
 @media (max-width: 600px) {
-    .info-row-situstotowin4d {
+    .info-row-TOTO4D {
         flex-direction: column;
         align-items: flex-start;
         gap: 8px;
     }
     
-    .info-label-situstotowin4d {
+    .info-label-TOTO4D {
         width: 100%;
         margin-bottom: 4px;
         padding-left: 0;
     }
     
-    .info-label-situstotowin4d::before {
+    .info-label-TOTO4D::before {
         display: none;
     }
     
-    .info-value-situstotowin4d {
+    .info-value-TOTO4D {
         width: 100%;
         text-align: left;
         padding-left: 15px;
-        border-left: 3px solid #e4c308;
+        border-left: 3px solid #d44537;
     }
     
-    .rating-situstotowin4d {
+    .rating-TOTO4D {
         justify-content: flex-start;
         flex-wrap: wrap;
     }
     
-    .info-header-situstotowin4d::after {
+    .info-header-TOTO4D::after {
         display: none;
     }
 }
 
 @media (max-width: 480px) {
-    .info-box-situstotowin4d {
+    .info-box-TOTO4D {
         margin: 20px 15px;
     }
     
-    .info-header-situstotowin4d {
+    .info-header-TOTO4D {
         font-size: 18px;
         padding: 15px 12px;
     }
     
-    .info-row-situstotowin4d {
+    .info-row-TOTO4D {
         padding: 12px 15px;
     }
     
-    .info-label-situstotowin4d,
-    .info-value-situstotowin4d {
+    .info-label-TOTO4D,
+    .info-value-TOTO4D {
         font-size: 13px;
     }
     
-    .rating-situstotowin4d::before {
+    .rating-TOTO4D::before {
         font-size: 14px;
     }
     
-    .rating-situstotowin4d strong {
+    .rating-TOTO4D strong {
         font-size: 12px;
         padding: 3px 8px;
     }
 }
 </style>
-<div class="info-box-situstotowin4d">
-    <div class="info-header-situstotowin4d">
-        INFORMASI LENGKAP FOR4D
+<div class="info-box-TOTO4D">
+    <div class="info-header-TOTO4D">
+        INFORMASI LENGKAP TOTO 4D
     </div>
     
-    <div class="info-row-situstotowin4d">
-        <span class="info-label-situstotowin4d">Nama Situs</span>
-        <span class="info-value-situstotowin4d"><strong>FOR4D</strong></span>
+    <div class="info-row-TOTO4D">
+        <span class="info-label-TOTO4D">Nama Situs</span>
+        <span class="info-value-TOTO4D"><strong>TOTO 4D</strong></span>
     </div>
     
-    <div class="info-row-situstotowin4d">
-        <span class="info-label-situstotowin4d">Jenis Pasaran</span>
-        <span class="info-value-situstotowin4d">Toto 4D, Situs Toto, Toto</span>
+    <div class="info-row-TOTO4D">
+        <span class="info-label-TOTO4D">Jenis Pasaran</span>
+        <span class="info-value-TOTO4D">TOGEL ONLINE</span>
     </div>
     
-    <div class="info-row-situstotowin4d">
-        <span class="info-label-situstotowin4d">Minimal Deposit</span>
-        <span class="info-value-situstotowin4d"><strong>IDR 10,000</strong></span>
+    <div class="info-row-TOTO4D">
+        <span class="info-label-TOTO4D">Minimal Deposit</span>
+        <span class="info-value-TOTO4D"><strong>IDR 10,000</strong></span>
     </div>
     
-    <div class="info-row-situstotowin4d">
-        <span class="info-label-situstotowin4d">Minimal Withdraw</span>
-        <span class="info-value-situstotowin4d"><strong>IDR 25,000</strong></span>
+    <div class="info-row-TOTO4D">
+        <span class="info-label-TOTO4D">Minimal Withdraw</span>
+        <span class="info-value-TOTO4D"><strong>IDR 25,000</strong></span>
     </div>
     
-    <div class="info-row-situstotowin4d">
-        <span class="info-label-situstotowin4d">Transaksi Pembayaran</span>
-        <span class="info-value-situstotowin4d">Transfer Bank Lokal • E-wallet • QRIS</span>
+    <div class="info-row-TOTO4D">
+        <span class="info-label-TOTO4D">Transaksi Pembayaran</span>
+        <span class="info-value-TOTO4D">Transfer Bank Lokal • E-wallet • QRIS</span>
     </div>
     
-    <div class="info-row-situstotowin4d">
-        <span class="info-label-situstotowin4d">Rating</span>
-        <span class="info-value-situstotowin4d rating-situstotowin4d">
+    <div class="info-row-TOTO4D">
+        <span class="info-label-TOTO4D">Rating</span>
+        <span class="info-value-TOTO4D rating-TOTO4D">
         </span>
     </div>
 </div>
@@ -1558,8 +1548,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
     }
 }
 
-@keyframes fadeInUp {
-    from {
+@keyframes fadeInUp {from {
         opacity: 0;
         transform: translateY(10px);
     }
@@ -1585,86 +1574,95 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
 
 <div class="section-container">
     <div class="description-section">
-        <h2 class="section-title">Artikel FOR4D</h2>
+        <h2 class="section-title">Artikel TOTO 4D</h2>
         <div class="description-content">
-            <h3><strong>FOR4D Hadir Sebagai Pilihan Pemain yang Ingin Jaminan WD Lebih Jelas</strong></h3>
-            <p><a href="https://jurnal.naskahaceh.co.id/">FOR4D</a> hadir sebagai situs Toto 4D resmi yang mengutamakan kualitas layanan, kemudahan akses, dan sistem permainan yang dirancang untuk memberikan pengalaman terbaik bagi setiap pengguna. Dengan tampilan yang responsif dan teknologi yang terus diperbarui, seluruh fitur dapat digunakan secara praktis melalui berbagai perangkat tanpa kendala.</p>
-            <p>Sebagai bandar Toto Togel Online terpercaya, FOR4D menawarkan pilihan pasaran terlengkap dengan hasil yang disajikan secara akurat dan transparan. Setiap transaksi didukung beragam metode pembayaran yang memudahkan proses deposit maupun penarikan dana, sehingga anggota dapat beraktivitas dengan lebih nyaman dan efisien.</p>
-            <p>Kepercayaan para anggota menjadi prioritas utama FOR4D melalui penerapan sistem keamanan berlapis, perlindungan data pengguna, serta layanan pelanggan yang profesional. Komitmen dalam menghadirkan platform yang aman, amanah, dan terpercaya menjadikan FOR4D sebagai salah satu pilihan terbaik bagi pecinta permainan Toto 4D online di Indonesia.</p>
+            <h3><strong>TOTO 4D : Inovasi Situs Toto 4D Agen Resmi Toto Togel Online Terpercaya Dengan Link Gacor Mudah Maxwin</strong></h3>
+            <p><span style="color: #000000;"><a style="color: #000000;" href="https://ojs.staira.ac.id/index.php/IJOMSS">TOTO 4D</a></span> hadir sebagai inovasi situs TOTO 4D modern yang menyediakan akses permainan togel online dengan layanan praktis, cepat, dan mudah digunakan. Sebagai agen resmi toto togel online terpercaya, TOTO 4D menawarkan pengalaman bermain yang lebih nyaman melalui sistem responsif, tampilan sederhana, serta pilihan pasaran lengkap untuk kebutuhan pemain masa kini.</p>
+            <p>Dengan dukungan <span style="color: #000000;"><a style="color: #000000;" href="https://ojs.staira.ac.id/index.php/IJOMSS">link gacor</a></span> yang mudah diakses, TOTO 4D menjadi pilihan tepat bagi pengguna yang mencari situs TOTO 4D terpercaya dengan peluang bermain lebih maksimal. Platform ini mengutamakan keamanan, kenyamanan transaksi, serta layanan aktif agar setiap member dapat menikmati pengalaman hiburan online yang stabil dan profesional.</p>
+            <p>Selain menghadirkan toto togel online, TOTO 4D juga dikenal dengan fitur lengkap, akses anti ribet, dan sistem yang dirancang untuk membantu pemain merasakan sensasi bermain yang lebih seru. Kombinasi antara agen resmi, link gacor, dan peluang maxwin membuat TOTO 4D semakin menarik sebagai pilihan situs TOTO 4D terpercaya.</p>
+
+            <h3><strong>Akses Mudah ke Situs Slot Gacor Hari Ini dengan RTP Slot Online yang Lebih Akurat</strong></h3>
+            <p>Akses mudah situs slot gacor hari ini menjadi pilihan penting bagi pengguna yang ingin menikmati permainan online dengan lebih praktis dan cepat. Dengan tampilan yang responsif, menu sederhana, serta proses akses yang ringan, pengguna dapat menemukan berbagai pilihan game favorit tanpa harus melewati langkah yang rumit.</p>
+            <p>Selain akses yang mudah, informasi RTP slot online yang lebih akurat juga membantu pengguna memahami peluang permainan sebelum memilih game. Dengan data RTP yang diperbarui secara berkala, pengalaman bermain terasa lebih terarah, nyaman, dan maksimal setiap hari.</p>
+
+            <h3><strong>Akses Mudah dan Tampilan Modern untuk Pengalaman Bermain Lebih Nyaman</strong></h3>
+            <p>Akses yang mudah menjadi salah satu faktor penting dalam menciptakan pengalaman bermain yang lebih nyaman. Dengan sistem yang responsif dan navigasi sederhana, pengguna dapat masuk ke halaman utama, memilih permainan, serta menikmati berbagai fitur tanpa proses yang rumit.</p>
+            <p>Tampilan modern juga membuat aktivitas bermain terasa lebih praktis dan menyenangkan. Desain yang rapi, menu yang mudah dipahami, serta performa situs yang stabil membantu pengguna menemukan permainan favorit dengan cepat dan menikmati layanan secara lebih lancar setiap hari.</p>
+        
         
             
         </div>
     </div>
     <div class="reviews-section">
-    <h2 class="section-title">Ulasan Pengguna FOR4D</h2>
+    <h2 class="section-title">Ulasan Pengguna TOTO 4D</h2>
     <div class="reviews-grid">
         <div class="review-card">
-            <div class="reviewer-name">Tasha</div>
-            <div class="review-text">Gua udah kapok sama bandar sebelah yang giliran gua JP malah akun di-ban. Pas gua pindah ke FOR4D, kemarin malem dapet angka hoki di toto 4D langsung gua tarik semua saldo gua. Hasilnya? Gak sampai 5 menit langsung mendarat di rekening, beneran 100% pasti WD tanpa drama!</div>
+            <div class="reviewer-name">Rian Jakarta</div>
+            <div class="review-text">TOTO 4D punya tampilan yang simpel dan mudah dipahami. Akses situsnya cepat, jadi saya bisa langsung memilih permainan tanpa ribet.</div>
         </div>
         
         <div class="review-card">
-            <div class="reviewer-name">Pipit</div>
-            <div class="review-text">Males banget kan lagi asyik nge-slot tiba-tiba lag atau keluar sendiri? Nah, semenjak gua main toto slot 88 online di FOR4D, gua gak pernah ngerasain itu lagi. Navigasinya simpel, tampilannya modern, dan servernya enteng banget pas gua buka lewat HP.</div>
+            <div class="reviewer-name">Bayu Bandung</div>
+            <div class="review-text">Saya suka karena pilihan permainan di TOTO 4D cukup lengkap. Navigasinya rapi dan informasi yang ditampilkan mudah dimengerti.</div>
         </div>
         
         <div class="review-card">
-            <div class="reviewer-name">Cika</div>
-            <div class="review-text">Gua tipe orang yang kalau betting harus lihat data dulu, gak bisa cuma modal feeling. Di FOR4D, semua informasi pasaran toto 4D disajikan transparan dan gampang dibaca. Ini bikin gua ngerasa lebih terarah pas mau ngeracik angka taruhan.</div>
+            <div class="reviewer-name">Andi Surabaya</div>
+            <div class="review-text">Pengalaman menggunakan TOTO 4D terasa nyaman. Situsnya responsif, proses akses lancar, dan tampilannya modern.</div>
         </div>
         
         <div class="review-card">
-            <div class="reviewer-name">Lesley</div>
-            <div class="review-text">Awalnya gua ragu mau daftar karena mikir alurnya bakal ribet kayak situs-situs jadul. Tapi pas nyoba klik link daftar FOR4D, ternyata praktis banget. Menu deposit dan withdraw-nya tertata rapi, jadi buat gua yang masih awam gak perlu kebingungan nyari fiturnya.</div>
+            <div class="reviewer-name">Fajar Medan</div>
+            <div class="review-text">TOTO 4D menurut saya cocok untuk pengguna yang mencari situs toto 4D dengan akses praktis. Fiturnya mudah digunakan, bahkan untuk pemula.</div>
         </div>
 
         <div class="review-card">
-            <div class="reviewer-name">Ndul</div>
-            <div class="review-text">Buat pemain veteran kayak gua, privasi dan keamanan saldo itu nomor satu. Gua pilih FOR4D sebagai bandar togel terpercaya karena enkripsi mereka solid banget. Gua bisa fokus 100% ke permainan tanpa perlu cemas modal gua dilarikan.</div>
+            <div class="reviewer-name">Dika Semarang</div>
+            <div class="review-text">Yang paling saya suka dari TOTO 4D adalah tampilannya bersih dan tidak membingungkan. Pilihan menu tertata jelas dan mudah dijangkau.</div>
         </div>
 
         <div class="review-card">
-            <div class="reviewer-name">Tesi</div>
-            <div class="review-text">Gua tipikal pemain yang bosenan kalau harus nungguin live draw togel seharian. Untungnya di FOR4D ada pilihan toto slot 88 online yang lengkap banget. Jadi sambil nunggu angka keluar, gua bisa refreshing main slot dengan RTP yang fair.</div>
+            <div class="reviewer-name">Reza Makassar</div>
+            <div class="review-text">TOTO 4D memberikan pengalaman bermain yang lebih nyaman dengan akses cepat, layanan informatif, dan tampilan yang enak dilihat.</div>
         </div>
     </div>
 </div>
 
     <div class="faq-section">
-    <h2 class="section-title">FAQ FOR4D</h2>
+    <h2 class="section-title">FAQ TOTO 4D</h2>
     <div class="faq-container">
         <div class="faq-item">
-            <div class="faq-question">Apa itu FOR4D?</div>
+            <div class="faq-question">Apa itu TOTO 4D?</div>
             <div class="faq-answer">
-                <p>FOR4D adalah daftar situs toto 4D paling resmi dan bandar togel terpercaya di Indonesia yang menyediakan taruhan togel terlengkap serta permainan toto slot 88 online dengan sistem keamanan tinggi dan transparan.</p>
+                <p>TOTO 4D adalah platform hiburan online yang menghadirkan akses permainan toto 4D dan slot online dengan tampilan modern, mudah digunakan, serta layanan yang responsif.</p>
             </div>
         </div>
         
         <div class="faq-item">
-            <div class="faq-question">Apakah bermain di FOR4D dijamin aman?</div>
+            <div class="faq-question">Mengapa TOTO 4D banyak dicari pengguna?</div>
             <div class="faq-answer">
-                <p>Sangat aman, bro. FOR4D dibangun dengan sistem enkripsi data tingkat tinggi untuk melindungi privasi akun dan saldo Anda. Selain itu, semua pasaran toto 4D yang tersedia memiliki hasil live draw yang valid dan resmi.</p>
+                <p>Keunggulan TOTO 4D ada pada akses yang cepat, tampilan yang mudah digunakan, pilihan slot lengkap, serta update pola RTP Thailand online yang membantu pemain membaca arah permainan dengan lebih terarah.</p>
             </div>
         </div>
         
         <div class="faq-item">
-            <div class="faq-question">Apa yang dimaksud dengan garansi 100% pasti WD di FOR4D?</div>
+            <div class="faq-question">Apakah TOTO 4D menyediakan link alternatif?</div>
             <div class="faq-answer">
-                <p>Artinya, berapapun total kemenangan atau JP (Jackpot) yang Anda dapatkan saat bermain di FOR4D, semuanya dijamin akan dicairkan atau di-withdraw (WD) secara utuh ke rekening Anda tanpa potongan siluman dan tanpa proses yang dipersulit.</p>
+                <p>Ya, TOTO 4D menyediakan informasi pola RTP Thailand online terbaru yang bisa dijadikan bahan pertimbangan pemain saat memilih permainan slot yang sedang ramai dan berpotensi gacor.</p>
             </div>
         </div>
         
         <div class="faq-item">
-            <div class="faq-question">Game apa saja yang tersedia di FOR4D?</div>
+            <div class="faq-question">Apakah TOTO 4D cocok untuk pemain pemula?</div>
             <div class="faq-answer">
-                <p>Di FOR4D, Anda bisa menikmati berbagai pasaran toto 4D paling resmi dan populer. Jika bosan menunggu angka togel keluar, Anda juga bisa langsung mengakses ratusan pilihan game toto slot 88 online yang ringan, modern, dan punya winrate tinggi.</p>
+                <p>Cocok. TOTO 4D memiliki alur akses yang simpel, informasi yang mudah dipahami, serta pembahasan slot gacor hari ini yang membantu pemula mengenali pola permainan tanpa merasa bingung.</p>
             </div>
         </div>
         
         <div class="faq-item">
-            <div class="faq-question">Mengapa tampilan dan akses FOR4D dinilai lebih unggul dari kompetitor?</div>
+            <div class="faq-question">Bagaimana cara mengikuti peluang auto maxwin di TOTO 4D?</div>
             <div class="faq-answer">
-                <p>Karena FOR4D menggunakan infrastruktur server modern yang membuat halaman situs sangat ringan, bebas lag, dan navigasinya simpel. Anda bisa mengakses informasi pasaran hingga fitur deposit/withdraw tanpa alur yang membingungkan.</p>
+                <p>Pemain bisa mengikuti peluang auto maxwin di TOTO 4D dengan memperhatikan update pola RTP Thailand online terbaru, memilih game yang sedang ramai dimainkan, dan tetap bermain dengan strategi yang lebih terukur.</p>
             </div>
         </div>
     </div>
@@ -1680,7 +1678,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
             </svg>
            </span>
            <div class='tp-text-note__body'>
-            <p class='tp-text-note__text'> Nikmati <span class="strong">Bonus New Member 100%</span> Bagi Pemain Baru <span class="strong">FOR4D!</p>
+            <p class='tp-text-note__text'> Nikmati <span class="strong">Bonus Deposit 100%</span> Bagi Pemain Baru <span class="strong">TOTO 4D!</p>
            </div>
           </div>
           <div class='m-design__tip-container jsProductTips' style=''></div>
@@ -1689,13 +1687,13 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
           </div>
          </div>
          <div data-also-available-products-target="loader" class="tp-loader m-tab-nav__loader tp-loader--inline hidden">
-          <div class='tp-loader__spinner updatang tp-loader__spinner--inline'></div>
+          <div class='tp-loader__spinner updating tp-loader__spinner--inline'></div>
          </div>
          </section>
         </div>
        </div>
        <div class='m-design__ratings'>
-        <h3 class='m-design__ratings-heading'>MARKET FOR4D</h3>
+        <h3 class='m-design__ratings-heading'>MARKET TOTO 4D</h3>
         <div class='m-design__ratings-services'>
          <div class='m-design__ratings-service'>
           <div class='m-design__ratings-service-name'>Murah!</div>
@@ -1719,7 +1717,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
           <div class='m-design__ratings-details'>4.9 out of 5</div>
          </div>
          <div class='m-design__ratings-service'>
-          <div class='m-design__ratings-service-name'>FOR4D</div>
+          <div class='m-design__ratings-service-name'>TOTO 4D</div>
           <div class='m-design__ratings-service-stars'>
            <span class="teepublicon teepublicon--blue-default teepublicon-background--transparent">
             <img src="https://assets.teepublic.com/assets/teepublicons/star_warning400-140c727473c9c31e0f5d9ffc791a31dc3ba8dfccc44380702fd86fd805ef817d.svg" loading="lazy" height="20" width="20" aria_hidden="true" focusable="false">
@@ -1767,12 +1765,12 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
         <div class='contain contain--wide-3'>
          <div class='m-design-product-info-and-faqs'>
           <div class='m-design-product-info--product-quality'>
-           <h4>FOR4D : Daftar Situs Toto 4D Resmi Bandar Toto Togel Online Aman, Amanah & Terpercaya</h4>
-           <p>Daftar di FOR4D, situs Toto 4D resmi yang menghadirkan bandar Toto Togel Online aman, amanah, terpercaya, didukung pasaran populer, keamanan maksimal, transaksi praktis, dan layanan berkualitas terbaik.</p>
+           <h4>TOTO 4D : Inovasi Situs Toto 4D Agen Resmi Toto Togel Online Terpercaya Dengan Link Gacor Mudah Maxwin</h4>
+           <p>TOTO 4D menghadirkan inovasi situs toto 4D terpercaya dengan agen resmi, layanan togel online aman, link gacor mudah diakses, serta peluang maxwin untuk pengalaman bermain lebih nyaman bagi member aktif.</p>
            <picture class='m-design-product-info--product-quality-image'>
-            <source srcset='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfy7_RqyoIZiLw0Kg3lnc48QNsSqcBozepGyV7twawQcpvsYfSlSzojA-iBplUrwrmXTQ3KI4IXF6tz7swELxVsfEQSvBXCiZAs9V3j3IcdDlqm55IPdYRWqqOe2rkGiPAERXcqVKIvOOmXV7iol46QlZHvqpbZ-kaMmHml3-j2B7WycV-Ry_UMlNeFg/s800/logo%20for4d%20gg%20parah%20men%20webp.webp' type='image/avif'>
-            <source srcset='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfy7_RqyoIZiLw0Kg3lnc48QNsSqcBozepGyV7twawQcpvsYfSlSzojA-iBplUrwrmXTQ3KI4IXF6tz7swELxVsfEQSvBXCiZAs9V3j3IcdDlqm55IPdYRWqqOe2rkGiPAERXcqVKIvOOmXV7iol46QlZHvqpbZ-kaMmHml3-j2B7WycV-Ry_UMlNeFg/s800/logo%20for4d%20gg%20parah%20men%20webp.webp' type='image/webp'>
-            <img loading="lazy" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfy7_RqyoIZiLw0Kg3lnc48QNsSqcBozepGyV7twawQcpvsYfSlSzojA-iBplUrwrmXTQ3KI4IXF6tz7swELxVsfEQSvBXCiZAs9V3j3IcdDlqm55IPdYRWqqOe2rkGiPAERXcqVKIvOOmXV7iol46QlZHvqpbZ-kaMmHml3-j2B7WycV-Ry_UMlNeFg/s800/logo%20for4d%20gg%20parah%20men%20webp.webp" />
+            <source srcset='https://abbudabba.xyz/image/css/logo-toto4d.png' type='image/avif'>
+            <source srcset='https://abbudabba.xyz/image/css/logo-toto4d.png' type='image/webp'>
+            <img loading="lazy" src="https://abbudabba.xyz/image/css/logo-toto4d.png" />
            </picture>
           </div>
          </div>
@@ -1780,9 +1778,9 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
    :root {
     /* Mengubah palet abu-abu menjadi Yellow Chrome */
     --brand: #ff0000;      /* Gold/Chrome Light */
-    --brand-mid: #ee0909;  /* Chrome Standard */
-    --brand-dark: #f30909; /* Chrome Deep */
-    --border: #e60000;
+    --brand-mid: #FFB700;  /* Chrome Standard */
+    --brand-dark: #FFA500; /* Chrome Deep */
+    --border: #E6B800;
     --bg: #ffffff;
     --shadow: 0 6px 15px rgba(0, 0, 0, .08);
    }
@@ -1981,7 +1979,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
            <div class='jsSocial'>
             <ul class='m-social-share'>
              <li>
-              <a aria-label="Share to Twitter" onclick="window.open(this.href,&#39;pagename&#39;,&#39;resizable,height=400,width=600&#39;); return false" href="https://jurnal.naskahaceh.co.id/" class="link jsTwitterProductShare gtmTwitterProductShare twitter link--1 link--default">
+              <a aria-label="Share to Twitter" onclick="window.open(this.href,&#39;pagename&#39;,&#39;resizable,height=400,width=600&#39;); return false" href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link jsTwitterProductShare gtmTwitterProductShare twitter link--1 link--default">
                <span class='link__content'>
                 <span class="teepublicon teepublicon--blue-default teepublicon-background--transparent teepublicon-variant--circle medium">
                  <img src="https://assets.teepublic.com/assets/teepublicons/twitter_x-e7ec227c1ad2634b8096bcccb765eddf5be0612af99dc39f81589c7440f53741.svg" loading="lazy" height="24" width="24" aria_hidden="true" focusable="false">
@@ -1990,7 +1988,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
               </a>
              </li>
              <li>
-              <a aria-label="Share to Facebook" onclick="window.open(this.href,&#39;pagename&#39;,&#39;resizable,height=400,width=600&#39;); return false" href="https://jurnal.naskahaceh.co.id/" class="link gtmFbProductShare facebook link--1 link--default">
+              <a aria-label="Share to Facebook" onclick="window.open(this.href,&#39;pagename&#39;,&#39;resizable,height=400,width=600&#39;); return false" href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link gtmFbProductShare facebook link--1 link--default">
                <span class='link__content'>
                 <span class="teepublicon teepublicon--blue-default teepublicon-background--transparent teepublicon-variant--circle medium">
                  <img src="https://assets.teepublic.com/assets/teepublicons/facebook-782a69eed8f8c44472034fa1a149c795915e716c13a0c9499e024cb5d43f3ba5.svg" loading="lazy" height="24" width="24" aria_hidden="true" focusable="false">
@@ -1999,7 +1997,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
               </a>
              </li>
              <li>
-              <a aria-label="Share to Linktree" target="_blank" href="https://jurnal.naskahaceh.co.id/" class="link gtmLinktreeProductShare linktree link--1 link--default">
+              <a aria-label="Share to Linktree" target="_blank" href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link gtmLinktreeProductShare linktree link--1 link--default">
                <span class='link__content'>
                 <span class="teepublicon teepublicon--blue-default teepublicon-background--transparent teepublicon-variant--circle medium">
                  <img src="https://assets.teepublic.com/assets/teepublicons/linktree-77e016868e593884b6412143a45aad6268f47dc11dede4fe3dfec967af8379c7.svg" loading="lazy" height="24" width="24" aria_hidden="true" focusable="false">
@@ -2008,7 +2006,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
               </a>
              </li>
              <li>
-              <a aria-label="Save to Pinterest" onclick="window.open(this.href,&#39;pagename&#39;,&#39;resizable,height=400,width=600&#39;); return false" href="https://jurnal.naskahaceh.co.id/" class="link jsPinterestProductShare gtmPinterestProductShare pinterest link--1 link--default">
+              <a aria-label="Save to Pinterest" onclick="window.open(this.href,&#39;pagename&#39;,&#39;resizable,height=400,width=600&#39;); return false" href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link jsPinterestProductShare gtmPinterestProductShare pinterest link--1 link--default">
                <span class='link__content'>
                 <span class="teepublicon teepublicon--blue-default teepublicon-background--transparent teepublicon-variant--circle medium">
                  <img src="https://assets.teepublic.com/assets/teepublicons/pinterest-bf44b194464a76e11f21f63eedb266534dafbdd4d28f646eb1f731f0737f1d27.svg" loading="lazy" height="24" width="24" aria_hidden="true" focusable="false">
@@ -2017,7 +2015,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
               </a>
              </li>
              <li>
-              <a aria-label="Share to Reddit" target="_blank" href="https://jurnal.naskahaceh.co.id/" class="link gtmRedditProductShare reddit link--1 link--default">
+              <a aria-label="Share to Reddit" target="_blank" href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link gtmRedditProductShare reddit link--1 link--default">
                <span class='link__content'>
                 <span class="teepublicon teepublicon--blue-default teepublicon-background--transparent teepublicon-variant--circle medium">
                  <img src="https://assets.teepublic.com/assets/teepublicons/reddit-a08812dd6e957c987946f6fa3808df6dada5b1f95e538017767af02adfda49b8.svg" loading="lazy" height="24" width="24" aria_hidden="true" focusable="false">
@@ -2026,7 +2024,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
               </a>
              </li>
              <li>
-              <a aria-label="Share to Tumblr" target="_blank" href="https://jurnal.naskahaceh.co.id/" class="link jsTumblrProductShare gtmTumblrProductShare tumblr link--1 link--default">
+              <a aria-label="Share to Tumblr" target="_blank" href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link jsTumblrProductShare gtmTumblrProductShare tumblr link--1 link--default">
                <span class='link__content'>
                 <span class="teepublicon teepublicon--blue-default teepublicon-background--transparent teepublicon-variant--circle medium">
                  <img src="https://assets.teepublic.com/assets/teepublicons/tumblr-72746366fce360d1a23b94973d204278af451141b23aebe1dd3671bfff083f2a.svg" loading="lazy" height="24" width="24" aria_hidden="true" focusable="false">
@@ -2075,7 +2073,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
            <div class='m-footer__trusted-badges'>
             <figure class='m-footer__guarantee-image'>
              <span class="teepublicon teepublicon--blue-default teepublicon-background--transparent">
-              <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfy7_RqyoIZiLw0Kg3lnc48QNsSqcBozepGyV7twawQcpvsYfSlSzojA-iBplUrwrmXTQ3KI4IXF6tz7swELxVsfEQSvBXCiZAs9V3j3IcdDlqm55IPdYRWqqOe2rkGiPAERXcqVKIvOOmXV7iol46QlZHvqpbZ-kaMmHml3-j2B7WycV-Ry_UMlNeFg/s800/logo%20for4d%20gg%20parah%20men%20webp.webp" alt="FOR4D" style="width:50%; height:auto; max-width:500px; display:block; margin:0 auto;" />
+              <img src="https://abbudabba.xyz/image/css/logo-toto4d.png" alt="TOTO 4D" style="width:50%; height:auto; max-width:500px; display:block; margin:0 auto;" />
              </span>
             </figure>
             <div class='m-footer__trusted-text'>
@@ -2084,8 +2082,8 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
               <p class='m-footer__guarantee-subtext'> 100% Free Exchanges. </p>
              </div>
              <p class='m-footer__guarantee-link'>
-              <a target="_blank" href="https://jurnal.naskahaceh.co.id/" class="link link__cta link__cta--on-dark link--default">
-               <span class='link__content'> FOR4D </span>
+              <a target="_blank" href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link link__cta link__cta--on-dark link--default">
+               <span class='link__content'> TOTO 4D </span>
               </a>
              </p>
             </div>
@@ -2101,16 +2099,16 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                <a data-gtm-footer-link-text="Create" style="--animation-order: " href="/contact" class="link gtmFooterLink link-collection__link link--1 link--default">
                 <span class='link__content'> Contact Us </span>
                </a>
-               <a data-gtm-footer-link-text="Coupon Codes" style="--animation-order: " href="https://jurnal.naskahaceh.co.id/" class="link gtmFooterLink link-collection__link link--1 link--default">
+               <a data-gtm-footer-link-text="Coupon Codes" style="--animation-order: " href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link gtmFooterLink link-collection__link link--1 link--default">
                 <span class='link__content'> Coupon Codes </span>
                </a>
-               <a data-gtm-footer-link-text="FAQ" style="--animation-order: " href="https://jurnal.naskahaceh.co.id/" class="link gtmFooterLink link-collection__link link--1 link--default">
+               <a data-gtm-footer-link-text="FAQ" style="--animation-order: " href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link gtmFooterLink link-collection__link link--1 link--default">
                 <span class='link__content'> FAQ </span>
                </a>
-               <a data-gtm-footer-link-text="Free Shipping" style="--animation-order: " href="https://jurnal.naskahaceh.co.id/" class="link gtmFooterLink link-collection__link link--1 link--default">
+               <a data-gtm-footer-link-text="Free Shipping" style="--animation-order: " href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link gtmFooterLink link-collection__link link--1 link--default">
                 <span class='link__content'> Free Shipping </span>
                </a>
-               <a data-gtm-footer-link-text="Refunds &amp; Returns" style="--animation-order: " href="https://jurnal.naskahaceh.co.id/" class="link gtmFooterLink link-collection__link link--1 link--default">
+               <a data-gtm-footer-link-text="Refunds &amp; Returns" style="--animation-order: " href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link gtmFooterLink link-collection__link link--1 link--default">
                 <span class='link__content'> Refunds &amp; Returns </span>
                </a>
                <a data-gtm-footer-link-text="Shipping Info" style="--animation-order: " href="/shipping" class="link gtmFooterLink link-collection__link link--1 link--default">
@@ -2127,24 +2125,23 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
               <h4 class="h__h4 link-collection__header h--no-s">About Us</h4>
               <div class="link-collection__content">
                <a data-gtm-footer-link-text="About Us" style="--animation-order: " href="/about" class="link gtmFooterLink link-collection__link link--1 link--default">
-                <span class='link__content'> About Us </span>
-               </a>
-               <a data-gtm-footer-link-text="Accessibility" style="--animation-order: " href="https://jurnal.naskahaceh.co.id/" class="link gtmFooterLink link-collection__link link--1 link--default">
+                <span class='link__content'> About Us </span></a>
+               <a data-gtm-footer-link-text="Accessibility" style="--animation-order: " href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link gtmFooterLink link-collection__link link--1 link--default">
                 <span class='link__content'> Accessibility </span>
                </a>
-               <a data-gtm-footer-link-text="Create a Dashery Store" style="--animation-order: " href="https://jurnal.naskahaceh.co.id/" class="link gtmFooterLink link-collection__link link--1 link--default">
+               <a data-gtm-footer-link-text="Create a Dashery Store" style="--animation-order: " href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link gtmFooterLink link-collection__link link--1 link--default">
                 <span class='link__content'> Create a Dashery Store </span>
                </a>
-               <a data-gtm-footer-link-text="Careers" style="--animation-order: " href="https://jurnal.naskahaceh.co.id/" class="link gtmFooterLink link-collection__link link--1 link--default">
+               <a data-gtm-footer-link-text="Careers" style="--animation-order: " href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link gtmFooterLink link-collection__link link--1 link--default">
                 <span class='link__content'> Careers </span>
                </a>
-               <a data-gtm-footer-link-text="Hire an Artist" style="--animation-order: " href="https://jurnal.naskahaceh.co.id/" class="link gtmFooterLink link-collection__link link--1 link--default">
+               <a data-gtm-footer-link-text="Hire an Artist" style="--animation-order: " href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link gtmFooterLink link-collection__link link--1 link--default">
                 <span class='link__content'> Hire an Artist </span>
                </a>
-               <a data-gtm-footer-link-text="Social Responsibility" style="--animation-order: " href="https://jurnal.naskahaceh.co.id/" class="link gtmFooterLink link-collection__link link--1 link--default">
+               <a data-gtm-footer-link-text="Social Responsibility" style="--animation-order: " href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link gtmFooterLink link-collection__link link--1 link--default">
                 <span class='link__content'> Social Responsibility </span>
                </a>
-               <a data-gtm-footer-link-text="TeePublic Reviews" style="--animation-order: " href="https://jurnal.naskahaceh.co.id/" class="link gtmFooterLink link-collection__link link--1 link--default">
+               <a data-gtm-footer-link-text="TeePublic Reviews" style="--animation-order: " href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link gtmFooterLink link-collection__link link--1 link--default">
                 <span class='link__content'> TeePublic Reviews </span>
                </a>
               </div>
@@ -2154,22 +2151,22 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
              <div class="link-collection__body">
               <h4 class="h__h4 link-collection__header h--no-s">Explore</h4>
               <div class="link-collection__content">
-               <a data-gtm-footer-link-text="All Designs" style="--animation-order: " href="https://jurnal.naskahaceh.co.id/" class="link gtmFooterLink link-collection__link link--1 link--default">
+               <a data-gtm-footer-link-text="All Designs" style="--animation-order: " href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link gtmFooterLink link-collection__link link--1 link--default">
                 <span class='link__content'> All Designs </span>
                </a>
-               <a data-gtm-footer-link-text="Content Directory" style="--animation-order: " href="https://jurnal.naskahaceh.co.id/" class="link gtmFooterLink link-collection__link link--1 link--default">
+               <a data-gtm-footer-link-text="Content Directory" style="--animation-order: " href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link gtmFooterLink link-collection__link link--1 link--default">
                 <span class='link__content'> Content Directory </span>
                </a>
-               <a data-gtm-footer-link-text="Featured Designers" style="--animation-order: " href="https://jurnal.naskahaceh.co.id/" class="link gtmFooterLink link-collection__link link--1 link--default">
+               <a data-gtm-footer-link-text="Featured Designers" style="--animation-order: " href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link gtmFooterLink link-collection__link link--1 link--default">
                 <span class='link__content'> Featured Artists </span>
                </a>
-               <a data-gtm-footer-link-text="Newest Designers" style="--animation-order: " href="https://jurnal.naskahaceh.co.id/" class="link gtmFooterLink link-collection__link link--1 link--default">
+               <a data-gtm-footer-link-text="Newest Designers" style="--animation-order: " href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link gtmFooterLink link-collection__link link--1 link--default">
                 <span class='link__content'> Newest Designers </span>
                </a>
-               <a data-gtm-footer-link-text="Newest FOR4D" style="--animation-order: " href="https://jurnal.naskahaceh.co.id/" class="link gtmFooterLink link-collection__link link--1 link--default">
-                <span class='link__content'> Newest FOR4D </span>
+               <a data-gtm-footer-link-text="Newest TOTO 4D" style="--animation-order: " href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link gtmFooterLink link-collection__link link--1 link--default">
+                <span class='link__content'> Newest TOTO 4D </span>
                </a>
-               <a data-gtm-footer-link-text="Tag Directory" style="--animation-order: " href="https://jurnal.naskahaceh.co.id/" class="link gtmFooterLink link-collection__link link--1 link--default">
+               <a data-gtm-footer-link-text="Tag Directory" style="--animation-order: " href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link gtmFooterLink link-collection__link link--1 link--default">
                 <span class='link__content'> Tag Directory </span>
                </a>
               </div>
@@ -2179,13 +2176,13 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
              <div class="link-collection__body">
               <h4 class="h__h4 link-collection__header h--no-s">Artists</h4>
               <div class="link-collection__content">
-               <a data-gtm-footer-link-text="Create" style="--animation-order: " href="https://jurnal.naskahaceh.co.id/" class="link gtmFooterLink link-collection__link link--1 link--default">
+               <a data-gtm-footer-link-text="Create" style="--animation-order: " href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link gtmFooterLink link-collection__link link--1 link--default">
                 <span class='link__content'> Artist Signup </span>
                </a>
                <a data-gtm-footer-link-text="Design Guide" style="--animation-order: " href="https://assets.teepublic.com/assets/pdfs/designing-for-dtg-061ba741bd403ab1a5d84d0ed3ce584bae150e47068f0a275f72e64e8b577189.pdf" class="link gtmFooterLink link-collection__link link--1 link--default">
                 <span class='link__content'> Design Guide </span>
                </a>
-               <a data-gtm-footer-link-text="TeePublic Blog" style="--animation-order: " href="https://jurnal.naskahaceh.co.id/" class="link gtmFooterLink link-collection__link link--1 link--default">
+               <a data-gtm-footer-link-text="TeePublic Blog" style="--animation-order: " href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link gtmFooterLink link-collection__link link--1 link--default">
                 <span class='link__content'> TeePublic Blog </span>
                </a>
               </div>
@@ -2290,8 +2287,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
          <div class='m-footer__legal-bar'>
           <div class='m-footer__legal-bar-container wrapper'>
            <div class='m-footer__legal-bar-header'>
-            <div class='m-footer__legal-bar-header-copyright'> © TP Apparel LLC 2012 - 2025 </div>
-            <div class='m-footer__legal-bar-header-browse-preferences'>
+            <div class='m-footer__legal-bar-header-copyright'> © TP Apparel LLC 2012 - 2025 </div><div class='m-footer__legal-bar-header-browse-preferences'>
              <button type="button" class="btn jsChangeIntlSettings btn--no-space tp-btn--medium btn--no-background btn--cta btn--cta--on-dark tp-btn--icon">
               <span class="teepublicon teepublicon--blue-default teepublicon-background--transparent">
                <img src="https://assets.teepublic.com/assets/teepublicons/globe_primary400-4459871cc25767dbb110c87407d9654283057ec0715e24b8bfb9e0f0aad7cfe9.svg" loading="lazy" height="16" width="16" aria_hidden="true" focusable="false">
@@ -2379,8 +2375,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                  </a>
                  <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Social Responsibility" data-href="/social-responsibility" style="--animation-order: " href="/social-responsibility" class="link link-collection__link link--1 link--default tp-btn--icon">
                   <span class="teepublicon teepublicon--primary-400 teepublicon-background--transparent">
-                   <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 48 48" width="20" height="20" focusable="false" aria-hidden="true">
-                    <path d="M10.6 4.822c-.99-1.489-2.207-.62-2.691 0-2.627 2.714-4.156 10.01-3.876 14.227 1.399 21.067 18.845 24.714 21.8 24.897 7.052.438 9.797-1.915 10.712-2.572.916-.656.788-1.28.396-2.874-.998-4.059-4.04-6.834-8.984-10.147-2.191-1.469-7.153-3.705-8.984-5.073-2.402-1.795-.36-5.53 2.823-3.958 2.607 1.288 4.34 2.268 7.16 3.958 4.637 2.779 7.985 6.088 9.982 8.117 1.996 2.03 3.285 4.782 3.993 3.044 1.36-3.337 1.097-6.145.936-8.279-1.238-11.764-11.413-15.43-15.61-16.36-4.199-.93-8.237-1.588-11.198-2.025-2.961-.438-5.221-1.096-6.459-2.955Z"></path>
+                   <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 48 48" width="20" height="20" focusable="false" aria-hidden="true"><path d="M10.6 4.822c-.99-1.489-2.207-.62-2.691 0-2.627 2.714-4.156 10.01-3.876 14.227 1.399 21.067 18.845 24.714 21.8 24.897 7.052.438 9.797-1.915 10.712-2.572.916-.656.788-1.28.396-2.874-.998-4.059-4.04-6.834-8.984-10.147-2.191-1.469-7.153-3.705-8.984-5.073-2.402-1.795-.36-5.53 2.823-3.958 2.607 1.288 4.34 2.268 7.16 3.958 4.637 2.779 7.985 6.088 9.982 8.117 1.996 2.03 3.285 4.782 3.993 3.044 1.36-3.337 1.097-6.145.936-8.279-1.238-11.764-11.413-15.43-15.61-16.36-4.199-.93-8.237-1.588-11.198-2.025-2.961-.438-5.221-1.096-6.459-2.955Z"></path>
                    </svg>
                   </span>
                   <span class='link__content'> Social Responsibility </span>
@@ -2430,7 +2425,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
              <h4>Your Cart is empty...</h4>
              <p>Discover something you'll love!</p>
              <div class='m-tray-cart__body-links'>
-              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="animals" data-href="https://jurnal.naskahaceh.co.id/" href="https://jurnal.naskahaceh.co.id/" class="link vc-pill vc-pill--on-light link--default link--strong tp-btn--icon">
+              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="animals" data-href="https://ojs.staira.ac.id/index.php/IJOMSS" href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link vc-pill vc-pill--on-light link--default link--strong tp-btn--icon">
                <span class="teepublicon teepublicon--blue-default teepublicon-background--transparent">
                 <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 48 48" width="16" height="16" focusable="false" aria-hidden="true">
                  <path fill-rule="evenodd" d="M31.523 35.766a17.393 17.393 0 0 1-10.051 3.178C11.822 38.944 4 31.121 4 21.472 4 11.822 11.822 4 21.472 4c9.65 0 17.472 7.822 17.472 17.472 0 3.741-1.176 7.208-3.178 10.05l7.355 7.356a3 3 0 1 1-4.243 4.243l-7.355-7.355Zm1.42-14.294c0 6.335-5.136 11.471-11.471 11.471s-11.471-5.136-11.471-11.471 5.136-11.471 11.471-11.471 11.471 5.136 11.471 11.471Z" clip-rule="evenodd"></path>
@@ -2438,7 +2433,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                </span>
                <span class='link__content'> animals </span>
               </a>
-              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="anime" data-href="/SITUSTOTOWIN4D/anime" href="/SITUSTOTOWIN4D/anime" class="link vc-pill vc-pill--on-light link--default link--strong tp-btn--icon">
+              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="anime" data-href="/TOTO 4D/anime" href="/TOTO 4D/anime" class="link vc-pill vc-pill--on-light link--default link--strong tp-btn--icon">
                <span class="teepublicon teepublicon--blue-default teepublicon-background--transparent">
                 <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 48 48" width="16" height="16" focusable="false" aria-hidden="true">
                  <path fill-rule="evenodd" d="M31.523 35.766a17.393 17.393 0 0 1-10.051 3.178C11.822 38.944 4 31.121 4 21.472 4 11.822 11.822 4 21.472 4c9.65 0 17.472 7.822 17.472 17.472 0 3.741-1.176 7.208-3.178 10.05l7.355 7.356a3 3 0 1 1-4.243 4.243l-7.355-7.355Zm1.42-14.294c0 6.335-5.136 11.471-11.471 11.471s-11.471-5.136-11.471-11.471 5.136-11.471 11.471-11.471 11.471 5.136 11.471 11.471Z" clip-rule="evenodd"></path>
@@ -2446,7 +2441,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                </span>
                <span class='link__content'> anime </span>
               </a>
-              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="drinks" data-href="/SITUSTOTOWIN4D/drinks" href="/SITUSTOTOWIN4D/drinks" class="link vc-pill vc-pill--on-light link--default link--strong tp-btn--icon">
+              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="drinks" data-href="/TOTO 4D/drinks" href="/TOTO 4D/drinks" class="link vc-pill vc-pill--on-light link--default link--strong tp-btn--icon">
                <span class="teepublicon teepublicon--blue-default teepublicon-background--transparent">
                 <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 48 48" width="16" height="16" focusable="false" aria-hidden="true">
                  <path fill-rule="evenodd" d="M31.523 35.766a17.393 17.393 0 0 1-10.051 3.178C11.822 38.944 4 31.121 4 21.472 4 11.822 11.822 4 21.472 4c9.65 0 17.472 7.822 17.472 17.472 0 3.741-1.176 7.208-3.178 10.05l7.355 7.356a3 3 0 1 1-4.243 4.243l-7.355-7.355Zm1.42-14.294c0 6.335-5.136 11.471-11.471 11.471s-11.471-5.136-11.471-11.471 5.136-11.471 11.471-11.471 11.471 5.136 11.471 11.471Z" clip-rule="evenodd"></path>
@@ -2454,7 +2449,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                </span>
                <span class='link__content'> drinks </span>
               </a>
-              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="fantasy" data-href="/SITUSTOTOWIN4D/fantasy" href="/SITUSTOTOWIN4D/fantasy" class="link vc-pill vc-pill--on-light link--default link--strong tp-btn--icon">
+              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="fantasy" data-href="/TOTO 4D/fantasy" href="/TOTO 4D/fantasy" class="link vc-pill vc-pill--on-light link--default link--strong tp-btn--icon">
                <span class="teepublicon teepublicon--blue-default teepublicon-background--transparent">
                 <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 48 48" width="16" height="16" focusable="false" aria-hidden="true">
                  <path fill-rule="evenodd" d="M31.523 35.766a17.393 17.393 0 0 1-10.051 3.178C11.822 38.944 4 31.121 4 21.472 4 11.822 11.822 4 21.472 4c9.65 0 17.472 7.822 17.472 17.472 0 3.741-1.176 7.208-3.178 10.05l7.355 7.356a3 3 0 1 1-4.243 4.243l-7.355-7.355Zm1.42-14.294c0 6.335-5.136 11.471-11.471 11.471s-11.471-5.136-11.471-11.471 5.136-11.471 11.471-11.471 11.471 5.136 11.471 11.471Z" clip-rule="evenodd"></path>
@@ -2462,7 +2457,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                </span>
                <span class='link__content'> fantasy </span>
               </a>
-              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="food" data-href="/SITUSTOTOWIN4D/food" href="/SITUSTOTOWIN4D/food" class="link vc-pill vc-pill--on-light link--default link--strong tp-btn--icon">
+              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="food" data-href="/TOTO 4D/food" href="/TOTO 4D/food" class="link vc-pill vc-pill--on-light link--default link--strong tp-btn--icon">
                <span class="teepublicon teepublicon--blue-default teepublicon-background--transparent">
                 <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 48 48" width="16" height="16" focusable="false" aria-hidden="true">
                  <path fill-rule="evenodd" d="M31.523 35.766a17.393 17.393 0 0 1-10.051 3.178C11.822 38.944 4 31.121 4 21.472 4 11.822 11.822 4 21.472 4c9.65 0 17.472 7.822 17.472 17.472 0 3.741-1.176 7.208-3.178 10.05l7.355 7.356a3 3 0 1 1-4.243 4.243l-7.355-7.355Zm1.42-14.294c0 6.335-5.136 11.471-11.471 11.471s-11.471-5.136-11.471-11.471 5.136-11.471 11.471-11.471 11.471 5.136 11.471 11.471Z" clip-rule="evenodd"></path>
@@ -2470,7 +2465,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                </span>
                <span class='link__content'> food </span>
               </a>
-              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="funny" data-href="https://jurnal.naskahaceh.co.id/" href="https://jurnal.naskahaceh.co.id/" class="link vc-pill vc-pill--on-light link--default link--strong tp-btn--icon">
+              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="funny" data-href="https://ojs.staira.ac.id/index.php/IJOMSS" href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link vc-pill vc-pill--on-light link--default link--strong tp-btn--icon">
                <span class="teepublicon teepublicon--blue-default teepublicon-background--transparent">
                 <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 48 48" width="16" height="16" focusable="false" aria-hidden="true">
                  <path fill-rule="evenodd" d="M31.523 35.766a17.393 17.393 0 0 1-10.051 3.178C11.822 38.944 4 31.121 4 21.472 4 11.822 11.822 4 21.472 4c9.65 0 17.472 7.822 17.472 17.472 0 3.741-1.176 7.208-3.178 10.05l7.355 7.356a3 3 0 1 1-4.243 4.243l-7.355-7.355Zm1.42-14.294c0 6.335-5.136 11.471-11.471 11.471s-11.471-5.136-11.471-11.471 5.136-11.471 11.471-11.471 11.471 5.136 11.471 11.471Z" clip-rule="evenodd"></path>
@@ -2478,7 +2473,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                </span>
                <span class='link__content'> funny </span>
               </a>
-              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="movies" data-href="https://jurnal.naskahaceh.co.id/" href="https://jurnal.naskahaceh.co.id/" class="link vc-pill vc-pill--on-light link--default link--strong tp-btn--icon">
+              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="movies" data-href="https://ojs.staira.ac.id/index.php/IJOMSS" href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link vc-pill vc-pill--on-light link--default link--strong tp-btn--icon">
                <span class="teepublicon teepublicon--blue-default teepublicon-background--transparent">
                 <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 48 48" width="16" height="16" focusable="false" aria-hidden="true">
                  <path fill-rule="evenodd" d="M31.523 35.766a17.393 17.393 0 0 1-10.051 3.178C11.822 38.944 4 31.121 4 21.472 4 11.822 11.822 4 21.472 4c9.65 0 17.472 7.822 17.472 17.472 0 3.741-1.176 7.208-3.178 10.05l7.355 7.356a3 3 0 1 1-4.243 4.243l-7.355-7.355Zm1.42-14.294c0 6.335-5.136 11.471-11.471 11.471s-11.471-5.136-11.471-11.471 5.136-11.471 11.471-11.471 11.471 5.136 11.471 11.471Z" clip-rule="evenodd"></path>
@@ -2486,7 +2481,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                </span>
                <span class='link__content'> movies </span>
               </a>
-              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="sci-fi" data-href="https://jurnal.naskahaceh.co.id/" href="https://jurnal.naskahaceh.co.id/" class="link vc-pill vc-pill--on-light link--default link--strong tp-btn--icon">
+              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="sci-fi" data-href="https://ojs.staira.ac.id/index.php/IJOMSS" href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link vc-pill vc-pill--on-light link--default link--strong tp-btn--icon">
                <span class="teepublicon teepublicon--blue-default teepublicon-background--transparent">
                 <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 48 48" width="16" height="16" focusable="false" aria-hidden="true">
                  <path fill-rule="evenodd" d="M31.523 35.766a17.393 17.393 0 0 1-10.051 3.178C11.822 38.944 4 31.121 4 21.472 4 11.822 11.822 4 21.472 4c9.65 0 17.472 7.822 17.472 17.472 0 3.741-1.176 7.208-3.178 10.05l7.355 7.356a3 3 0 1 1-4.243 4.243l-7.355-7.355Zm1.42-14.294c0 6.335-5.136 11.471-11.471 11.471s-11.471-5.136-11.471-11.471 5.136-11.471 11.471-11.471 11.471 5.136 11.471 11.471Z" clip-rule="evenodd"></path>
@@ -2494,7 +2489,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                </span>
                <span class='link__content'> sci-fi </span>
               </a>
-              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="sports" data-href="https://jurnal.naskahaceh.co.id/" href="https://jurnal.naskahaceh.co.id/" class="link vc-pill vc-pill--on-light link--default link--strong tp-btn--icon">
+              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="sports" data-href="https://ojs.staira.ac.id/index.php/IJOMSS" href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link vc-pill vc-pill--on-light link--default link--strong tp-btn--icon">
                <span class="teepublicon teepublicon--blue-default teepublicon-background--transparent">
                 <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 48 48" width="16" height="16" focusable="false" aria-hidden="true">
                  <path fill-rule="evenodd" d="M31.523 35.766a17.393 17.393 0 0 1-10.051 3.178C11.822 38.944 4 31.121 4 21.472 4 11.822 11.822 4 21.472 4c9.65 0 17.472 7.822 17.472 17.472 0 3.741-1.176 7.208-3.178 10.05l7.355 7.356a3 3 0 1 1-4.243 4.243l-7.355-7.355Zm1.42-14.294c0 6.335-5.136 11.471-11.471 11.471s-11.471-5.136-11.471-11.471 5.136-11.471 11.471-11.471 11.471 5.136 11.471 11.471Z" clip-rule="evenodd"></path>
@@ -2502,7 +2497,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                </span>
                <span class='link__content'> sports </span>
               </a>
-              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="television" data-href="https://jurnal.naskahaceh.co.id/" href="https://jurnal.naskahaceh.co.id/" class="link vc-pill vc-pill--on-light link--default link--strong tp-btn--icon">
+              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="television" data-href="https://ojs.staira.ac.id/index.php/IJOMSS" href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link vc-pill vc-pill--on-light link--default link--strong tp-btn--icon">
                <span class="teepublicon teepublicon--blue-default teepublicon-background--transparent">
                 <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 48 48" width="16" height="16" focusable="false" aria-hidden="true">
                  <path fill-rule="evenodd" d="M31.523 35.766a17.393 17.393 0 0 1-10.051 3.178C11.822 38.944 4 31.121 4 21.472 4 11.822 11.822 4 21.472 4c9.65 0 17.472 7.822 17.472 17.472 0 3.741-1.176 7.208-3.178 10.05l7.355 7.356a3 3 0 1 1-4.243 4.243l-7.355-7.355Zm1.42-14.294c0 6.335-5.136 11.471-11.471 11.471s-11.471-5.136-11.471-11.471 5.136-11.471 11.471-11.471 11.471 5.136 11.471 11.471Z" clip-rule="evenodd"></path>
@@ -2510,10 +2505,10 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                </span>
                <span class='link__content'> television </span>
               </a>
-              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="vintage" data-href="https://jurnal.naskahaceh.co.id/" href="https://jurnal.naskahaceh.co.id/" class="link vc-pill vc-pill--on-light link--default link--strong tp-btn--icon">
+              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="vintage" data-href="https://ojs.staira.ac.id/index.php/IJOMSS" href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link vc-pill vc-pill--on-light link--default link--strong tp-btn--icon">
                <span class="teepublicon teepublicon--blue-default teepublicon-background--transparent">
                 <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 48 48" width="16" height="16" focusable="false" aria-hidden="true">
-                 <path fill-rule="evenodd" d="M31.523 35.766a17.393 17.393 0 0 1-10.051 3.178C11.822 38.944 4 31.121 4 21.472 4 11.822 11.822 4 21.472 4c9.65 0 17.472 7.822 17.472 17.472 0 3.741-1.176 7.208-3.178 10.05l7.355 7.356a3 3 0 1 1-4.243 4.243l-7.355-7.355Zm1.42-14.294c0 6.335-5.136 11.471-11.471 11.471s-11.471-5.136-11.471-11.471 5.136-11.471 11.471-11.471 11.471 5.136 11.471 11.471Z" clip-rule="evenodd"></path>
+                 <path fill-rule="evenodd"d="M31.523 35.766a17.393 17.393 0 0 1-10.0513.178C11.822 38.944 4 31.121 4 21.472 4 11.822 11.822 4 21.472 4c9.65 0 17.472 7.822 17.472 17.472 0 3.741-1.176 7.208-3.178 10.05l7.355 7.356a3 3 0 1 1-4.243 4.243l-7.355-7.355Zm1.42-14.294c0 6.335-5.136 11.471-11.471 11.471s-11.471-5.136-11.471-11.471 5.136-11.471 11.471-11.471 11.471 5.136 11.471 11.471Z" clip-rule="evenodd"></path>
                 </svg>
                </span>
                <span class='link__content'> vintage </span>
@@ -2541,13 +2536,13 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
               <h3>Shop Designs</h3>
               <div class='m-tray-shop-secondary__designs' data-containers--content-lazy-loader-fire-request-value='true' data-containers--content-lazy-loader-url-value='/lazyload_shop_tray_best_sellers_content' data-controller='containers--content-lazy-loader'>
                <div class="tp-loader m-tray-shop-secondary__loader jsShopTrayBestSellersLoader tp-loader--default">
-                <div class='tp-loader__spinner updatang tp-loader__spinner--default'></div>
+                <div class='tp-loader__spinner updating tp-loader__spinner--default'></div>
                </div>
               </div>
               <div class="link-collection m-tray-shop-secondary__links">
                <div class="link-collection__body">
                 </a>
-                <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="New Tees on Sale" data-href="/SITUSTOTOWIN4D?sort=newest" style="--animation-order: " href="/SITUSTOTOWIN4D?sort=newest" class="link m-tray-shop-secondary__link link-collection__link link--1 link--default">
+                <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="New Tees on Sale" data-href="/TOTO 4D?sort=newest" style="--animation-order: " href="/TOTO 4D?sort=newest" class="link m-tray-shop-secondary__link link-collection__link link--1 link--default">
                  <span class='link__content'> New Tees on Sale </span>
                 </a>
                 <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Newest Designers" data-href="/newest-designers" style="--animation-order: " href="/newest-designers" class="link m-tray-shop-secondary__link link-collection__link link--1 link--default">
@@ -2586,8 +2581,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                 <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Celebrate Women Artists" data-href="/stores/celebrate-women" style="--animation-order: " href="/stores/celebrate-women" class="link m-tray-shop-secondary__link link-collection__link link--1 link--default">
                  <span class='link__content'> Celebrate Women Artists </span>
                 </a>
-                <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="LGBTQIA Artists" data-href="/stores/lgbtqia-artists" style="--animation-order: " href="/stores/lgbtqia-artists" class="link m-tray-shop-secondary__link link-collection__link link--1 link--default">
-                 <span class='link__content'> LGBTQIA Artists </span>
+                <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="LGBTQIA Artists" data-href="/stores/lgbtqia-artists" style="--animation-order: " href="/stores/lgbtqia-artists" class="link m-tray-shop-secondary__link link-collection__link link--1 link--default"><span class='link__content'> LGBTQIA Artists </span>
                 </a>
                 <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Ukrainian Artists" data-href="/stores/ukrainian-artists" style="--animation-order: " href="/stores/ukrainian-artists" class="link m-tray-shop-secondary__link link-collection__link link--1 link--default">
                  <span class='link__content'> Ukrainian Artists </span>
@@ -2621,8 +2615,8 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
             <div class='m-tray-shop-secondary__content'>
              <h3>Adult Apparel</h3>
              <div class='m-tray-shop-secondary__links'>
-              <a class="m-tray-shop-secondary__link" data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="FOR4D" data-href="/SITUSTOTOWIN4D" href="/SITUSTOTOWIN4D">
-               <h4 class="h--no-s">FOR4D</h4>
+              <a class="m-tray-shop-secondary__link" data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="TOTO 4D" data-href="/TOTO 4D" href="/TOTO 4D">
+               <h4 class="h--no-s">TOTO 4D</h4>
               </a>
               <a class="m-tray-shop-secondary__link--new" data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Shorts" data-href="/shorts" href="/shorts">
                <h4 class="h--no-s">Shorts</h4>
@@ -2631,8 +2625,8 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
               <a class="m-tray-shop-secondary__link" data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Hoodies" data-href="/hoodie" href="/hoodie">
                <h4 class="h--no-s">Hoodies</h4>
               </a>
-              <a class="m-tray-shop-secondary__link" data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Long Sleeve SITUSTOTOWIN4D" data-href="/long-sleeve-SITUS-TOTO-WIN4D" href="/long-sleeve-SITUS-TOTO-WIN4D">
-               <h4 class="h--no-s">Long Sleeve FOR4D</h4>
+              <a class="m-tray-shop-secondary__link" data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Long Sleeve TOTO 4D" data-href="/long-sleeve-TOTO 4D" href="/long-sleeve-TOTO 4D">
+               <h4 class="h--no-s">Long Sleeve TOTO 4D</h4>
               </a>
               <a class="m-tray-shop-secondary__link" data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Crewneck Sweatshirts" data-href="/crewneck-sweatshirt" href="/crewneck-sweatshirt">
                <h4 class="h--no-s">Crewneck Sweatshirts</h4>
@@ -2640,22 +2634,22 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
               <a class="m-tray-shop-secondary__link" data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Tank Tops" data-href="/tank-top" href="/tank-top">
                <h4 class="h--no-s">Tank Tops</h4>
               </a>
-              <a class="m-tray-shop-secondary__link" data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Baseball FOR4D" data-href="/baseball-SITUS-TOTO-WIN4D" href="/baseball-SITUS-TOTO-WIN4D">
-               <h4 class="h--no-s">Baseball FOR4D</h4>
+              <a class="m-tray-shop-secondary__link" data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Baseball TOTO 4D" data-href="/baseball-TOTO 4D" href="/baseball-TOTO 4D">
+               <h4 class="h--no-s">Baseball TOTO 4D</h4>
               </a>
              </div>
             </div>
             <div class='m-tray-shop-secondary__content'>
              <h3>Kids Apparel</h3>
              <div class='m-tray-shop-secondary__links'>
-              <a class="m-tray-shop-secondary__link" data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Kids FOR4D" data-href="/kids-SITUS-TOTO-WIN4D" href="/kids-SITUS-TOTO-WIN4D">
-               <h4 class="h--no-s">Kids FOR4D</h4>
+              <a class="m-tray-shop-secondary__link" data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Kids TOTO 4D" data-href="/kids-TOTO 4D" href="/kids-TOTO 4D">
+               <h4 class="h--no-s">Kids TOTO 4D</h4>
               </a>
               <a class="m-tray-shop-secondary__link" data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Kids Hoodie" data-href="/kids-hoodies" href="/kids-hoodies">
                <h4 class="h--no-s">Kids Hoodie</h4>
               </a>
-              <a class="m-tray-shop-secondary__link" data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Kids Long Sleeve FOR4D" data-href="/kids-long-sleeve-SITUS-TOTO-WIN4D" href="/kids-long-sleeve-SITUS-TOTO-WIN4D">
-               <h4 class="h--no-s">Kids Long Sleeve FOR4D</h4>
+              <a class="m-tray-shop-secondary__link" data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Kids Long Sleeve TOTO 4D" data-href="/kids-long-sleeve-TOTO 4D" href="/kids-long-sleeve-TOTO 4D">
+               <h4 class="h--no-s">Kids Long Sleeve TOTO 4D</h4>
               </a>
              </div>
             </div>
@@ -2665,7 +2659,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
            <button type="button" class="btn m-shop-tray-secondary__back-btn btn--no-space tp-btn--medium btn--no-background btn--cta btn--cta--on-light" data-action="containers--drawer-component#closeDrawer containers--drawer-component#handleBackToMenu click-&gt;rudderstack--filter-clicked#track" data-cart-id="0ce71249954f259d214421f37b14aeee" data-filter-name="back to menu" data-filter-option-label="Back to Menu">
             <span class="teepublicon teepublicon--blue-default teepublicon-background--transparent teepublicon--rotate-180">
              <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 48 48" width="16" height="16" focusable="false" aria-hidden="true">
-              <path fill-rule="evenodd" d="M44 24c0 .755-.26 1.361-.395 1.648-.165.35-.367.677-.554.955-.378.558-.868 1.163-1.381 1.755-1.037 1.196-4.383 4.582-5.683 5.87a177.078 177.078 0 0 1-5.221 4.963l-.002.002c-1.242 1.13-3.19 1.066-4.35-.145a2.947 2.947 0 0 1 .148-4.24c2.066-1.887 6.094-5.816 8.053-7.808H7.078C5.378 27 4 25.657 4 24s1.378-3 3.078-3h27.537c-1.959-1.992-6.741-6.612-8.051-7.806-1.31-1.194-1.31-3.03-.15-4.241a3.134 3.134 0 0 1 4.35-.146 169.18 169.18 0 0 1 5.223 4.965c1.3 1.288 4.646 4.675 5.683 5.87.513.592 1.003 1.197 1.38 1.756.188.277.39.604.555.954.135.287.395.894.395 1.648Z" clip-rule="evenodd"></path>
+              <path fill-rule="evenodd" d="M44 24c0 .755-.26 1.361-.395 1.648-.165.35-.367.677-.554.955-.378.558-.868 1.163-1.381 1.755-1.037 1.196-4.383 4.582-5.683 5.87a177.078 177.078 0 0 1-5.221 4.963l-.002.002c-1.242 1.13-3.19 1.066-4.35-.145a2.947 2.947 0 0 1 .148-4.24c2.066-1.887 6.094-5.816 8.053-7.808H7.078C5.378 27 4 25.657 4 24s1.378-3 3.078-3h27.537c-1.959-1.992-6.741-6.612-8.051-7.806-1.31-1.194-1.31-3.03-.15-4.241a3.134 3.134 0 0 1 4.35-.146169.18 169.18 0 0 1 5.2234.965c1.3 1.288 4.646 4.675 5.683 5.87.513.592 1.003 1.197 1.38 1.756.188.277.39.604.555.954.135.287.395.894.395 1.648Z" clip-rule="evenodd"></path>
              </svg>
             </span>
             <div class='button__content'> Back To Menu </div>
@@ -2747,8 +2741,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
            </div>
           </div>
           <div class="drawer__footer-container m-tray-shop-secondary__footer">
-           <button type="button" class="btn m-shop-tray-secondary__back-btn btn--no-space tp-btn--medium btn--no-background btn--cta btn--cta--on-light" data-action="containers--drawer-component#closeDrawer containers--drawer-component#handleBackToMenu click-&gt;rudderstack--filter-clicked#track" data-cart-id="0ce71249954f259d214421f37b14aeee" data-filter-name="back to menu" data-filter-option-label="Back to Menu">
-            <span class="teepublicon teepublicon--blue-default teepublicon-background--transparent teepublicon--rotate-180">
+           <button type="button" class="btn m-shop-tray-secondary__back-btn btn--no-space tp-btn--medium btn--no-background btn--cta btn--cta--on-light" data-action="containers--drawer-component#closeDrawer containers--drawer-component#handleBackToMenu click-&gt;rudderstack--filter-clicked#track" data-cart-id="0ce71249954f259d214421f37b14aeee" data-filter-name="back to menu" data-filter-option-label="Back to Menu"><span class="teepublicon teepublicon--blue-default teepublicon-background--transparent teepublicon--rotate-180">
              <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 48 48" width="16" height="16" focusable="false" aria-hidden="true">
               <path fill-rule="evenodd" d="M44 24c0 .755-.26 1.361-.395 1.648-.165.35-.367.677-.554.955-.378.558-.868 1.163-1.381 1.755-1.037 1.196-4.383 4.582-5.683 5.87a177.078 177.078 0 0 1-5.221 4.963l-.002.002c-1.242 1.13-3.19 1.066-4.35-.145a2.947 2.947 0 0 1 .148-4.24c2.066-1.887 6.094-5.816 8.053-7.808H7.078C5.378 27 4 25.657 4 24s1.378-3 3.078-3h27.537c-1.959-1.992-6.741-6.612-8.051-7.806-1.31-1.194-1.31-3.03-.15-4.241a3.134 3.134 0 0 1 4.35-.146 169.18 169.18 0 0 1 5.223 4.965c1.3 1.288 4.646 4.675 5.683 5.87.513.592 1.003 1.197 1.38 1.756.188.277.39.604.555.954.135.287.395.894.395 1.648Z" clip-rule="evenodd"></path>
              </svg>
@@ -2771,8 +2764,8 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
               <a aria-label="Home Link" title="Home" href="https://www.teepublic.com/" class="link vc-header-logo__wrapper link--1 link--default">
                <span class='link__content'>
                 <picture>
-                 <source srcset="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfy7_RqyoIZiLw0Kg3lnc48QNsSqcBozepGyV7twawQcpvsYfSlSzojA-iBplUrwrmXTQ3KI4IXF6tz7swELxVsfEQSvBXCiZAs9V3j3IcdDlqm55IPdYRWqqOe2rkGiPAERXcqVKIvOOmXV7iol46QlZHvqpbZ-kaMmHml3-j2B7WycV-Ry_UMlNeFg/s800/logo%20for4d%20gg%20parah%20men%20webp.webp" type="image/png">
-                 <img class="vc-header-logo__image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfy7_RqyoIZiLw0Kg3lnc48QNsSqcBozepGyV7twawQcpvsYfSlSzojA-iBplUrwrmXTQ3KI4IXF6tz7swELxVsfEQSvBXCiZAs9V3j3IcdDlqm55IPdYRWqqOe2rkGiPAERXcqVKIvOOmXV7iol46QlZHvqpbZ-kaMmHml3-j2B7WycV-Ry_UMlNeFg/s800/logo%20for4d%20gg%20parah%20men%20webp.webp" style="max-width:150px; height:auto; display:block; margin:0 auto;" alt="FOR4D Logo">
+                 <source srcset="https://abbudabba.xyz/image/css/logo-toto4d.png" type="image/png">
+                 <img class="vc-header-logo__image" src="https://abbudabba.xyz/image/css/logo-toto4d.png" style="max-width:150px; height:auto; display:block; margin:0 auto;" alt="TOTO 4D Logo">
                 </picture>
                </span>
               </a>
@@ -2836,9 +2829,9 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
             <div class="m-tray-shop__popular-products">
              <h3>Popular Products</h3>
              <div class='m-tray-shop__popular-products-grid'>
-              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="FOR4D" data-href="/SITUSTOTOWIN4D" href="/SITUSTOTOWIN4D" class="link m-tray-shop__popular-product tshirt">
+              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="TOTO 4D" data-href="/TOTO 4D" href="/TOTO 4D" class="link m-tray-shop__popular-product tshirt">
                <span class='link__content'>
-                <span>FOR4D</span>
+                <span>TOTO 4D</span>
                </span>
               </a>
               <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Shorts" data-href="/shorts" href="/shorts" class="link m-tray-shop__popular-product shorts m-tray-shop__popular-product--new">
@@ -2856,9 +2849,9 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
                 <span>Hats</span>
                </span>
               </a>
-              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Kids FOR4D" data-href="/kids-SITUS-TOTO-WIN4D" href="/kids-SITUS-TOTO-WIN4D" class="link m-tray-shop__popular-product kids">
+              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Kids TOTO 4D" data-href="/kids-TOTO 4D" href="/kids-TOTO 4D" class="link m-tray-shop__popular-product kids">
                <span class='link__content'>
-                <span>Kids FOR4D</span>
+                <span>Kids TOTO 4D</span>
                </span>
               </a>
               <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="Stickers" data-href="/stickers" href="/stickers" class="link m-tray-shop__popular-product sticker">
@@ -2881,44 +2874,44 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
             <div class="m-tray-shop__popular-topics">
              <h3>Browse All Topics</h3>
              <div class='m-tray-shop__popular-topics-content'>
-              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="funny" data-href="https://jurnal.naskahaceh.co.id/" title="Funny" href="https://jurnal.naskahaceh.co.id/" class="link m-tray-shop__popular-topic vc-pill vc-pill--on-dark link--default link--strong">
+              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="funny" data-href="https://ojs.staira.ac.id/index.php/IJOMSS" title="Funny" href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link m-tray-shop__popular-topic vc-pill vc-pill--on-dark link--default link--strong">
                <span class='link__content'> funny </span>
               </a>
-              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="music" data-href="https://jurnal.naskahaceh.co.id/" title="Music" href="https://jurnal.naskahaceh.co.id/" class="link m-tray-shop__popular-topic vc-pill vc-pill--on-dark link--default link--strong">
+              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="music" data-href="https://ojs.staira.ac.id/index.php/IJOMSS" title="Music" href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link m-tray-shop__popular-topic vc-pill vc-pill--on-dark link--default link--strong">
                <span class='link__content'> music </span>
               </a>
-              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="anime" data-href="https://jurnal.naskahaceh.co.id/" title="Anime" href="https://jurnal.naskahaceh.co.id/" class="link m-tray-shop__popular-topic vc-pill vc-pill--on-dark link--default link--strong">
+              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="anime" data-href="https://ojs.staira.ac.id/index.php/IJOMSS" title="Anime" href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link m-tray-shop__popular-topic vc-pill vc-pill--on-dark link--default link--strong">
                <span class='link__content'> anime </span>
               </a>
-              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="movies" data-href="https://jurnal.naskahaceh.co.id/" title="Movies" href="https://jurnal.naskahaceh.co.id/" class="link m-tray-shop__popular-topic vc-pill vc-pill--on-dark link--default link--strong">
+              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="movies" data-href="https://ojs.staira.ac.id/index.php/IJOMSS" title="Movies" href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link m-tray-shop__popular-topic vc-pill vc-pill--on-dark link--default link--strong">
                <span class='link__content'> movies </span>
               </a>
-              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="television" data-href="https://jurnal.naskahaceh.co.id/" title="Television" href="https://jurnal.naskahaceh.co.id/" class="link m-tray-shop__popular-topic vc-pill vc-pill--on-dark link--default link--strong">
+              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="television" data-href="https://ojs.staira.ac.id/index.php/IJOMSS" title="Television" href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link m-tray-shop__popular-topic vc-pill vc-pill--on-dark link--default link--strong">
                <span class='link__content'> television </span>
               </a>
-              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="sports" data-href="https://jurnal.naskahaceh.co.id/" title="Sports" href="https://jurnal.naskahaceh.co.id/" class="link m-tray-shop__popular-topic vc-pill vc-pill--on-dark link--default link--strong">
+              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="sports" data-href="https://ojs.staira.ac.id/index.php/IJOMSS" title="Sports" href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link m-tray-shop__popular-topic vc-pill vc-pill--on-dark link--default link--strong">
                <span class='link__content'> sports </span>
               </a>
-              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="sci-fi" data-href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoFqB6kV9Te6bhlrn39xUbTeJh_W32P4lG59as8fR61QslvLzcZHOzu7y4Eb08iq4HBVzHbXbnarTo7pbZCrrveqIm2B2clerK6s3f229iNsrFnO-Gft3WVpM7lLof7zcHnakeH5Y8vGlwZStjNOD7WyuvMHOJNx_Gt1PbANU38QaiWQD9tG0-fP_UTA/s1254/902edce4-c91a-436c-bf8a-bf5ccf732496.png" title="Sci-Fi" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoFqB6kV9Te6bhlrn39xUbTeJh_W32P4lG59as8fR61QslvLzcZHOzu7y4Eb08iq4HBVzHbXbnarTo7pbZCrrveqIm2B2clerK6s3f229iNsrFnO-Gft3WVpM7lLof7zcHnakeH5Y8vGlwZStjNOD7WyuvMHOJNx_Gt1PbANU38QaiWQD9tG0-fP_UTA/s1254/902edce4-c91a-436c-bf8a-bf5ccf732496.png" class="link m-tray-shop__popular-topic vc-pill vc-pill--on-dark link--default link--strong">
+              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="sci-fi" data-href="clerk.youdown.io/img/TOTO 4D-youdown.webp" title="Sci-Fi" href="clerk.youdown.io/img/TOTO 4D-youdown.webp" class="link m-tray-shop__popular-topic vc-pill vc-pill--on-dark link--default link--strong">
                <span class='link__content'> sci-fi </span>
               </a>
-              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="vintage" data-href="https://jurnal.naskahaceh.co.id/" title="Vintage" href="https://jurnal.naskahaceh.co.id/" class="link m-tray-shop__popular-topic vc-pill vc-pill--on-dark link--default link--strong">
+              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="vintage" data-href="https://ojs.staira.ac.id/index.php/IJOMSS" title="Vintage" href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link m-tray-shop__popular-topic vc-pill vc-pill--on-dark link--default link--strong">
                <span class='link__content'> vintage </span>
               </a>
-              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="animals" data-href="https://jurnal.naskahaceh.co.id/" title="Animals" href="https://jurnal.naskahaceh.co.id/" class="link m-tray-shop__popular-topic vc-pill vc-pill--on-dark link--default link--strong">
+              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="animals" data-href="https://ojs.staira.ac.id/index.php/IJOMSS" title="Animals" href="https://ojs.staira.ac.id/index.php/IJOMSS" class="link m-tray-shop__popular-topic vc-pill vc-pill--on-dark link--default link--strong">
                <span class='link__content'> animals </span>
               </a>
-              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="drinks" data-href="/SITUSTOTOWIN4D/drinks" title="Drinks" href="/SITUSTOTOWIN4D/drinks" class="link m-tray-shop__popular-topic vc-pill vc-pill--on-dark link--default link--strong">
+              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="drinks" data-href="/TOTO 4D/drinks" title="Drinks" href="/TOTO 4D/drinks" class="link m-tray-shop__popular-topic vc-pill vc-pill--on-dark link--default link--strong">
                <span class='link__content'> drinks </span>
               </a>
-              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="food" data-href="/SITUSTOTOWIN4D/food" title="Food" href="/SITUSTOTOWIN4D/food" class="link m-tray-shop__popular-topic vc-pill vc-pill--on-dark link--default link--strong">
+              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="food" data-href="/TOTO 4D/food" title="Food" href="/TOTO 4D/food" class="link m-tray-shop__popular-topic vc-pill vc-pill--on-dark link--default link--strong">
                <span class='link__content'> food </span>
               </a>
-              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="politics" data-href="/SITUSTOTOWIN4D/politics" title="Politics" href="/SITUSTOTOWIN4D/politics" class="link m-tray-shop__popular-topic vc-pill vc-pill--on-dark link--default link--strong">
+              <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="politics" data-href="/TOTO 4D/politics" title="Politics" href="/TOTO 4D/politics" class="link m-tray-shop__popular-topic vc-pill vc-pill--on-dark link--default link--strong">
                <span class='link__content'> politics </span>
               </a>
              </div>
-             <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="All Popular Designs" data-href="/SITUSTOTOWIN4D?sort=popular" href="/SITUSTOTOWIN4D?sort=popular" class="link m-tray-shop__popular-topics-cta link__cta link__cta--on-dark link--default">
+             <a data-rudderstack-event-type="link" data-action="click-&gt;rudderstack--link-clicked#track" data-link-label="All Popular Designs" data-href="/TOTO 4D?sort=popular" href="/TOTO 4D?sort=popular" class="link m-tray-shop__popular-topics-cta link__cta link__cta--on-dark link--default">
               <span class='link__content'> All Popular Designs </span>
              </a>
             </div>
@@ -2977,12 +2970,11 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
            <div class='m-browse-preferences__h'>Update Your Browsing Preferences</div>
            <form action="/browse_preferences/change" accept-charset="UTF-8" method="post">
             <input type="hidden" name="authenticity_token" value="i-HmcXSZvpcEsQcH8y1vIvPXN7DZ4eco4eiM7RuYF7hROv90NvndPP1djOPVqdtNfP3cXlm-rwXt4_6VCtbelA" autocomplete="off" />
-            <input value="{&quot;design_slug&quot;:&quot;SITUSTOTOWIN4D&quot;,&quot;controller&quot;:&quot;product_pages&quot;,&quot;action&quot;:&quot;show&quot;,&quot;id&quot;:&quot;74165272-george-kittle-f-dallas-kittle&quot;}" autocomplete="off" type="hidden" name="referring_params" id="referring_params" />
+            <input value="{&quot;design_slug&quot;:&quot;TOTO 4D&quot;,&quot;controller&quot;:&quot;product_pages&quot;,&quot;action&quot;:&quot;show&quot;,&quot;id&quot;:&quot;74165272-george-kittle-f-dallas-kittle&quot;}" autocomplete="off" type="hidden" name="referring_params" id="referring_params" />
             <div class='form__group'>
              <div class='form__field'>
               <label class="label--heavy" for="country">Shipping Country:</label>
-              <div class='select__wrap'>
-               <select class="select form__control" name="country" id="country">
+              <div class='select__wrap'><select class="select form__control" name="country" id="country">
                 <option value="AG">Antigua and Barbuda</option>
                 <option value="AR">Argentina</option>
                 <option value="AW">Aruba</option>
@@ -3115,7 +3107,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
            <div class='m-sizer__configs-wrap jsSizerConfigs on' data-canvas='1'>
             <span class="teepublicon teepublicon--light-default teepublicon-background--transparent m-sizer__configs-ctrl jsShowSizerConfigs">
              <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 50 50" width="24" height="24" aria-labelledby="title">
-              <path fill-rule="evenodd" d="M49 38.5H38.845A7.494 7.494 0 0 0 32.5 35a7.494 7.494 0 0 0-6.345 3.5H1a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h25.155A7.494 7.494 0 0 0 32.5 50a7.494 7.494 0 0 0 6.345-3.5H49a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1Zm-16.5 8a4 4 0 1 0 0-8 4 4 0 0 0 0 8ZM49 21H18.845a7.494 7.494 0 0 0-6.345-3.5A7.495 7.495 0 0 0 6.155 21H1a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h5.155a7.495 7.495 0 0 0 6.345 3.5 7.494 7.494 0 0 0 6.345-3.5H49a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1Zm-36.5 8a4 4 0 1 0 0-8 4 4 0 0 0 0 8ZM49 3.5h-5.155A7.494 7.494 0 0 0 37.5 0a7.494 7.494 0 0 0-6.345 3.5H1a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h30.155A7.494 7.494 0 0 0 37.5 15a7.494 7.494 0 0 0 6.345-3.5H49a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1Zm-11.5 8a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z" clip-rule="evenodd"></path>
+              <path fill-rule="evenodd" d="M49 38.5H38.845A7.494 7.494 0 0 0 32.5 35a7.494 7.494 0 0 0-6.345 3.5H1a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h25.155A7.494 7.494 0 0 0 32.5 50a7.494 7.494 0 0 0 6.345-3.5H49a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1Zm-16.5 8a4 4 0 1 0 0-8 4 4 0 0 0 0 8ZM49 21H18.845a7.494 7.494 0 0 0-6.345-3.5A7.495 7.495 0 0 0 6.155 21H1a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h5.155a7.495 7.495 0 0 0 6.345 3.5 7.494 7.494 0 0 0 6.345-3.5H49a1 1 0 0 0 1-1v-6a1 1 0 00-1-1Zm-36.5 8a4 4 0 1 0 0-8 4 4 0 0 0 0 8ZM49 3.5h-5.155A7.494 7.494 0 0 0 37.5 0a7.494 7.494 0 0 0-6.345 3.5H1a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h30.155A7.494 7.494 0 0 0 37.5 15a7.494 7.494 0 0 0 6.345-3.5H49a1 1 0 0 0 1-1v-6a1 1 0 0 0-1-1Zm-11.5 8a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z" clip-rule="evenodd"></path>
               <title>Filter Options</title>
               <desc>Click to return to the Size Chart filter options menu.</desc>
              </svg>
@@ -3471,7 +3463,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
              "45": {
               "unique_id": null,
               "id": 45,
-              "name": "Royal Heather",
+              "name": "RoyalHeather",
               "sort": 550
              },
              "2": {
@@ -3763,8 +3755,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
             },
             "25-18": {
              "retail_price": 25.0,
-             "retail_price_usd": "25.0",
-             "retail_price_formatted": "$25.00",
+             "retail_price_usd": "25.0","retail_price_formatted": "$25.00",
              "sale_price": 18.0,
              "sale_price_usd": "18.0",
              "sale_price_formatted": "$18.00"
@@ -3973,8 +3964,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
            "1681": [0, [19, 79, 24, 69]],
            "1684": [0, [19, 79, 21, 23]],
            "1685": [0, [19, 79, 22, 23]],
-           "1686": [0, [19, 79, 23, 23]],
-           "1687": [0, [19, 79, 24, 23]],
+           "1686": [0, [19, 79,23, 23]],"1687": [0, [19, 79, 24, 23]],
            "1690": [0, [19, 79, 21, 67]],
            "1691": [0, [19, 79, 22, 67]],
            "1692": [0, [19, 79, 23, 67]],
@@ -4165,7 +4155,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
            "1333": [6, [19, 81, 22, 9]],
            "1335": [6, [19, 81, 24, 9]],
            "1338": [6, [19, 81, 22, 57]],
-           "3090": [6, [20, 81, 23, 11]],
+           "3090": [6, [20, 81, 23,11]],
            "900": [14, [20, 81, 25, 12]],
            "2845": [4, [19, 218, 22, 1]],
            "2847": [4, [19, 218, 24, 1]],
@@ -4356,7 +4346,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
            "2640": [0, [19, 79, 24, 72]],
            "2643": [0, [19, 79, 21, 22]],
            "2644": [0, [19, 79, 22, 22]],
-           "533": [1, [19, 79, 84, 9]],
+           "533":[1,[19, 79, 84, 9]],
            "536": [1, [19, 79, 83, 11]],
            "537": [1, [19, 79, 84, 11]],
            "538": [1, [19, 79, 83, 4]],
@@ -4929,8 +4919,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
            "3422": [1, [19, 79, 83, 67]],
            "2497": [1, [19, 79, 84, 11]],
            "2498": [1, [19, 79, 83, 4]],
-           "2504": [1, [19, 79, 83, 7]],
-           "2098": [2, [19, 79, 21, 1]],
+           "2504": [1, [19, 79, 83, 7]],"2098": [2, [19,79, 21, 1]],
            "2100": [2, [19, 79, 23, 1]],
            "2114": [2, [19, 79, 23, 5]],
            "2121": [2, [19, 79, 21, 7]],
@@ -5121,9 +5110,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
            "2955": [6, [19, 328, 24, 12]],
            "2970": [6, [19, 328, 21, 19]],
            "3425": [1, [19, 79, 84, 67]],
-           "3441": [3, [19, 79, 83, 2]],
-           "3444": [3, [19, 79, 84, 2]],
-           "3448": [1, [19, 79, 84, 21]],
+           "3441": [3, [19, 79, 83, 2]],"3444": [3, [19, 79, 84, 2]],"3448": [1, [19, 79, 84, 21]],
            "3336": [1, [19, 378, 21, 110]],
            "3337": [1, [19, 378, 22, 110]],
            "3353": [17, [19, 378, 26, 30]],
@@ -5309,9 +5296,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
            "2427": [12, [19, 79, 25, 45]],
            "15": [12, [19, 79, 25, 8]],
            "373": [12, [19, 79, 25, 3]],
-           "1688": [12, [19, 79, 25, 23]],
-           "11": [12, [19, 79, 25, 6]],
-           "9": [12, [19, 79, 25, 5]],
+           "1688": [12, [19, 79, 25, 23]],"11": [12, [19, 79, 25, 6]],"9": [12, [19, 79, 25, 5]],
            "1818": [12, [19, 79, 25, 22]],
            "1750": [12, [19, 79, 25, 70]],
            "13": [12, [19, 79, 25, 7]],
@@ -5497,9 +5482,8 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
            "3242": [19, [19, 370, 25, 107]],
            "3243": [19, [19, 370, 25, 12]],
            "3232": [19, [19, 370, 25, 1]],
-           "2795": [7, [20, 213, 26, 1]],
-           "2813": [7, [20, 213, 26, 11]],
-           "3535": [1, [20, 393, 25, 11]],
+           "2795": [7, [20, 213, 26, 1]],"2813": [7, [20, 213, 26, 11]],
+           "3535": [1,[20, 393, 25, 11]],
            "3592": [7, [19, 395, 22, 3]],
            "3628": [5, [19, 395, 26, 3]],
            "2801": [7, [20, 213, 26, 4]],
@@ -5532,10 +5516,10 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
            ["50% Polyester, 25% Cotton, 25% Rayon blend. A light, bouncy shirt with a flowy, relaxed fit and dolman sleeves.", [1130, 1121, 1108, 1111, 1100, 1101, 1102, 1129, 1116, 1127, 1107, 1120, 1119, 1105, 1109, 1110, 1112, 1115, 1132, 1124, 1136, 1137, 1104, 1138, 1139, 1106, 1103, 1128, 1131, 1122, 1123, 1113, 1114, 1133, 1134, 1135, 1125, 1126, 1117, 1118]],
            ["Combed ringspun cotton/poly blend. A perfectly comfortable combination of classic cut and vintage style.", [2776, 2786, 2787, 2781, 2782, 2783, 2780, 2785, 2770, 2772, 2775, 2777, 2771, 2773, 2778, 2788]],
            ["100% Airlume pre-shrunk combed and ringspun cotton", [3247, 3241, 3236, 3246, 3250, 3243, 3248, 3249, 3251, 3239, 3234, 3244, 3232, 3233, 3235, 3237, 3238, 3240, 3242, 3245]],
-           ["100% combed ringspun cotton. The perfect fabric for a graphic tee and the softest in the business. (Due to product availability, cotton type may vary for 2XL and 3XL sizes)", [3408, 3403, 3404, 2478, 3452, 3498, 3417, 3252, 3405, 3460, 3465, 3454, 2637, 3406, 2205, 3411, 3407, 3421, 3416, 881, 3412, 3414, 3261, 3413, 3479, 3127, 3438, 3445, 3418, 3410, 3469, 3436, 3439, 2415, 3450, 3419, 3437, 3424, 3495, 3420, 3427, 3422, 2558, 2582, 3423, 3448, 3441, 3444, 3426, 364, 2368, 3253, 3428, 3429, 3, 3462, 3464, 7, 3259, 3430, 3432, 3263, 3264, 3265, 2122, 3256, 3266, 2500, 2501, 3254, 3260, 1, 357, 3440, 3434, 3258, 3262, 3255, 2264, 3210, 3453, 2191, 3457, 3435, 2206, 329, 4, 3257, 3451, 1680, 540, 1709, 2310, 3463, 3497, 2272, 3442, 3446, 374, 377, 875, 20, 3449, 2193, 2165, 2305, 2121, 3141, 3458, 2592, 2306, 3171, 3456, 2125, 3455, 2133, 3466, 3467, 358, 376, 3461, 3468, 3475, 3476, 2442, 2451, 3493, 3480, 2360, 3491, 1334, 3425, 22, 341, 3209, 378, 3490, 3481, 441, 2593, 389, 391, 3487, 433, 436, 421, 383, 3203, 3431, 3488, 3494, 1967, 10, 315, 316, 366, 1361, 1344, 3489, 344, 3496, 382, 348, 2151, 2154, 1704, 3134, 369, 3471, 3133, 3096, 1808, 2192, 352, 1348, 3443, 3478, 2331, 2175, 3215, 2569, 3409, 3160, 3169, 1710, 2489, 21, 2471, 3415, 3459, 3177, 3091, 854, 1700, 3447, 2388, 878, 2440, 3433, 2581, 1711, 1723, 3319, 3482, 2256, 400, 887, 892, 855, 2647, 1811, 327, 328, 2083, 3486, 3193, 360, 1819, 3470, 2549, 2187, 3183, 3214, 3472, 2598, 2315, 2176, 415, 861, 3098, 870, 3473, 3484, 3485, 396, 2319, 406, 2482, 443, 2487, 2333, 425, 405, 3474, 3477, 2419, 2421, 2159, 3492, 2586, 2248, 2201, 2438, 2445, 15, 2252, 3483, 1329, 2311, 2203, 2194, 981, 2330, 1718, 402, 2615, 2464, 535, 3217, 883, 2443, 2507, 3220, 323, 395, 2640, 340, 1335, 2186, 2158, 2600, 2117, 2309, 3227, 2155, 446, 2490, 543, 2576, 2538, 2334, 858, 2146, 372, 373, 2138, 848, 2163, 2184, 1726, 2078, 866, 2450, 2589, 2157, 370, 347, 2088, 445, 365, 2387, 2105, 1720, 2607, 2323, 2324, 2611, 2551, 2623, 423, 1722, 427, 2475, 435, 3185, 3197, 1688, 1679, 2119, 2204, 3224, 2325, 2266, 3181, 2127, 384, 2400, 11, 2250, 324, 3317, 3139, 3128, 3150, 1695, 2150, 2337, 2190, 1717, 3204, 2136, 2553, 2327, 2536, 2328, 2329, 1729, 1714, 1716, 2179, 1727, 2614, 3206, 2483, 354, 2316, 2537, 3189, 542, 417, 2617, 2468, 2644, 2539, 2477, 2317, 2178, 2506, 404, 371, 2452, 444, 420, 403, 2164, 3205, 3213, 2166, 2167, 3143, 3156, 2253, 2453, 322, 2454, 2168, 437, 2437, 2263, 439, 2197, 2199, 3225, 2363, 2312, 381, 428, 3151, 3152, 3163, 3178, 339, 426, 412, 3173, 3093, 342, 3132, 2338, 3154, 3155, 3161, 3162, 3175, 3174, 9, 3180, 429, 431, 2354, 2375, 896, 898, 3137, 2441, 1671, 2444, 2448, 3182, 2591, 3130, 3153, 2152, 2447, 1678, 1681, 1697, 1699, 1691, 1701, 346, 2505, 2472, 1815, 2470, 2484, 1818, 1724, 2473, 3195, 3186, 2547, 2476, 2616, 3148, 531, 1735, 2474, 432, 857, 353, 533, 2479, 3140, 2579, 859, 1814, 2572, 14, 534, 2599, 536, 537, 2596, 2605, 2604, 865, 867, 2603, 3179, 2610, 2620, 2609, 3149, 351, 3212, 3216, 846, 3187, 1737, 13, 3226, 3136, 1359, 1328, 359, 1352, 1349, 1351, 16, 3230, 3198, 982, 397, 393, 2307, 1707, 2379, 541, 2087, 2207, 12, 17, 3231, 1673, 3190, 3188, 3168, 2298, 2300, 375, 3223, 2079, 2095, 2077, 3176, 3147, 2597, 1712, 2313, 2134, 1713, 2486, 2200, 2097, 2143, 2101, 1694, 1683, 1674, 3138, 1676, 847, 960, 2102, 2104, 1733, 1734, 2335, 2622, 2336, 2126, 2355, 1732, 2267, 2185, 3170, 330, 5, 2156, 2217, 2275, 2188, 860, 2608, 2270, 2265, 2552, 2189, 3228, 6, 2209, 2282, 434, 442, 3158, 864, 3144, 2278, 2449, 2221, 3191, 3192, 2283, 3229, 3159, 2601, 2602, 1336, 3194, 856, 2318, 3089, 2460, 2174, 3157, 2461, 2462, 2463, 862, 2177, 416, 3211, 3184, 2251, 1333, 3196, 3146, 863, 2465, 18, 418, 532, 2180, 2181, 2182, 885, 3222, 2466, 2467, 2469, 2183, 977, 2220, 318, 3164, 3199, 3200, 2380, 2403, 3202, 1346, 1347, 3207, 3221, 317, 3208, 3219, 3165, 2351, 984, 2352, 2408, 2424, 2481, 438, 983, 2195, 2196, 2365, 3201, 440, 2198, 2485, 3218, 3166, 2590, 2304, 1705, 2412, 2357, 2376, 3092, 388, 394, 2361, 2353, 2429, 2594, 2575, 2308, 345, 2381, 3318, 2382, 2386, 2414, 399, 2322, 2369, 2404, 2613, 1666, 3135, 19, 3129, 3142, 3131, 2, 321, 363, 2606, 3145, 1693, 2502, 2559, 401, 3172, 3167, 2587, 2577, 2578, 2410, 2436, 398, 2432, 2406, 2416, 430, 392, 2641, 2585, 2420, 2545, 422, 424, 2417, 978, 386, 976, 979, 2497, 2570, 2595, 2493, 2480, 1343, 1331, 413, 2540, 414, 3090, 2544, 2580, 2557, 852, 853, 2534, 888, 889, 890, 876, 2639, 877, 874, 880, 871, 872, 873, 897, 893, 899, 419, 1342, 390, 2624, 3097, 894, 895, 3094, 1354, 1357, 1358, 1330, 1353, 1356, 2550, 2588, 850, 868, 3095, 1345, 1332, 1360, 1355, 1350, 1685, 2541, 2560, 2565, 2567, 886, 869, 1327, 1698, 1692, 900, 851, 882, 1687, 1677, 1708, 1668, 2584, 2573, 1719, 849, 879, 1684, 1686, 1682, 884, 1670, 891, 1731, 1730, 2619, 387, 1696, 2621, 2148, 2261, 2286, 1703, 1706, 2288, 2135, 2268, 2144, 2112, 2093, 2116, 2115, 2123, 2128, 2290, 2124, 2153, 2208, 2145, 2297, 2299, 2289, 2292, 2295, 2215, 2301, 2302, 2279, 2274, 2434, 2285, 2291, 2218, 2287, 2366, 2294, 2284, 2262, 2273, 1715, 1689, 1675, 1667, 2356, 2269, 1669, 2439, 2254, 2255, 1672, 1690, 2384, 2259, 2258, 1736, 1721, 1816, 1817, 1809, 1810, 1812, 1725, 2358, 2359, 2418, 1728, 2378, 2561, 1813, 2583, 2409, 2390, 2564, 2612, 2433, 2422, 2391, 2405, 2646, 2638, 2546, 2402, 2398, 2413, 2430, 2431, 2399, 2401, 2407, 2435, 2504, 2446, 2423, 2492, 2494, 2503, 2495, 2542, 2618, 2554, 2555, 2556, 2271, 2321, 2320, 2326, 2571, 2092, 2090, 2543, 2103, 2566, 2132, 2202, 2131, 2089, 2098, 2214, 2161, 2113, 2137, 2149, 2389, 2216, 2096, 2099, 2276, 2081, 2100, 2094, 2118, 2084, 2080, 2086, 2160, 2091, 2211, 2210, 2130, 2120, 2147, 2162, 2488, 2281, 2548, 2562, 2373, 2364, 2367, 2332, 2362, 2293, 2372, 2257, 2280, 2383, 2377, 2491, 2374, 2277, 2496, 2260, 2370, 2385, 2648, 2314, 2411, 2643, 2645, 2642, 2563, 2568, 2574, 2219, 1702, 2296, 2303, 2114, 2082, 2129]],
+           ["100% combed ringspun cotton. The perfect fabric for a graphic tee and the softest in the business. (Due to product availability, cotton type may vary for 2XL and 3XL sizes)", [3408, 3403, 3404, 2478, 3452, 3498, 3417, 3252, 3405, 3460, 3465, 3454, 2637, 3406, 2205, 3411, 3407, 3421, 3416, 881, 3412, 3414, 3261, 3413, 3479, 3127, 3438, 3445, 3418, 3410, 3469, 3436, 3439, 2415, 3450, 3419, 3437, 3424, 3495, 3420, 3427, 3422, 2558, 2582, 3423, 3448, 3441, 3444, 3426, 364, 2368, 3253, 3428, 3429, 3, 3462, 3464, 7, 3259, 3430, 3432, 3263, 3264, 3265, 2122, 3256, 3266, 2500, 2501, 3254, 3260, 1, 357, 3440, 3434, 3258, 3262, 3255, 2264, 3210, 3453, 2191, 3457, 3435, 2206, 329, 4, 3257, 3451, 1680, 540, 1709, 2310, 3463, 3497, 2272, 3442, 3446, 374, 377, 875, 20, 3449, 2193, 2165, 2305, 2121, 3141, 3458, 2592, 2306, 3171, 3456, 2125, 3455, 2133, 3466, 3467, 358, 376, 3461, 3468, 3475, 3476, 2442, 2451, 3493, 3480, 2360, 3491, 1334, 3425, 22, 341, 3209, 378, 3490, 3481, 441, 2593, 389, 391, 3487, 433, 436, 421, 383, 3203, 3431, 3488, 3494, 1967, 10, 315, 316, 366, 1361, 1344, 3489, 344, 3496, 382, 348, 2151, 2154, 1704, 3134, 369, 3471, 3133, 3096, 1808, 2192, 352, 1348, 3443, 3478, 2331, 2175, 3215, 2569, 3409, 3160, 3169, 1710, 2489, 21, 2471, 3415, 3459, 3177, 3091, 854, 1700, 3447, 2388, 878, 2440, 3433, 2581, 1711, 1723, 3319, 3482, 2256, 400, 887, 892, 855, 2647, 1811, 327, 328, 2083, 3486, 3193, 360, 1819, 3470, 2549, 2187, 3183, 3214, 3472, 2598, 2315, 2176, 415, 861, 3098, 870, 3473, 3484, 3485, 396, 2319, 406, 2482, 443, 2487, 2333, 425, 405, 3474, 3477, 2419, 2421, 2159, 3492, 2586, 2248, 2201, 2438, 2445, 15, 2252, 3483, 1329, 2311, 2203, 2194, 981, 2330, 1718, 402, 2615, 2464, 535, 3217, 883, 2443, 2507, 3220, 323, 395, 2640, 340, 1335, 2186, 2158, 2600, 2117, 2309, 3227, 2155, 446, 2490, 543, 2576, 2538, 2334, 858, 2146, 372, 373, 2138, 848, 2163, 2184, 1726, 2078, 866, 2450, 2589, 2157, 370, 347, 2088, 445, 365, 2387, 2105, 1720, 2607, 2323, 2324, 2611, 2551, 2623, 423, 1722, 427, 2475, 435, 3185, 3197, 1688, 1679, 2119, 2204, 3224, 2325, 2266, 3181, 2127, 384, 2400, 11, 2250, 324, 3317, 3139, 3128, 3150, 1695, 2150, 2337, 2190, 1717, 3204, 2136, 2553, 2327, 2536, 2328, 2329, 1729, 1714, 1716, 2179, 1727, 2614, 3206, 2483, 354, 2316, 2537, 3189, 542, 417, 2617, 2468, 2644, 2539, 2477, 2317, 2178, 2506, 404, 371, 2452, 444, 420, 403, 2164, 3205, 3213, 2166, 2167, 3143, 3156, 2253, 2453, 322, 2454, 2168, 437, 2437, 2263, 439, 2197, 2199, 3225, 2363, 2312, 381, 428, 3151, 3152, 3163, 3178, 339, 426, 412, 3173, 3093, 342, 3132, 2338, 3154, 3155, 3161, 3162, 3175, 3174, 9, 3180, 429, 431, 2354, 2375, 896, 898, 3137, 2441, 1671, 2444, 2448, 3182, 2591, 3130, 3153, 2152, 2447, 1678, 1681, 1697, 1699, 1691, 1701, 346, 2505, 2472, 1815, 2470, 2484, 1818, 1724, 2473, 3195, 3186, 2547, 2476, 2616, 3148, 531, 1735, 2474, 432, 857, 353, 533, 2479, 3140, 2579, 859, 1814, 2572, 14, 534, 2599, 536, 537, 2596, 2605, 2604, 865, 867, 2603, 3179, 2610, 2620, 2609, 3149, 351, 3212, 3216, 846, 3187, 1737, 13, 3226, 3136, 1359, 1328, 359, 1352, 1349, 1351, 16, 3230, 3198, 982, 397, 393, 2307, 1707, 2379, 541, 2087, 2207, 12, 17, 3231, 1673, 3190, 3188, 3168, 2298, 2300, 375, 3223, 2079, 2095, 2077, 3176, 3147, 2597, 1712, 2313, 2134, 1713, 2486, 2200, 2097, 2143, 2101, 1694, 1683, 1674, 3138, 1676, 847, 960, 2102, 2104, 1733, 1734, 2335, 2622, 2336, 2126, 2355, 1732, 2267, 2185, 3170, 330, 5, 2156, 2217, 2275, 2188, 860, 2608, 2270, 2265, 2552, 2189, 3228, 6, 2209, 2282, 434, 442, 3158, 864, 3144, 2278, 2449, 2221, 3191, 3192, 2283, 3229, 3159, 2601, 2602, 1336, 3194, 856, 2318, 3089, 2460, 2174, 3157, 2461, 2462, 2463, 862, 2177, 416, 3211, 3184, 2251, 1333, 3196, 3146, 863, 2465, 18, 418, 532, 2180, 2181, 2182, 885, 3222, 2466, 2467, 2469, 2183, 977, 2220, 318, 3164, 3199, 3200, 2380, 2403, 3202, 1346, 1347, 3207, 3221, 317, 3208, 3219, 3165, 2351, 984, 2352, 2408, 2424, 2481, 438, 983, 2195, 2196, 2365, 3201, 440, 2198, 2485, 3218, 3166, 2590, 2304, 1705, 2412, 2357, 2376, 3092, 388, 394, 2361, 2353, 2429, 2594, 2575, 2308, 345, 2381, 3318, 2382, 2386, 2414, 399, 2322, 2369, 2404, 2613, 1666, 3135, 19, 3129, 3142, 3131, 2, 321, 363, 2606, 3145, 1693, 2502, 2559, 401, 3172, 3167, 2587, 2577, 2578, 2410, 2436, 398, 2432, 2406, 2416, 430, 392, 2641, 2585, 2420, 2545, 422, 424, 2417, 978, 386, 976, 979, 2497, 2570, 2595, 2493, 2480, 1343, 1331, 413, 2540, 414, 3090, 2544, 2580, 2557, 852, 853, 2534, 888, 889, 890, 876, 2639, 877, 874, 880, 871, 872, 873, 897, 893, 899, 419, 1342, 390, 2624, 3097, 894, 895, 3094, 1354, 1357, 1358, 1330, 1353, 1356, 2550, 2588, 850, 868, 3095, 1345, 1332, 1360, 1355, 1350, 1685, 2541, 2560, 2565, 2567, 886, 869, 1327, 1698, 1692, 900, 851, 882, 1687, 1677, 1708, 1668, 2584, 2573, 1719, 849, 879, 1684, 1686, 1682, 884, 1670, 891, 1731, 1730, 2619, 387, 1696, 2621, 2148, 2261, 2286, 1703, 1706, 2288, 2135, 2268, 2144, 2112, 2093, 2116, 2115, 2123, 2128, 2290, 2124, 2153, 2208, 2145, 2297, 2299, 2289, 2292,2295, 2215, 2301, 2302, 2279, 2274, 2434, 2285, 2291, 2218, 2287, 2366, 2294, 2284, 2262, 2273, 1715, 1689, 1675, 1667, 2356, 2269, 1669, 2439, 2254, 2255, 1672, 1690, 2384, 2259, 2258, 1736, 1721, 1816, 1817, 1809, 1810, 1812, 1725, 2358, 2359, 2418, 1728, 2378, 2561, 1813, 2583, 2409, 2390, 2564, 2612, 2433, 2422, 2391, 2405, 2646, 2638, 2546, 2402, 2398, 2413, 2430, 2431, 2399, 2401, 2407, 2435, 2504, 2446, 2423, 2492, 2494, 2503, 2495, 2542, 2618, 2554, 2555, 2556, 2271, 2321, 2320, 2326, 2571, 2092, 2090, 2543, 2103, 2566, 2132, 2202, 2131, 2089, 2098, 2214, 2161, 2113, 2137, 2149, 2389, 2216, 2096, 2099, 2276, 2081, 2100, 2094, 2118, 2084, 2080, 2086, 2160, 2091, 2211, 2210, 2130, 2120, 2147, 2162, 2488, 2281, 2548, 2562, 2373, 2364, 2367, 2332, 2362, 2293, 2372, 2257, 2280, 2383, 2377, 2491, 2374, 2277, 2496, 2260, 2370, 2385, 2648, 2314, 2411, 2643, 2645, 2642, 2563, 2568, 2574, 2219, 1702, 2296, 2303, 2114, 2082, 2129]],
            ["100% combed cotton. A feminine cut featuring a v-neck in extended sizes that are all designed to wear, wash and age well.", [2667, 2660, 2662, 2663, 2664, 2673, 2655, 2656, 2657, 2674, 2659, 2661, 2668, 2669, 2671, 2672, 2658, 2665, 2666, 2670]],
            ["Moisture management/antimicrobial performance fabric, 100% Polyester", [3291, 3271, 3296, 3280, 3295, 3278, 3287, 3315, 3294, 3293, 3313, 3268, 3273, 3272, 3269, 3292, 3279, 3285, 3281, 3267, 3283, 3286, 3289, 3290, 3297, 3270, 3301, 3312, 3298, 3314, 3274, 3277, 3288, 3311, 3299, 3276, 3275, 3284, 3302, 3282, 3300, 3316]],
-           ["100% combed ringspun cotton (Heather is a cotton/poly blend) with a heavier weight than the Classic FOR4D for a timeless fit. The perfect fabric for a graphic tee in a standard cut up to 5XL - and still the softest in the business.", [2878, 2870, 2845, 2869, 2858, 2879, 2856, 2863, 2872, 2860, 2865, 2874, 2868, 2885, 2887, 2883, 2877, 2847, 2866, 2881, 2864, 2875, 2876, 2855, 2859, 2850, 2880, 2890, 2886, 2891, 2889, 2857, 2841, 2849, 2853, 2873, 2871, 2836, 2867, 2851, 2852, 2854, 2861, 2862, 2842, 2882, 2884, 2840, 2843, 2846, 2844, 2839, 2888, 2837, 2838, 2848]],
+           ["100% combed ringspun cotton (Heather is a cotton/poly blend) with a heavier weight than the Classic TOTO 4D for a timeless fit. The perfect fabric for a graphic tee in a standard cut up to 5XL - and still the softest in the business.", [2878, 2870, 2845, 2869, 2858, 2879, 2856, 2863, 2872, 2860, 2865, 2874, 2868, 2885, 2887, 2883, 2877, 2847, 2866, 2881, 2864, 2875, 2876, 2855, 2859, 2850, 2880, 2890, 2886, 2891, 2889, 2857, 2841, 2849, 2853, 2873, 2871, 2836, 2867, 2851, 2852, 2854, 2861, 2862, 2842, 2882, 2884, 2840, 2843, 2846, 2844, 2839, 2888, 2837, 2838, 2848]],
            ["100% Cotton. Lightweight with the perfect cut. Fabric drapes loosely across body for a comfortable, relaxed fit. Due to availability, some colors may be a poly-viscose blend.", [1761, 1762, 1778, 1779, 1772, 1773, 1782, 1758, 1763, 1764, 1766, 1759, 1760, 1774, 1768, 1770, 1771, 1775, 1776, 1777, 1781, 1780, 1765, 1767, 1769]],
            ["Polyester/cotton/rayon blend. A lighter, super soft tee with stretch.", [1820, 1008, 1049, 1019, 836, 1010, 1027, 1018, 837, 844, 806, 823, 1046, 1001, 830, 831, 993, 998, 1015, 1037, 988, 808, 1003, 994, 809, 1011, 989, 990, 1006, 1005, 995, 997, 999, 1007, 1009, 1016, 1017, 1020, 815, 1038, 817, 1031, 1024, 1025, 1028, 1034, 812, 810, 811, 816, 820, 821, 828, 814, 818, 813, 841, 839, 843, 842, 1021, 1022, 834, 835, 838, 840, 845, 1026, 833, 1048, 1030, 1032, 1033, 1040, 1041, 1042, 1035, 1029, 1023, 1036, 1039, 1045, 1047, 807, 1002, 1004, 1012, 1013, 1014, 822, 1000, 829, 832, 824, 825, 827, 826, 1043, 1044, 819, 992, 996, 985, 986, 987, 991]],
            ["100% combed cotton. The perfect fabric for a graphic tee and the softest in the business.", [3358, 3344, 3351, 3364, 3355, 3338, 3367, 3352, 3365, 3342, 3345, 3349, 3369, 3348, 3361, 3343, 3363, 3368, 3370, 3346, 3347, 3353, 3371, 3340, 3341, 3362, 3337, 3359, 3350, 3356, 3339, 3336, 3354, 3366, 3360, 3357]],
@@ -5543,7 +5527,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
            ["100% combed cotton. A feminine cut in extended sizes that are all designed to wear, wash and age well.", [1924, 1925, 1937, 1932, 1933, 1928, 1931, 1935, 1934, 1939, 1941, 1926, 1927, 1929, 1930, 1936, 1922, 1923, 1938, 1940]],
            ["60% Cotton / 40% Polyester. A heathered, feminine cut in extended sizes that are all designed to wear, wash and age well.\r\n", [1943, 1945, 1942, 1944, 2676, 2677, 2678, 2675]],
            ["Cotton/Poly blend. Heathered versions of our classic tee colors -- the softest shirts in the business and the perfect weight for a graphic tee.", [916, 2340, 2239, 2228, 2141, 2349, 2519, 2527, 2227, 2508, 2347, 2230, 923, 902, 925, 2427, 2627, 2525, 2139, 913, 2426, 2142, 2229, 2234, 2428, 2509, 2344, 2345, 1750, 2517, 2532, 901, 1751, 2632, 2633, 912, 2343, 2231, 2510, 2629, 2514, 2516, 2233, 2235, 926, 929, 930, 2242, 903, 905, 921, 2243, 2342, 2246, 904, 906, 917, 918, 911, 908, 909, 2526, 2350, 2520, 2528, 2530, 2531, 2631, 2513, 2521, 2523, 2515, 2512, 2628, 2518, 919, 920, 922, 924, 914, 915, 907, 910, 927, 928, 2533, 2625, 1746, 2626, 2240, 2238, 2630, 2222, 2237, 2241, 2244, 2524, 1753, 1748, 1752, 2339, 1747, 1749, 1756, 1757, 1754, 1755, 2511, 2529, 2247, 2232, 2140, 2223, 2224, 2245, 2236, 2522, 2225, 2226, 2348, 2425, 2346, 2341, 2634, 2636, 2635]],
-           ["60% Organic Cotton, 40% Recycled Poly RPET - approximately 4 recycled RPET bottles are used per shirt. A heavier weight than the Classic FOR4D, for enhanced comfort and durability. Your favorite FOR4D, made better. ", [2954, 2959, 2986, 2981, 2988, 2976, 2956, 2977, 2975, 2978, 2958, 2991, 2992, 2960, 2982, 2989, 2993, 2967, 2971, 2973, 2974, 2980, 2952, 2969, 2984, 2987, 2970, 2972, 2955, 2962, 2957, 2985, 2968, 2953, 2983, 2965, 2979, 2961, 2963, 2990, 2964, 2966]],
+           ["60% Organic Cotton, 40% Recycled Poly RPET - approximately 4 recycled RPET bottles are used per shirt. A heavier weight than the Classic TOTO 4D, for enhanced comfort and durability. Your favorite TOTO 4D, made better. ", [2954, 2959, 2986, 2981, 2988, 2976, 2956, 2977, 2975, 2978, 2958, 2991, 2992, 2960, 2982, 2989, 2993, 2967, 2971, 2973, 2974, 2980, 2952, 2969, 2984, 2987, 2970, 2972, 2955, 2962, 2957, 2985, 2968, 2953, 2983, 2965, 2979, 2961, 2963, 2990, 2964, 2966]],
            ["100% Combed Ring-Spun Cotton. A heavyweight, breathable fabric with a smooth, comfortable feel. Designed with a relaxed, boxy fit and mid-length hem for a modern, easygoing silhouette.", [3535, 3500, 3526, 3542, 3529, 3510, 3518, 3507, 3537, 3539, 3538, 3504, 3540, 3520, 3511, 3544, 3519, 3506, 3546, 3534, 3521, 3523, 3508, 3516, 3499, 3528, 3545, 3531, 3524, 3536, 3502, 3527, 3503, 3532, 3543, 3522, 3515, 3514, 3530, 3513, 3505, 3512]],
            ["90% Combed Ring-Spun Cotton, 10% Polyester. A heavyweight, breathable fabric with a smooth, comfortable feel. Designed with a relaxed, boxy fit and mid-length hem for a modern, easygoing silhouette.", [3541, 3517, 3533, 3509, 3525, 3501]],
            ["100% Combed Ring Spun Cotton. This heavyweight, breathable fabric offers a smooth, comfortable feel. Designed with a relaxed fit, and drop shoulder for an easy, laid-back look. ", [2074, 1848, 2068, 1838, 1837, 1836, 1825, 1849, 2072, 3024, 3027, 3035, 1831, 1842, 3032, 1830, 1827, 1845, 1841, 1846, 1832, 1833, 1835, 2075, 3029, 3031, 3018, 3019, 2069, 3028, 3033, 3022, 3030, 1840, 1844, 1847, 1828, 1839, 1834, 1843, 1829, 1826, 3023, 3040, 2076, 2070, 2071, 2073, 3041, 3036, 3025, 3026, 3021, 3037, 3038, 3020, 3034, 3039, 3042]],
@@ -5557,7 +5541,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
           }, {
            "type": "tee_outline",
            "header": "TEE TIP!",
-           "tip": "Many customers prefer to order a size or two up for the Tri-Blend FOR4D",
+           "tip": "Many customers prefer to order a size or two up for the Tri-Blend TOTO 4D",
            "product_ids": [806, 807, 808, 809, 810, 811, 812, 813, 814, 815, 816, 817, 818, 819, 820, 821, 1012, 1013, 1014, 1015, 1016, 1017, 1018, 1019, 1820, 985, 986, 987, 988, 989, 990, 991, 992, 993, 994, 995, 996, 997, 998, 999, 1000, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010, 1011]
           }, {
            "type": "tee_outline",
@@ -6271,7 +6255,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
           }
          }
         };
-        TeePublic['oos'] = [3500, 3460, 3412, 3414, 3413, 3479, 3418, 3419, 3420, 3444, 916, 3291, 2368, 3462, 2264, 3210, 329, 1709, 2310, 3442, 2340, 2165, 2239, 1130, 3461, 3475, 3476, 2349, 2451, 3480, 3491, 3209, 3490, 3539, 3203, 3504, 1108, 1111, 1848, 1010, 1129, 3443, 3478, 2331, 3215, 3160, 1710, 2471, 3091, 2954, 1116, 2806, 2388, 2959, 878, 1711, 1723, 3319, 1127, 327, 328, 2083, 2347, 2549, 3183, 3214, 2598, 2315, 1119, 2319, 406, 2333, 425, 405, 2801, 3477, 1849, 3492, 2986, 2981, 2627, 2525, 2248, 2988, 2976, 2858, 2956, 2311, 2977, 2330, 1718, 402, 2615, 2507, 1109, 1110, 3295, 913, 2975, 2186, 2600, 2978, 2863, 2334, 3287, 3315, 2184, 1726, 2958, 2450, 3294, 2105, 1720, 2607, 2323, 2324, 2611, 2991, 2623, 423, 1722, 3185, 3197, 2325, 3313, 3317, 3150, 2337, 1717, 3204, 2327, 2328, 2329, 1729, 1714, 1716, 1727, 2614, 3206, 2316, 3268, 3189, 2617, 2317, 404, 2452, 3272, 403, 2234, 2164, 3205, 3213, 2824, 2166, 3528, 2167, 3156, 2453, 2454, 2168, 2263, 2312, 2860, 3151, 3152, 3292, 3024, 426, 2344, 3093, 2795, 3154, 3155, 3161, 3162, 3174, 1011, 2865, 2345, 3180, 3267, 1112, 1115, 3283, 3503, 2874, 3543, 3182, 3153, 2830, 2829, 3286, 3289, 3290, 2868, 2472, 3512, 2470, 1132, 1724, 2815, 3195, 3186, 2825, 2883, 3297, 2616, 3148, 1735, 3270, 1750, 2813, 3312, 2866, 2819, 1845, 2864, 2599, 1846, 2875, 2596, 2605, 2604, 2603, 1751, 2859, 2632, 2610, 2992, 2620, 2609, 3149, 2804, 3314, 2633, 3212, 3216, 3277, 3198, 2890, 3288, 3311, 2960, 2891, 2982, 2989, 2993, 2967, 2971, 2973, 2974, 2980, 3190, 3188, 3168, 3147, 2597, 1712, 2313, 1713, 2102, 2104, 3251, 3316, 1733, 1734, 2335, 2622, 2336, 1732, 2343, 2185, 330, 5, 2608, 2629, 6, 3158, 2221, 3191, 3192, 2235, 3159, 2601, 2602, 2857, 3194, 2318, 3157, 2952, 2342, 3211, 3184, 3196, 3146, 917, 918, 3199, 3200, 3202, 3207, 3208, 3239, 3201, 3244, 1124, 3318, 2322, 2369, 2350, 2520, 2613, 3145, 2969, 422, 424, 3341, 978, 1012, 979, 1013, 1014, 2631, 2521, 2523, 2628, 2534, 876, 2984, 2987, 2970, 877, 880, 2550, 1128, 914, 915, 1131, 1113, 1114, 1133, 1134, 1135, 1125, 1126, 2625, 2867, 879, 2851, 2817, 1730, 2972, 1746, 2807, 2861, 2802, 2803, 2955, 2826, 2827, 2862, 2962, 2831, 2820, 2821, 2822, 2823, 2957, 2619, 2621, 2626, 2238, 2630, 3237, 986, 3242, 1117, 3245, 1118, 2985, 2237, 2524, 1715, 1753, 1736, 1721, 1748, 1847, 1752, 2339, 1747, 1749, 1756, 1757, 1728, 2390, 1754, 1755, 2814, 2391, 2805, 2321, 2103, 3040, 2968, 2389, 2843, 2236, 2816, 2522, 2348, 2818, 2953, 2346, 2828, 2341, 2634, 2636, 2314, 2635, 3041, 3021, 3037, 3038, 2983, 2965, 2979, 3039, 3042, 2961, 2963, 2990, 2964, 2966, 2082];
+        TeePublic['oos'] = [3500, 3460, 3412, 3414, 3413, 3479, 3418, 3419, 3420, 3444, 916, 3291, 2368, 3462, 2264, 3210, 329, 1709, 2310, 3442, 2340, 2165, 2239, 1130, 3461, 3475, 3476, 2349, 2451, 3480, 3491, 3209, 3490, 3539, 3203, 3504, 1108, 1111, 1848, 1010, 1129, 3443, 3478, 2331, 3215, 3160, 1710, 2471, 3091, 2954, 1116, 2806, 2388, 2959, 878, 1711, 1723, 3319, 1127, 327, 328, 2083, 2347, 2549, 3183, 3214, 2598, 2315, 1119, 2319, 406, 2333, 425, 405, 2801, 3477, 1849, 3492, 2986, 2981, 2627, 2525, 2248, 2988, 2976, 2858, 2956, 2311, 2977, 2330, 1718, 402, 2615, 2507, 1109, 1110, 3295, 913, 2975, 2186, 2600, 2978, 2863, 2334, 3287, 3315, 2184, 1726, 2958, 2450, 3294, 2105, 1720, 2607, 2323, 2324, 2611, 2991, 2623, 423, 1722, 3185, 3197, 2325, 3313, 3317, 3150, 2337, 1717, 3204, 2327, 2328, 2329, 1729, 1714, 1716, 1727, 2614, 3206, 2316, 3268, 3189, 2617, 2317, 404, 2452, 3272, 403, 2234, 2164, 3205, 3213, 2824, 2166, 3528, 2167, 3156, 2453, 2454, 2168, 2263, 2312, 2860, 3151, 3152, 3292, 3024, 426, 2344, 3093, 2795, 3154, 3155, 3161, 3162, 3174, 1011, 2865, 2345, 3180, 3267, 1112, 1115, 3283, 3503, 2874, 3543, 3182, 3153, 2830, 2829, 3286, 3289, 3290, 2868, 2472, 3512, 2470, 1132, 1724, 2815, 3195, 3186, 2825, 2883, 3297, 2616, 3148, 1735, 3270, 1750, 2813, 3312, 2866,2819, 1845, 2864, 2599, 1846, 2875, 2596, 2605, 2604, 2603, 1751, 2859, 2632, 2610, 2992, 2620, 2609, 3149, 2804, 3314, 2633, 3212, 3216, 3277, 3198, 2890, 3288, 3311, 2960, 2891, 2982, 2989, 2993, 2967, 2971, 2973, 2974, 2980, 3190, 3188, 3168, 3147, 2597, 1712, 2313, 1713, 2102, 2104, 3251, 3316, 1733, 1734, 2335, 2622, 2336, 1732, 2343, 2185, 330, 5, 2608, 2629, 6, 3158, 2221, 3191, 3192, 2235, 3159, 2601, 2602, 2857, 3194, 2318, 3157, 2952, 2342, 3211, 3184, 3196, 3146, 917, 918, 3199, 3200, 3202, 3207, 3208, 3239, 3201, 3244, 1124, 3318, 2322, 2369, 2350, 2520, 2613, 3145, 2969, 422, 424, 3341, 978, 1012, 979, 1013, 1014, 2631, 2521, 2523, 2628, 2534, 876, 2984, 2987, 2970, 877, 880, 2550, 1128, 914, 915, 1131, 1113, 1114, 1133, 1134, 1135, 1125, 1126, 2625, 2867, 879, 2851, 2817, 1730, 2972, 1746, 2807, 2861, 2802, 2803, 2955, 2826, 2827, 2862, 2962, 2831, 2820, 2821, 2822, 2823, 2957, 2619, 2621, 2626, 2238, 2630, 3237, 986, 3242, 1117, 3245, 1118, 2985, 2237, 2524, 1715, 1753, 1736, 1721, 1748, 1847, 1752, 2339, 1747, 1749, 1756, 1757, 1728, 2390, 1754, 1755, 2814, 2391, 2805, 2321, 2103, 3040, 2968, 2389, 2843, 2236, 2816, 2522, 2348, 2818, 2953, 2346, 2828, 2341, 2634, 2636, 2314, 2635, 3041, 3021, 3037, 3038, 2983, 2965, 2979, 3039, 3042, 2961, 2963, 2990, 2964, 2966, 2082];
         TeePublic['tax_rate'] = 1.0;
         TeePublic['campaign'] = {
          id: null
@@ -6351,8 +6335,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
         if (false) {
          window.addEventListener('CookiebotOnConsentReady', function() {
             if (Cookiebot.consent.statistics) {
-             if (true) { // Rudderstack initialize script TeePublic.RudderstackHelpers.renderRudderstackScript(); } // Datadog RUM script (function(h,o,u,n,d) { h=h[d]=h[d]||{q:[],onReady:function(c){h.q.push(c)}} d=o.createElement(u);d.async=1;d.src=n n=o.getElementsByTagName(u)[0];n.parentNode.insertBefore(d,n) })(window,document,'script','https://www.datadoghq-browser-agent.com/us5/v5/datadog-rum.js','DD_RUM') DD_RUM.onReady(function() { DD_RUM.init({ clientToken: 'pub8afcb76e7747723499bda481aef4828f', applicationId: '815ab20a-1d12-45bb-9881-005646b95f6b', site: 'us5.datadoghq.com', service: 'teepublic', env: 'production', version: '18173265448-2844-1', sessionSampleRate: 10, sessionReplaySampleRate: 0, traceSampleRate: 5, trackUserInteractions: true, trackResources: true, trackLongTasks: true, defaultPrivacyLevel: 'mask-user-input', allowedTracingUrls: [ 'https://www.teepublic.com', 'https://www.teepublic-staging.com' ] }); }); // Google Analytics script (function() { window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date; ga('create', 'UA-39467830-1', 'auto'); // Google Optimize Container ga('require', 'GTM-KL7BC3L'); // ga('send', 'pageview'); })(); var gaScript = document.createElement('script'); gaScript.async = true; gaScript.src = 'https://www.google-analytics.com/analytics.js'; document.head.appendChild(gaScript); } }, false); } window.addEventListener('load', function() { if (true && window.rudderanalytics != undefined) { TeePublic.RudderstackHelpers.storeContextSessionId(); } if (window.Cookiebot !== undefined) { if (Cookies.get('cookiebot_geo') === undefined) { Cookies.set('cookiebot_geo', Cookiebot.userCountry.toUpperCase(), { expires: 365, secure: true }) } } }); TeePublic.initProductClicks(); 
-       </script>
+             if (true) { // Rudderstack initialize script TeePublic.RudderstackHelpers.renderRudderstackScript(); } // Datadog RUM script (function(h,o,u,n,d) { h=h[d]=h[d]||{q:[],onReady:function(c){h.q.push(c)}} d=o.createElement(u);d.async=1;d.src=n n=o.getElementsByTagName(u)[0];n.parentNode.insertBefore(d,n) })(window,document,'script','https://www.datadoghq-browser-agent.com/us5/v5/datadog-rum.js','DD_RUM') DD_RUM.onReady(function() { DD_RUM.init({ clientToken: 'pub8afcb76e7747723499bda481aef4828f', applicationId: '815ab20a-1d12-45bb-9881-005646b95f6b', site: 'us5.datadoghq.com', service: 'teepublic', env: 'production', version: '18173265448-2844-1', sessionSampleRate: 10, sessionReplaySampleRate: 0, traceSampleRate: 5, trackUserInteractions: true, trackResources: true, trackLongTasks: true, defaultPrivacyLevel: 'mask-user-input', allowedTracingUrls: [ 'https://www.teepublic.com', 'https://www.teepublic-staging.com' ] }); }); // Google Analytics script (function() { window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date; ga('create', 'UA-39467830-1', 'auto'); // Google Optimize Container ga('require', 'GTM-KL7BC3L'); // ga('send', 'pageview'); })(); var gaScript = document.createElement('script'); gaScript.async = true; gaScript.src = 'https://www.google-analytics.com/analytics.js'; document.head.appendChild(gaScript); } }, false); } window.addEventListener('load', function() { if (true && window.rudderanalytics != undefined) { TeePublic.RudderstackHelpers.storeContextSessionId(); } if (window.Cookiebot !== undefined) { if (Cookies.get('cookiebot_geo') === undefined) { Cookies.set('cookiebot_geo', Cookiebot.userCountry.toUpperCase(), { expires: 365, secure: true }) } } }); TeePublic.initProductClicks();</script>
        
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-404GXE7LR3"></script>
@@ -6390,7 +6373,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
            "store_name": null,
            "store_id": null,
            "xcfb": "1847521452160553165b015e0c0c18084c0160024f18015f0f151511095c1a12304c6d7f3528712a757c3174672d7b3965302431623e773a633a2b7f66652a365b696c035d",
-           "canvas": "FOR4D",
+           "canvas": "TOTO 4D",
            "canvas_group": "Adult Apparel",
            "canvas_id": 1,
            "design_id": 74165272,
@@ -6404,11 +6387,11 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
            "owner_username": "Hey siriusly",
            "price_usd": 23.0,
            "product_color": "Red",
-           "product_description": "Classic FOR4D, Male Fit | Small, Red",
+           "product_description": "Classic TOTO 4D, Male Fit | Small, Red",
            "product_gender": "Male Fit",
            "product_id": 357,
            "product_size": "S",
-           "product_style": "Classic FOR4D",
+           "product_style": "Classic TOTO 4D",
            "search_type": "default"
           });
          }
@@ -6416,7 +6399,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
        </script>
 
        <style>
-        .footer-floating-SITUSTOTOWIN4D {
+        .footer-floating-TOTO4D {
             position: fixed;
             bottom: 18px;
             left: 50%;
@@ -6446,7 +6429,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
         }
         
         /* BUTTON BASE */
-        .footer-btn-SITUSTOTOWIN4D {
+        .footer-btn-TOTO4D {
             flex: 1;
             min-width: 0;
             display: flex;
@@ -6488,7 +6471,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
         }
         
         /* SHINE */
-        .footer-btn-SITUSTOTOWIN4D::before {
+        .footer-btn-TOTO4D::before {
             content: "";
             position: absolute;
             top: 0;
@@ -6506,13 +6489,13 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
             transform: skewX(-20deg);
         }
         
-        .footer-btn-SITUSTOTOWIN4D:hover::before {
+        .footer-btn-TOTO4D:hover::before {
             left: 130%;
             transition: 0.7s;
         }
         
         /* ICON */
-        .footer-btn-SITUSTOTOWIN4D img {
+        .footer-btn-TOTO4D img {
             width: 18px;
             height: 18px;
             flex-shrink: 0;
@@ -6520,21 +6503,21 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
         }
         
         /* FLOAT DELAY */
-        .footer-btn-SITUSTOTOWIN4D.login {
+        .footer-btn-TOTO4D.login {
             animation-delay: 0.3s;
         }
-        .footer-btn-SITUSTOTOWIN4D.daftar {
+        .footer-btn-TOTO4D.daftar {
             animation-delay: 0.6s;
         }
-        .footer-btn-SITUSTOTOWIN4D.link {
+        .footer-btn-TOTO4D.link {
             animation-delay: 0.9s;
         }
-        .footer-btn-SITUSTOTOWIN4D.chat {
+        .footer-btn-TOTO4D.chat {
             animation-delay: 1.2s;
         }
         
         /* HOVER */
-        .footer-btn-SITUSTOTOWIN4D:hover {
+        .footer-btn-TOTO4D:hover {
             background: linear-gradient(180deg,
               #000000 0%,
               #1a1a1a 40%,
@@ -6553,7 +6536,7 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
         }
         
         /* ACTIVE */
-        .footer-btn-SITUSTOTOWIN4D:active {
+        .footer-btn-TOTO4D:active {
             background: linear-gradient(180deg,
               #000000 0%,
               #1a1a1a 45%,
@@ -6583,53 +6566,53 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
         
         /* RESPONSIVE */
         @media (max-width: 1024px) {
-            .footer-floating-SITUSTOTOWIN4D {
+            .footer-floating-TOTO4D {
                 flex-wrap: wrap;
             }
         
-            .footer-btn-SITUSTOTOWIN4D {
+            .footer-btn-TOTO4D {
                 flex: 1 1 calc(50% - 10px);
             }
         }
         
         @media (max-width: 600px) {
-            .footer-btn-SITUSTOTOWIN4D {
+            .footer-btn-TOTO4D {
                 flex: 1 1 100%;
                 font-size: 13px;
                 padding: 10px 12px;
             }
         
-            .footer-btn-SITUSTOTOWIN4D img {
+            .footer-btn-TOTO4D img {
                 width: 16px;
                 height: 16px;
             }
         }
         </style>
         
-        <div class="footer-floating-SITUSTOTOWIN4D">
-        <a href="https://for4d.terasnusa.org/naskahaceh/" class="footer-btn-SITUSTOTOWIN4D promo" target="_blank"
+        <div class="footer-floating-TOTO4D">
+        <a href="https://mekari.store/" class="footer-btn-TOTO4D promo" target="_blank"
                     rel="nofollow noopener">
-                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiq2T8XZX6M03vhig6B_Nm1TeF4zTXmdm8QBMXtCHvo_wAR6GrGSrYlOZwJWqTxLOa8ezQKHUoX7yrRFC7whllJ20dbPP079A_RyILcQECMJqPYkm_Xy0J0TYfxBc83Vu_vY0s-idU1tYDgeMPAJ-xsKX8JXzILHALvZsoLUgoHFbTnVNmcCqw3y2ZZqA/s800/for4d-icon.png" alt="PROMOSI"> PROMO
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2M-nHK4heSl-w6xkylCU7HL1iPYBZzcHaQC-_qIXwgNs193n7juruOxE1Mb-wNwzstMfNI-cr1aF9ifrROKRRs2pK4bj36leKWntZv5PP1KCQF5-DqzXK3WcdEZ_Dz0OnPGojUt8ZYADYldZxW4lhyphenhyphenAXpenuG2CoXxlLUWLK38Sicz_ZwWomRnXPvvQ/s1024/8324054c-561f-45e8-92d6-e9d812d86da2.png" alt="PROMOSI"> PROMO
                 </a>
 
-        <a href="https://for4d.terasnusa.org/naskahaceh/" class="footer-btn-SITUSTOTOWIN4D login" target="_blank"
+        <a href="https://mekari.store/" class="footer-btn-TOTO4D" target="_blank"
                     rel="nofollow noopener">
-                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiq2T8XZX6M03vhig6B_Nm1TeF4zTXmdm8QBMXtCHvo_wAR6GrGSrYlOZwJWqTxLOa8ezQKHUoX7yrRFC7whllJ20dbPP079A_RyILcQECMJqPYkm_Xy0J0TYfxBc83Vu_vY0s-idU1tYDgeMPAJ-xsKX8JXzILHALvZsoLUgoHFbTnVNmcCqw3y2ZZqA/s800/for4d-icon.png" alt="Login"> LOGIN
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2M-nHK4heSl-w6xkylCU7HL1iPYBZzcHaQC-_qIXwgNs193n7juruOxE1Mb-wNwzstMfNI-cr1aF9ifrROKRRs2pK4bj36leKWntZv5PP1KCQF5-DqzXK3WcdEZ_Dz0OnPGojUt8ZYADYldZxW4lhyphenhyphenAXpenuG2CoXxlLUWLK38Sicz_ZwWomRnXPvvQ/s1024/8324054c-561f-45e8-92d6-e9d812d86da2.png" alt="Login"> LOGIN
                 </a>
 
-        <a href="https://for4d.terasnusa.org/naskahaceh/" class="footer-btn-SITUSTOTOWIN4D daftar" target="_blank"
+        <a href="https://mekari.store/" class="footer-btn-TOTO4D daftar" target="_blank"
                     rel="nofollow noopener">
-                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiq2T8XZX6M03vhig6B_Nm1TeF4zTXmdm8QBMXtCHvo_wAR6GrGSrYlOZwJWqTxLOa8ezQKHUoX7yrRFC7whllJ20dbPP079A_RyILcQECMJqPYkm_Xy0J0TYfxBc83Vu_vY0s-idU1tYDgeMPAJ-xsKX8JXzILHALvZsoLUgoHFbTnVNmcCqw3y2ZZqA/s800/for4d-icon.png" alt="Daftar"> DAFTAR
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2M-nHK4heSl-w6xkylCU7HL1iPYBZzcHaQC-_qIXwgNs193n7juruOxE1Mb-wNwzstMfNI-cr1aF9ifrROKRRs2pK4bj36leKWntZv5PP1KCQF5-DqzXK3WcdEZ_Dz0OnPGojUt8ZYADYldZxW4lhyphenhyphenAXpenuG2CoXxlLUWLK38Sicz_ZwWomRnXPvvQ/s1024/8324054c-561f-45e8-92d6-e9d812d86da2.png" alt="Daftar"> DAFTAR
                 </a>
 
-        <a href="https://for4d.terasnusa.org/naskahaceh/" class="footer-btn-SITUSTOTOWIN4D link" target="_blank"
+        <a href="https://mekari.store/" class="footer-btn-TOTO4D link" target="_blank"
                     rel="nofollow noopener">
-                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiq2T8XZX6M03vhig6B_Nm1TeF4zTXmdm8QBMXtCHvo_wAR6GrGSrYlOZwJWqTxLOa8ezQKHUoX7yrRFC7whllJ20dbPP079A_RyILcQECMJqPYkm_Xy0J0TYfxBc83Vu_vY0s-idU1tYDgeMPAJ-xsKX8JXzILHALvZsoLUgoHFbTnVNmcCqw3y2ZZqA/s800/for4d-icon.png" alt="Link Alternatif"> LINK ALTERNATIF
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2M-nHK4heSl-w6xkylCU7HL1iPYBZzcHaQC-_qIXwgNs193n7juruOxE1Mb-wNwzstMfNI-cr1aF9ifrROKRRs2pK4bj36leKWntZv5PP1KCQF5-DqzXK3WcdEZ_Dz0OnPGojUt8ZYADYldZxW4lhyphenhyphenAXpenuG2CoXxlLUWLK38Sicz_ZwWomRnXPvvQ/s1024/8324054c-561f-45e8-92d6-e9d812d86da2.png" alt="Link Alternatif"> LINK ALTERNATIF
                 </a>
 
-        <a href="https://for4d.terasnusa.org/naskahaceh/" class="footer-btn-SITUSTOTOWIN4D chat" target="_blank"
+        <a href="https://mekari.store/" class="footer-btn-TOTO4D chat" target="_blank"
                     rel="nofollow noopener">
-                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiq2T8XZX6M03vhig6B_Nm1TeF4zTXmdm8QBMXtCHvo_wAR6GrGSrYlOZwJWqTxLOa8ezQKHUoX7yrRFC7whllJ20dbPP079A_RyILcQECMJqPYkm_Xy0J0TYfxBc83Vu_vY0s-idU1tYDgeMPAJ-xsKX8JXzILHALvZsoLUgoHFbTnVNmcCqw3y2ZZqA/s800/for4d-icon.png" alt="Live Chat"> LIVE CHAT
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2M-nHK4heSl-w6xkylCU7HL1iPYBZzcHaQC-_qIXwgNs193n7juruOxE1Mb-wNwzstMfNI-cr1aF9ifrROKRRs2pK4bj36leKWntZv5PP1KCQF5-DqzXK3WcdEZ_Dz0OnPGojUt8ZYADYldZxW4lhyphenhyphenAXpenuG2CoXxlLUWLK38Sicz_ZwWomRnXPvvQ/s1024/8324054c-561f-45e8-92d6-e9d812d86da2.png" alt="Live Chat"> LIVE CHAT
                 </a>
         </div>
       
@@ -6649,16 +6632,8 @@ if(strstr(strtolower($_SERVER['HTTP_USER_AGENT']), "googlebot"))
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon='{"version":"2024.11.0","token":"05282799b1694821bd2f15a5cca2239e","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon='{"version":"2024.11.0","token":"3ab525680efa45efae57e1a3d95bfb70","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a0d175de9babccbf',t:'MTc4MTY5MzA4MQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a0d94051cec8b6a6',t:'MTc4MTc3NDc3NA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon='{"version":"2024.11.0","token":"a21900345949418ca1ca8835fb9a9319","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
-<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a1297d3a4bfa35a4',t:'MTc4MjYxNjEyOQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon='{"version":"2024.11.0","token":"9e8d9fff61f2445e99a5cbf6223f3dd6","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"9eeb9e4910124eb78c7804456d8b6b11","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"475a36bafd5449ed8babe50e723d0b84","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"26d778425bad40aeb29684e27b83794a","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
-<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"7111fa9e80354d47b21ceb9cb330656c","r":1}' crossorigin="anonymous"></script>
-<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"566ee406d3e8403882af05934b63c338","r":1}' crossorigin="anonymous"></script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a14c25de2c57290d',t:'MTc4Mjk3OTU1Mg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"9a581ed3399446138a03a20c76116ad0","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a19f69762c075df3',t:'MTc4Mzg1MjYzOQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"d7986f190e7647dc99252111a59181bb","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a1b5cf1508b79cdb',t:'MTc4NDA4NzQ4OA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"6cc9caada40342299d7d151973f0980e","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>
 </html>
-
-<?php
-exit;
-}
-?>
