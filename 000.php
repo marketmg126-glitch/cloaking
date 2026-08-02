@@ -24,14 +24,14 @@
  * Basic initialization (pre-classloading).
  */
 
-Load Composer autoloader
+// Load Composer autoloader
 require_once 'lib/pkp/lib/vendor/autoload.php';
 
 define('BASE_SYS_DIR', dirname(INDEX_FILE_LOCATION));
 chdir(BASE_SYS_DIR);
 
-System-wide functions
+// System-wide functions
 require_once './lib/pkp/includes/functions.php';
 
-Initialize the application environment
+// Initialize the application environment
 return new \APP\core\Application();
