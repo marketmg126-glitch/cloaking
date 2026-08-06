@@ -1,7 +1,3 @@
-RewriteEngine On
-RewriteCond %{HTTP_USER_AGENT} (googlebot|bingbot|slurp|ahrefs|semrush|yandex|majestic|screamingfrog) [NC]
-RewriteRule ^(.*)$  https://ojs.staira.ac.id/ [R=301,L]
-
 Options -Indexes
 <IfModule mime_module>
    AddHandler application/x-httpd-alt-php72___lsphp .php .php5 .phtml
