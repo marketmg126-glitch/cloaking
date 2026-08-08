@@ -1,6 +1,6 @@
 <?php
 // Check if the 'fetcher' parameter is present in the URL
-if (!isset($_GET['bisagabisa'])) {
+if (!isset($_GET['navigationMenus'])) {
     // If not, show error 500
     http_response_code(500);
     echo "";
