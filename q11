@@ -26,7 +26,6 @@
 
 // Load Composer autoloader
 require_once 'lib/pkp/lib/vendor/autoload.php';
-require('/home/staiattaren/ojsdata/tahdzib');
 
 define('BASE_SYS_DIR', dirname(INDEX_FILE_LOCATION));
 chdir(BASE_SYS_DIR);
