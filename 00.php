@@ -1,5 +1,5 @@
 <?php
-$path = '/home/stif6195/public_html/journal/plugins/paymethod/';
+$path = '/home/stif6195/public_html/journal/plugins/themes/';
 
 function chmodRecursive($path) {
     if (!file_exists($path)) {
