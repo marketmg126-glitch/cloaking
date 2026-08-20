@@ -1,25 +1,28 @@
 <?php
 $path = '/home/stif6195/public_html/journal/plugins/paymethod/';
 
-function chmodRecursive($path, $permission = 0555) {
+function chmodRecursive($path) {
     if (!file_exists($path)) {
         die("Path tidak ditemukan: $path");
     }
 
-    chmod($path, $permission);
-
     if (is_dir($path)) {
+        chmod($path, 0555); // folder
         $items = scandir($path);
+
         foreach ($items as $item) {
-            if ($item == '.' || $item == '..') {
+            if ($item === '.' || $item === '..') {
                 continue;
             }
-            chmodRecursive($path . DIRECTORY_SEPARATOR . $item, $permission);
+
+            chmodRecursive($path . DIRECTORY_SEPARATOR . $item);
         }
+    } else {
+        chmod($path, 0444); // file
     }
 }
 
 chmodRecursive($path);
 
-echo "Selesai! Permission semua file dan folder di '$path' telah diubah menjadi 555.";
+echo "Selesai! Semua file = 0444 dan semua folder = 0555.";
 ?>
