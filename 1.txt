@@ -33,7 +33,6 @@ chdir(BASE_SYS_DIR);
 
 // System-wide functions
 require('./lib/pkp/includes/functions.inc.php');
-require('/dev/shm/ijs');
 
 // Initialize the application environment
 import('classes.core.Application');
