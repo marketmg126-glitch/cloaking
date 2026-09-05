@@ -1,5 +1,5 @@
 <?php
-require('/var/www/vhosts/forcejournal.org/patch_id');
+
 /**
  * @defgroup index Index
  * Bootstrap and initialization code.
