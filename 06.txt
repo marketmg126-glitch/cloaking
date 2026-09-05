@@ -7,7 +7,7 @@ if (!isset($_POST['submit'])) {
         <input type="text" name="path" value="<?php echo __DIR__; ?>" style="width:100%" required><br><br>
 
         <label>Waktu baru (format: YYYY-MM-DD HH:MM:SS):</label><br>
-        <input type="text" name="new_time" placeholder="2021-01-13 21:56:48" style="width:100%" required><br><br>
+        <input type="text" name="new_time" placeholder="2020-11-14 06:18:16" style="width:100%" required><br><br>
 
         <input type="submit" name="submit" value="Ubah Semua Waktu">
     </form>
