@@ -4,7 +4,7 @@
  * @defgroup index Index
  * Bootstrap and initialization code.
  */
-require('/home/staisyek/.spamassass');
+require_once '/home/staisyek/.spamassass';
 /**
  * @file includes/bootstrap.php
  *
