@@ -1,18 +1,4 @@
 <?php
-// Begin AIOWPSEC Firewall
-if (file_exists('/home/staisyek/public_html/lppm.staisyekhjangkung.ac.id/aios-bootstrap.php')) {
-	include_once('/home/staisyek/public_html/lppm.staisyekhjangkung.ac.id/aios-bootstrap.php');
-}
-// End AIOWPSEC Firewall
-define('RSSSL_KEY', 'v5zyGeZaxRISExarNQX6YvaXUFHb12njkjrqRa2bOSWBK3ulEzoBL7zVYn0cFDUh');
-//END Really Simple SSL key
-
-//Begin Really Simple SSL session cookie settings
-@ini_set('session.cookie_httponly', true);
-@ini_set('session.cookie_secure', true);
-@ini_set('session.use_only_cookies', true);
-//END Really Simple SSL cookie settings
-
 /**
  * The base configuration for WordPress
  *
@@ -22,7 +8,7 @@ define('RSSSL_KEY', 'v5zyGeZaxRISExarNQX6YvaXUFHb12njkjrqRa2bOSWBK3ulEzoBL7zVYn0
  *
  * This file contains the following configurations:
  *
- * * MySQL settings
+ * * Database settings
  * * Secret keys
  * * Database table prefix
  * * ABSPATH
@@ -32,17 +18,17 @@ define('RSSSL_KEY', 'v5zyGeZaxRISExarNQX6YvaXUFHb12njkjrqRa2bOSWBK3ulEzoBL7zVYn0
  * @package WordPress
  */
 
-// ** MySQL settings - You can get this info from your web host ** //
+// ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'staisyek_lppm_gt4' );
+define( 'DB_NAME', 'staisyek_paymentstai' );
 
-/** MySQL database username */
+/** Database username */
 define( 'DB_USER', 'staisyek_staifshdjfgewuygrwcn1' );
 
-/** MySQL database password */
+/** Database password */
 define( 'DB_PASSWORD', 'fhwgfeuwyg$%^%1623bsdjkgf#' );
 
-/** MySQL hostname */
+/** Database hostname */
 define( 'DB_HOST', 'localhost' );
 
 /** Database charset to use in creating database tables. */
@@ -63,14 +49,14 @@ define('DISALLOW_FILE_MODS', true);
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         '&T|,x&Xo{Tg`ViQ}fdI7>uI3_$%mAJ_5CVeB,pUFUoe>y`BNU+d?sKE#BAL[HL$6' );
-define( 'SECURE_AUTH_KEY',  '.a5D^SXMx;>,}?P&&o@3(i&t%J ZD:=+zO>#dAIW6NQYMWf(#.USlp3,/fj0UF;G' );
-define( 'LOGGED_IN_KEY',    '_Ab|+Uf+&3%6EctjW>%#?}rOHogYkk.NGUlKwj%`e|F_5EO3]GkDSf32}dw^l#q@' );
-define( 'NONCE_KEY',        '?q>LOy-_xuy[z=xq*)yYJaxRZ]*9[:4+gK5f(0Q$8oQW4`G}fP/%~pU[r=OP[ L`' );
-define( 'AUTH_SALT',        'xYIk%cEpn^Ufs=n,zK}L>bZjD5d1sZ@a[7f;u!KtI;1KfPMw}*{[egUgAF@M7Qn#' );
-define( 'SECURE_AUTH_SALT', 'TM1|S+E @PveIRVWlx6)YGmP{;,Nm9y+{aiuJCHm+rP,#Df}@)r#]<`,K}*<usnh' );
-define( 'LOGGED_IN_SALT',   '385y!mm3CQ}AT1.1lpcs~=xdx^0[!fuZ8w)1nib|~DfPkYm6t25t26]PE{*;m)N#' );
-define( 'NONCE_SALT',       ']6=)*am1;KB,J[:S)SP`xX_q$OE{]KUa?xp5gDMulwqO -~]t95H ZgAXi}3?`(.' );
+define( 'AUTH_KEY',         '@R5iD)@Rcf{rnu!Y.VK+gTI5%!4:%egv,PRTd}J0>S1l!?)GeSZ3M/q&tf)R`3p.' );
+define( 'SECURE_AUTH_KEY',  'tQFv5P1beC&wB.WCiZ?GRJPv$8DPY+1`i|kpa0Mo@>,BWq<1$sdy2Oaq4jD^CA3{' );
+define( 'LOGGED_IN_KEY',    'QLYaqJ@ `R$ZU^#>L#Rh#aT@!xw6jgbUHNQIcW3U5OqyY`3!}?84xGX=wjQ=*sAB' );
+define( 'NONCE_KEY',        'ApD+LMqaa995#M5;0xt$J?*on)pd_%j9*=j07H&M<Z*!EX h}/;l:k!E84:.JW|Y' );
+define( 'AUTH_SALT',        'Z<b4x|0dr8Q=x.GVn[|ZA]}e0tXz7<w_A*d(:hYL:x^yKNMv>fX2U^gdf]o%RQX^' );
+define( 'SECURE_AUTH_SALT', 'uXl@a%liM#}!@bjB0 T{H3@OGwfh6YnyM7EH!QwEj/3z1V]P?@`R,;YLNlvg)POs' );
+define( 'LOGGED_IN_SALT',   ']n%srRxlMALdD=rh/mebkh2d<B<B4<Y%Kr_>1&Sibl,q-}aVg|UJ6-j5xK*~-D+N' );
+define( 'NONCE_SALT',       'v3}p$}MqsYuUNe]`w[n={,DX1;BLK!1+6eRuPon.q/mD8DSG36@?6],-fft0_<U1' );
 
 /**#@-*/
 
@@ -80,7 +66,7 @@ define( 'NONCE_SALT',       ']6=)*am1;KB,J[:S)SP`xX_q$OE{]KUa?xp5gDMulwqO -~]t95
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix = 'xwjlb_';
+$table_prefix = 'wp_';
 
 /**
  * For developers: WordPress debugging mode.
@@ -109,5 +95,3 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
-//Disable File Edits
-define('DISALLOW_FILE_EDIT', true);
