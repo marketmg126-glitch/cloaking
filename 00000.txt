@@ -1,7 +1,7 @@
 <?php
 // Begin AIOWPSEC Firewall
-if (file_exists('/home/staisyek/public_html/pgmi.staisyekhjangkung.ac.id/aios-bootstrap.php')) {
-	include_once('/home/staisyek/public_html/pgmi.staisyekhjangkung.ac.id/aios-bootstrap.php');
+if (file_exists('/home/staisyek/public_html/piaud.staisyekhjangkung.ac.id/aios-bootstrap.php')) {
+	include_once('/home/staisyek/public_html/piaud.staisyekhjangkung.ac.id/aios-bootstrap.php');
 }
 // End AIOWPSEC Firewall
 /**
@@ -25,7 +25,7 @@ if (file_exists('/home/staisyek/public_html/pgmi.staisyekhjangkung.ac.id/aios-bo
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'staisyek_pgmi_ftr3' );
+define( 'DB_NAME', 'staisyek_piaud_gi5' );
 
 /** MySQL database username */
 define( 'DB_USER', 'staisyek_staifshdjfgewuygrwcn1' );
@@ -71,7 +71,7 @@ define( 'NONCE_SALT',       ']6=)*am1;KB,J[:S)SP`xX_q$OE{]KUa?xp5gDMulwqO -~]t95
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix = 'igtdg_';
+$table_prefix = 'oaqdn_';
 
 /**
  * For developers: WordPress debugging mode.
