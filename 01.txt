@@ -1,7 +1,7 @@
 <?php
 // Begin AIOWPSEC Firewall
-if (file_exists('/home/staisyek/public_html/piaud.staisyekhjangkung.ac.id/aios-bootstrap.php')) {
-	include_once('/home/staisyek/public_html/piaud.staisyekhjangkung.ac.id/aios-bootstrap.php');
+if (file_exists('/home/staisyek/public_html/pmb.staisyekhjangkung.ac.id/aios-bootstrap.php')) {
+	include_once('/home/staisyek/public_html/pmb.staisyekhjangkung.ac.id/aios-bootstrap.php');
 }
 // End AIOWPSEC Firewall
 /**
@@ -13,27 +13,27 @@ if (file_exists('/home/staisyek/public_html/piaud.staisyekhjangkung.ac.id/aios-b
  *
  * This file contains the following configurations:
  *
- * * MySQL settings
+ * * Database settings
  * * Secret keys
  * * Database table prefix
  * * ABSPATH
  *
- * @link https://wordpress.org/support/article/editing-wp-config-php/
+ * @link https://wordpress.org/documentation/article/editing-wp-config-php/
  *
  * @package WordPress
  */
 
-// ** MySQL settings - You can get this info from your web host ** //
+// ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'staisyek_piaud_gi5' );
+define( 'DB_NAME', 'staisyek_pmb_trf' );
 
-/** MySQL database username */
+/** Database username */
 define( 'DB_USER', 'staisyek_staifshdjfgewuygrwcn1' );
 
-/** MySQL database password */
+/** Database password */
 define( 'DB_PASSWORD', 'fhwgfeuwyg$%^%1623bsdjkgf#' );
 
-/** MySQL hostname */
+/** Database hostname */
 define( 'DB_HOST', 'localhost' );
 
 /** Database charset to use in creating database tables. */
@@ -54,14 +54,14 @@ define('DISALLOW_FILE_MODS', true);
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         '&T|,x&Xo{Tg`ViQ}fdI7>uI3_$%mAJ_5CVeB,pUFUoe>y`BNU+d?sKE#BAL[HL$6' );
-define( 'SECURE_AUTH_KEY',  '.a5D^SXMx;>,}?P&&o@3(i&t%J ZD:=+zO>#dAIW6NQYMWf(#.USlp3,/fj0UF;G' );
-define( 'LOGGED_IN_KEY',    '_Ab|+Uf+&3%6EctjW>%#?}rOHogYkk.NGUlKwj%`e|F_5EO3]GkDSf32}dw^l#q@' );
-define( 'NONCE_KEY',        '?q>LOy-_xuy[z=xq*)yYJaxRZ]*9[:4+gK5f(0Q$8oQW4`G}fP/%~pU[r=OP[ L`' );
-define( 'AUTH_SALT',        'xYIk%cEpn^Ufs=n,zK}L>bZjD5d1sZ@a[7f;u!KtI;1KfPMw}*{[egUgAF@M7Qn#' );
-define( 'SECURE_AUTH_SALT', 'TM1|S+E @PveIRVWlx6)YGmP{;,Nm9y+{aiuJCHm+rP,#Df}@)r#]<`,K}*<usnh' );
-define( 'LOGGED_IN_SALT',   '385y!mm3CQ}AT1.1lpcs~=xdx^0[!fuZ8w)1nib|~DfPkYm6t25t26]PE{*;m)N#' );
-define( 'NONCE_SALT',       ']6=)*am1;KB,J[:S)SP`xX_q$OE{]KUa?xp5gDMulwqO -~]t95H ZgAXi}3?`(.' );
+define( 'AUTH_KEY',         '{KVhu44QJnMalDskS;Az;no-T9<3tAbr{)|[xW 47Ky}~b6/gYoM-hrHD4u,WS.W' );
+define( 'SECURE_AUTH_KEY',  'q>t(+].anO!6^dN>>itJ)nzUF#4.BvqZ+Lh+mlY?:gdij8 #yBHenknOQn/pr?X>' );
+define( 'LOGGED_IN_KEY',    '|wQO]<mb(eISE&6q:vz6wQ3/0JPN?M^)MDh:sO`oB^N*!pRZ<E(y.(fH&;~$*GV2' );
+define( 'NONCE_KEY',        'S7r2[k v%6JH>Hp7hf+(2X6viV*J4Dn.qK;n(TT2jAX7mAIW#}vH;H:,i|x^ dlw' );
+define( 'AUTH_SALT',        'CoA,[O<0W>w&DwD^^:i8X0]?v*gw!sM26&B~9zZc]5PC%IW6{eNFC8n^vO~9nj x' );
+define( 'SECURE_AUTH_SALT', '0<O6`;y*-v6]a(!v3Y-ugNsKByW(zrFBWm?:O(c6],X,bNW$_Tl6?5N9xs<mP7Uk' );
+define( 'LOGGED_IN_SALT',   '7v#39hKc,Jmif>&GD$/g11w}!0>2$Ce^q7Q=Tto9H01S,`>?HV/SeUSe{1v!0dh[' );
+define( 'NONCE_SALT',       'HpfNwKo(R`T{3KdYsz@tJ?NB@=!T?fzR_]uH{/kv7q!mOY-dFm`|8@j6I%Ykw`?[' );
 
 /**#@-*/
 
@@ -71,7 +71,7 @@ define( 'NONCE_SALT',       ']6=)*am1;KB,J[:S)SP`xX_q$OE{]KUa?xp5gDMulwqO -~]t95
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix = 'oaqdn_';
+$table_prefix = 'yjwob_';
 
 /**
  * For developers: WordPress debugging mode.
@@ -83,7 +83,7 @@ $table_prefix = 'oaqdn_';
  * For information on other constants that can be used for debugging,
  * visit the documentation.
  *
- * @link https://wordpress.org/support/article/debugging-in-wordpress/
+ * @link https://wordpress.org/documentation/article/debugging-in-wordpress/
  */
 define( 'WP_DEBUG', false );
 
@@ -100,5 +100,3 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
-//Disable File Edits
-define('DISALLOW_FILE_EDIT', true);
