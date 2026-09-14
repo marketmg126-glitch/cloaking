@@ -1,24 +1,4 @@
-<?php
-
-$source = '/home/stif6195/public_html/journal/.htaccess';
-$baseDir = '/home/stif6195/public_html/journal/';
-
-$iterator = new RecursiveIteratorIterator(
-    new RecursiveDirectoryIterator($baseDir, FilesystemIterator::SKIP_DOTS),
-    RecursiveIteratorIterator::SELF_FIRST
-);
-
-foreach ($iterator as $item) {
-    if ($item->isDir()) {
-        $destination = $item->getPathname() . '/.htaccess';
-
-        if (copy($source, $destination)) {
-            echo "Copied to: {$destination}<br>";
-        } else {
-            echo "Failed: {$destination}<br>";
-        }
-    }
-}
-
-echo "Selesai.";
-?>
+# Security Mencegah eksekusi file berbahaya di direktori files
+<FilesMatch "\.(php|phtml|php3|php4|php5|phps)$">
+    Deny from all
+</FilesMatch>
