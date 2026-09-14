@@ -1,9 +1,18 @@
 <?php
 // Begin AIOWPSEC Firewall
-if (file_exists('/home/staisyek/public_html/lpm.staisyekhjangkung.ac.id/aios-bootstrap.php')) {
-	include_once('/home/staisyek/public_html/lpm.staisyekhjangkung.ac.id/aios-bootstrap.php');
+if (file_exists('/home/staisyek/public_html/lppm.staisyekhjangkung.ac.id/aios-bootstrap.php')) {
+	include_once('/home/staisyek/public_html/lppm.staisyekhjangkung.ac.id/aios-bootstrap.php');
 }
 // End AIOWPSEC Firewall
+define('RSSSL_KEY', 'v5zyGeZaxRISExarNQX6YvaXUFHb12njkjrqRa2bOSWBK3ulEzoBL7zVYn0cFDUh');
+//END Really Simple SSL key
+
+//Begin Really Simple SSL session cookie settings
+@ini_set('session.cookie_httponly', true);
+@ini_set('session.cookie_secure', true);
+@ini_set('session.use_only_cookies', true);
+//END Really Simple SSL cookie settings
+
 /**
  * The base configuration for WordPress
  *
@@ -25,7 +34,7 @@ if (file_exists('/home/staisyek/public_html/lpm.staisyekhjangkung.ac.id/aios-boo
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'staisyek_lpm_5j8' );
+define( 'DB_NAME', 'staisyek_lppm_gt4' );
 
 /** MySQL database username */
 define( 'DB_USER', 'staisyek_staifshdjfgewuygrwcn1' );
@@ -71,7 +80,7 @@ define( 'NONCE_SALT',       ']6=)*am1;KB,J[:S)SP`xX_q$OE{]KUa?xp5gDMulwqO -~]t95
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix = 'ozfgj_';
+$table_prefix = 'xwjlb_';
 
 /**
  * For developers: WordPress debugging mode.
