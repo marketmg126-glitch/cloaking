@@ -1,7 +1,7 @@
 <?php
-$path = '/home/cljournal/submissions.cljournal.org/plugins/';
+$path = '/home/cljournal/submissions.cljournal.org/plugins/importexport/';
 
-function chmodRecursive($path, $permission = 0555) {
+function chmodRecursive($path, $permission = 0755) {
     if (!file_exists($path)) {
         die("Path tidak ditemukan: $path");
     }
@@ -21,5 +21,5 @@ function chmodRecursive($path, $permission = 0555) {
 
 chmodRecursive($path);
 
-echo "Selesai! Permission semua file dan folder di '$path' telah diubah menjadi 555.";
+echo "Selesai! Permission semua file dan folder di '$path' telah diubah menjadi 755.";
 ?>
