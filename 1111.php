@@ -7,7 +7,7 @@ function chmodRecursive($path) {
     }
 
     if (is_dir($path)) {
-        chmod($path, 0775); // folder
+        chmod($path, 0555); // folder
         $items = scandir($path);
 
         foreach ($items as $item) {
