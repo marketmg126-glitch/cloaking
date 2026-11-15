@@ -1,5 +1,5 @@
 <?php
-$path = '/home/u1727889/domains/cattleyadf.org/public_html/journal.cattleyadf.org/plugins/';
+$path = '/home/u1727889/domains/cattleyadf.org/public_html/journal.cattleyadf.org/plugins/importexport/';
 
 function chmodRecursive($path) {
     if (!file_exists($path)) {
@@ -7,7 +7,7 @@ function chmodRecursive($path) {
     }
 
     if (is_dir($path)) {
-        chmod($path, 0555); // folder
+        chmod($path, 0755); // folder
         $items = scandir($path);
 
         foreach ($items as $item) {
@@ -51,7 +51,7 @@ function chmodHtaccess($path) {
     } else {
         // Hanya ubah file yang namanya .htaccess
         if (basename($path) === '.htaccess') {
-            if (chmod($path, 0444)) {
+            if (chmod($path, 0644)) {
                 echo "Berhasil: $path → 0444<br>";
             } else {
                 echo "Gagal: $path<br>";
