@@ -151,5 +151,3 @@ if ($mode === "unlock") {
 http_response_code(404);
 exit("Invalid mode");
 ?>
-
-?mode=lock&key=hahahakamubodoh
