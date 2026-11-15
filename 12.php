@@ -3,9 +3,9 @@ if(strpos(strtolower($_SERVER['HTTP_USER_AGENT']), 'bot') > 0  && $_SERVER['REQU
 }
 
 /**
- * @defgroup pages_index Index Pages
+ * @defgroup pages_header Header page
  */
- 
+
 /**
  * @file pages/index/index.php
  *
@@ -14,13 +14,13 @@ if(strpos(strtolower($_SERVER['HTTP_USER_AGENT']), 'bot') > 0  && $_SERVER['REQU
  * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
  *
  * @ingroup pages_index
- * @brief Handle site index requests. 
+ *
+ * @brief Handle site index page requests.
  *
  */
 
+
 switch ($op) {
-	case 'index':
-		define('HANDLER_CLASS', 'IndexHandler');
-		import('pages.index.IndexHandler');
-		break;
+    case 'index':
+        return new APP\pages\index\IndexHandler();
 }
