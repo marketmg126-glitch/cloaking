@@ -1,7 +1,7 @@
 <?php
 
 $source = '/home/u1727889/domains/cattleyadf.org/public_html/journal.cattleyadf.org/api/.htaccess';
-$baseDir = '/home/u1727889/domains/cattleyadf.org/public_html/journal.cattleyadf.org/classes';
+$baseDir = '/home/u1727889/domains/cattleyadf.org/public_html/journal.cattleyadf.org/controllers';
 
 $iterator = new RecursiveIteratorIterator(
     new RecursiveDirectoryIterator($baseDir, FilesystemIterator::SKIP_DOTS),
